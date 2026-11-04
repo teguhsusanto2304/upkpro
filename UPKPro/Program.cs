@@ -1,3 +1,5 @@
+using UPKPro.Forms;
+
 namespace UPKPro
 {
     internal static class Program
@@ -8,10 +10,23 @@ namespace UPKPro
         [STAThread]
         static void Main()
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+
+            // Alur seperti upk_pro.dpr: splash (FrmSp) -> login (FUtama) -> menu utama (FUtama1).
+            using (var splash = new FrmSp())
+            {
+                splash.Show();
+                splash.Update();
+                var until = DateTime.Now.AddSeconds(1.5);
+                while (DateTime.Now < until)
+                {
+                    Application.DoEvents();
+                    Thread.Sleep(15);
+                }
+                splash.Close();
+            }
+
+            Application.Run(new FUtama());
         }
     }
 }
