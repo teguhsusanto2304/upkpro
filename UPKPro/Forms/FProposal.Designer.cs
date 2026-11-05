@@ -874,9 +874,9 @@ namespace UPKPro.Forms
             // 
             tbspinjaman.Controls.Add(BitBtn10);
             tbspinjaman.Controls.Add(DBGrid7);
-            tbspinjaman.Location = new Point(4, 24);
+            tbspinjaman.Location = new Point(4, 22);
             tbspinjaman.Name = "tbspinjaman";
-            tbspinjaman.Size = new Size(486, 353);
+            tbspinjaman.Size = new Size(486, 355);
             tbspinjaman.TabIndex = 1;
             tbspinjaman.Text = "Daftar Pinjaman BL";
             tbspinjaman.UseVisualStyleBackColor = true;
@@ -990,9 +990,9 @@ namespace UPKPro.Forms
             TabSheet6.Controls.Add(DBGrid3);
             TabSheet6.Controls.Add(rgcari1);
             TabSheet6.Controls.Add(datap);
-            TabSheet6.Location = new Point(4, 24);
+            TabSheet6.Location = new Point(4, 22);
             TabSheet6.Name = "TabSheet6";
-            TabSheet6.Size = new Size(486, 353);
+            TabSheet6.Size = new Size(486, 355);
             TabSheet6.TabIndex = 2;
             TabSheet6.Text = "Daftar Anggota";
             TabSheet6.UseVisualStyleBackColor = true;
@@ -1031,7 +1031,7 @@ namespace UPKPro.Forms
             DBGrid3.RowHeadersWidth = 24;
             DBGrid3.RowTemplate.Height = 20;
             DBGrid3.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            DBGrid3.Size = new Size(486, 267);
+            DBGrid3.Size = new Size(486, 269);
             DBGrid3.TabIndex = 0;
             DBGrid3.Tag = "mdproposal.dsqdafanggota";
             DBGrid3.DoubleClick += DBGrid3DblClick;
@@ -2679,6 +2679,7 @@ namespace UPKPro.Forms
             Shape2.Size = new Size(481, 43);
             Shape2.TabIndex = 6;
             Shape2.TabStop = false;
+            Shape2.Click += Shape2_Click;
             // 
             // DBEdit13
             // 

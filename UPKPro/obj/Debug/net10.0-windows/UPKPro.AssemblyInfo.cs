@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UPKPro")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ce4234b0305c601b03f8a240dc31cdd337d87ab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04e32af0146dc2913a7347cf6e762d377fc58734")]
 [assembly: System.Reflection.AssemblyProductAttribute("UPKPro")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UPKPro")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

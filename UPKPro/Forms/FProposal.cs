@@ -1461,4 +1461,9 @@ public partial class FProposal : Form
     {
 
     }
+
+    private void Shape2_Click(object sender, EventArgs e)
+    {
+
+    }
 }
