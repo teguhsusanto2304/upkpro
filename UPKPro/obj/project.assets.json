@@ -225,21 +225,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\project\\dotnet\\upkpro\\UPKPro\\UPKPro\\UPKPro.csproj",
+      "projectUniqueName": "D:\\project\\dotnet\\upkpro\\UPKPro\\UPKPro.csproj",
       "projectName": "UPKPro",
-      "projectPath": "D:\\project\\dotnet\\upkpro\\UPKPro\\UPKPro\\UPKPro.csproj",
+      "projectPath": "D:\\project\\dotnet\\upkpro\\UPKPro\\UPKPro.csproj",
       "packagesPath": "C:\\Users\\teguh\\.nuget\\packages\\",
-      "outputPath": "D:\\project\\dotnet\\upkpro\\UPKPro\\UPKPro\\obj\\",
+      "outputPath": "D:\\project\\dotnet\\upkpro\\UPKPro\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\teguh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\teguh\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0-windows"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -294,7 +292,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.403/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Users\\teguh\\AppData\\Roaming\\Code\\User\\globalStorage\\ms-dotnettools.vscode-dotnet-runtime\\.dotnet\\sdk\\10.0.403/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

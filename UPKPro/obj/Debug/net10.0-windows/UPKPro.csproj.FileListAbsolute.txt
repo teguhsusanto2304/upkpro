@@ -75,3 +75,10 @@ D:\project\dotnet\upkpro\UPKPro\UPKPro\obj\Debug\net10.0-windows\UPKPro.Forms.F_
 D:\project\dotnet\upkpro\UPKPro\UPKPro\obj\Debug\net10.0-windows\UPKPro.Forms.F_Rekening.resources
 D:\project\dotnet\upkpro\UPKPro\UPKPro\obj\Debug\net10.0-windows\UPKPro.sourcelink.json
 D:\project\dotnet\upkpro\UPKPro\UPKPro\obj\Debug\net10.0-windows\UPKPro.Properties.Resources.resources
+D:\project\dotnet\upkpro\UPKPro\obj\Debug\net10.0-windows\UPKPro.Properties.Resources.resources
+C:\Users\teguh\AppData\Local\Temp\fpcheck\out\appsettings.json
+C:\Users\teguh\AppData\Local\Temp\fpcheck\out\UPKPro.exe
+C:\Users\teguh\AppData\Local\Temp\fpcheck\out\UPKPro.deps.json
+C:\Users\teguh\AppData\Local\Temp\fpcheck\out\UPKPro.runtimeconfig.json
+C:\Users\teguh\AppData\Local\Temp\fpcheck\out\UPKPro.dll
+C:\Users\teguh\AppData\Local\Temp\fpcheck\out\UPKPro.pdb

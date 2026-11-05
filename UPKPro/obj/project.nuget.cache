@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U6estJDyDUc=",
+  "dgSpecHash": "++PVjkrh6bE=",
   "success": true,
-  "projectFilePath": "D:\\project\\dotnet\\upkpro\\UPKPro\\UPKPro\\UPKPro.csproj",
+  "projectFilePath": "D:\\project\\dotnet\\upkpro\\UPKPro\\UPKPro.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\teguh\\.nuget\\packages\\dapper\\2.1.89\\dapper.2.1.89.nupkg.sha512",
     "C:\\Users\\teguh\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
