@@ -1456,4 +1456,9 @@ public partial class FProposal : Form
     private void gbkelompok_Enter(object sender, EventArgs e)
     {
     }
+
+    private void DBGrid10_CellContentClick(object sender, DataGridViewCellEventArgs e)
+    {
+
+    }
 }

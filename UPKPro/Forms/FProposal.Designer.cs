@@ -25,9 +25,9 @@ namespace UPKPro.Forms
         {
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FProposal));
-            DataGridViewCellStyle dataGridViewCellStyle7 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle8 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle9 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle10 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle11 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle12 = new DataGridViewCellStyle();
             toolTip1 = new ToolTip(components);
             btsimpan = new Button();
             bttambah = new Button();
@@ -738,8 +738,8 @@ namespace UPKPro.Forms
             // DBGrid8_jumlah
             // 
             DBGrid8_jumlah.DataPropertyName = "jumlah";
-            dataGridViewCellStyle7.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            DBGrid8_jumlah.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle10.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            DBGrid8_jumlah.DefaultCellStyle = dataGridViewCellStyle10;
             DBGrid8_jumlah.HeaderText = "Jumlah";
             DBGrid8_jumlah.Name = "DBGrid8_jumlah";
             DBGrid8_jumlah.ReadOnly = true;
@@ -1107,7 +1107,6 @@ namespace UPKPro.Forms
             // rgcari1
             // 
             rgcari1.Dock = DockStyle.Top;
-            rgcari1.ItemIndex = 1;
             rgcari1.Items = new string[]
     {
     "NIK",
@@ -1993,9 +1992,9 @@ namespace UPKPro.Forms
             tabdetil.Controls.Add(Label53);
             tabdetil.Controls.Add(Label13);
             tabdetil.Controls.Add(Label8);
-            tabdetil.Location = new Point(4, 24);
+            tabdetil.Location = new Point(4, 22);
             tabdetil.Name = "tabdetil";
-            tabdetil.Size = new Size(1296, 589);
+            tabdetil.Size = new Size(1296, 591);
             tabdetil.TabIndex = 1;
             tabdetil.Text = "Detil Pengajuan Pinjaman";
             tabdetil.UseVisualStyleBackColor = true;
@@ -2029,8 +2028,8 @@ namespace UPKPro.Forms
             // DBGrid12_jumlah
             // 
             DBGrid12_jumlah.DataPropertyName = "jumlah";
-            dataGridViewCellStyle8.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            DBGrid12_jumlah.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle11.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            DBGrid12_jumlah.DefaultCellStyle = dataGridViewCellStyle11;
             DBGrid12_jumlah.HeaderText = "Jumlah";
             DBGrid12_jumlah.Name = "DBGrid12_jumlah";
             DBGrid12_jumlah.ReadOnly = true;
@@ -2726,6 +2725,7 @@ namespace UPKPro.Forms
             DBGrid10.Size = new Size(450, 139);
             DBGrid10.TabIndex = 7;
             DBGrid10.Tag = "mdutama.dsqpembiayaan_ag";
+            DBGrid10.CellContentClick += DBGrid10_CellContentClick;
             // 
             // DBGrid10_no_pembiayaan
             // 
@@ -3370,7 +3370,6 @@ namespace UPKPro.Forms
             // 
             // rgcari
             // 
-            rgcari.ItemIndex = 1;
             rgcari.Items = new string[]
     {
     "NIK",
@@ -3531,9 +3530,9 @@ namespace UPKPro.Forms
             tabkirim.Controls.Add(Label65);
             tabkirim.Controls.Add(Label64);
             tabkirim.Controls.Add(Label63);
-            tabkirim.Location = new Point(4, 24);
+            tabkirim.Location = new Point(4, 22);
             tabkirim.Name = "tabkirim";
-            tabkirim.Size = new Size(1296, 589);
+            tabkirim.Size = new Size(1296, 591);
             tabkirim.TabIndex = 2;
             tabkirim.Text = "Pengiriman Proposal Ke Bag.Verifikasi";
             tabkirim.UseVisualStyleBackColor = true;
@@ -3755,7 +3754,6 @@ namespace UPKPro.Forms
             // 
             // rgdaf2
             // 
-            rgdaf2.ItemIndex = 1;
             rgdaf2.Items = new string[]
     {
     "No Pengajuan",
@@ -3798,8 +3796,8 @@ namespace UPKPro.Forms
             // DBGrid13_jumlah
             // 
             DBGrid13_jumlah.DataPropertyName = "jumlah";
-            dataGridViewCellStyle9.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            DBGrid13_jumlah.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle12.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            DBGrid13_jumlah.DefaultCellStyle = dataGridViewCellStyle12;
             DBGrid13_jumlah.HeaderText = "Jumlah";
             DBGrid13_jumlah.Name = "DBGrid13_jumlah";
             DBGrid13_jumlah.ReadOnly = true;

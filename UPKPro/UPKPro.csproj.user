@@ -67,7 +67,13 @@
     <Compile Update="Forms\FProposal.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\FProposal.Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\FProposal.Generated.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FProposal.Petunjuk.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\FrmSp.cs">
