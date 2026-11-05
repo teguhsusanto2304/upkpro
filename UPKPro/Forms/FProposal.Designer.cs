@@ -25,9 +25,9 @@ namespace UPKPro.Forms
         {
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FProposal));
-            DataGridViewCellStyle dataGridViewCellStyle10 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle11 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle12 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             toolTip1 = new ToolTip(components);
             btsimpan = new Button();
             bttambah = new Button();
@@ -738,8 +738,8 @@ namespace UPKPro.Forms
             // DBGrid8_jumlah
             // 
             DBGrid8_jumlah.DataPropertyName = "jumlah";
-            dataGridViewCellStyle10.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            DBGrid8_jumlah.DefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            DBGrid8_jumlah.DefaultCellStyle = dataGridViewCellStyle1;
             DBGrid8_jumlah.HeaderText = "Jumlah";
             DBGrid8_jumlah.Name = "DBGrid8_jumlah";
             DBGrid8_jumlah.ReadOnly = true;
@@ -2028,8 +2028,8 @@ namespace UPKPro.Forms
             // DBGrid12_jumlah
             // 
             DBGrid12_jumlah.DataPropertyName = "jumlah";
-            dataGridViewCellStyle11.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            DBGrid12_jumlah.DefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            DBGrid12_jumlah.DefaultCellStyle = dataGridViewCellStyle2;
             DBGrid12_jumlah.HeaderText = "Jumlah";
             DBGrid12_jumlah.Name = "DBGrid12_jumlah";
             DBGrid12_jumlah.ReadOnly = true;
@@ -3797,8 +3797,8 @@ namespace UPKPro.Forms
             // DBGrid13_jumlah
             // 
             DBGrid13_jumlah.DataPropertyName = "jumlah";
-            dataGridViewCellStyle12.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            DBGrid13_jumlah.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            DBGrid13_jumlah.DefaultCellStyle = dataGridViewCellStyle3;
             DBGrid13_jumlah.HeaderText = "Jumlah";
             DBGrid13_jumlah.Name = "DBGrid13_jumlah";
             DBGrid13_jumlah.ReadOnly = true;
