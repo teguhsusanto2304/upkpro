@@ -25,339 +25,537 @@ namespace UPKPro.Forms
         {
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FAnggota));
-            toolTip1 = new System.Windows.Forms.ToolTip(components);
-            Label18 = new System.Windows.Forms.Label();
-            btubah1kp = new System.Windows.Forms.Button();
-            estatus = new System.Windows.Forms.TextBox();
-            btubah1 = new System.Windows.Forms.Button();
-            btsimp1 = new System.Windows.Forms.Button();
-            btdetilsw = new System.Windows.Forms.Button();
-            btnrcsaldo = new System.Windows.Forms.Button();
-            PageControl1 = new System.Windows.Forms.TabControl();
-            TabSheet1 = new System.Windows.Forms.TabPage();
-            Shape4 = new UPKPro.Controls.ShapeControl();
-            DBEdit2 = new System.Windows.Forms.TextBox();
-            gbkelompok = new System.Windows.Forms.GroupBox();
-            Label7 = new System.Windows.Forms.Label();
-            Label20 = new System.Windows.Forms.Label();
-            Label27 = new System.Windows.Forms.Label();
-            Label29 = new System.Windows.Forms.Label();
-            Label30 = new System.Windows.Forms.Label();
-            Label31 = new System.Windows.Forms.Label();
-            Label32 = new System.Windows.Forms.Label();
-            Label33 = new System.Windows.Forms.Label();
-            Label34 = new System.Windows.Forms.Label();
-            Label43 = new System.Windows.Forms.Label();
-            Label46 = new System.Windows.Forms.Label();
-            Label47 = new System.Windows.Forms.Label();
-            Bevel1 = new UPKPro.Controls.Bevel();
-            DBGrid7 = new System.Windows.Forms.DataGridView();
-            etglmasukkp = new System.Windows.Forms.DateTimePicker();
-            enamakp = new System.Windows.Forms.TextBox();
-            GroupBox3 = new System.Windows.Forms.GroupBox();
-            Label21 = new System.Windows.Forms.Label();
-            Label22 = new System.Windows.Forms.Label();
-            Label23 = new System.Windows.Forms.Label();
-            Label24 = new System.Windows.Forms.Label();
-            Label25 = new System.Windows.Forms.Label();
-            Label26 = new System.Windows.Forms.Label();
-            Label19 = new System.Windows.Forms.Label();
-            Label44 = new System.Windows.Forms.Label();
-            ealamatkp = new System.Windows.Forms.TextBox();
-            etelpkp = new System.Windows.Forms.TextBox();
-            ekodedesax = new System.Windows.Forms.ComboBox();
-            enamakeckp = new System.Windows.Forms.TextBox();
-            enamakabkp = new System.Windows.Forms.TextBox();
-            enamapropkp = new System.Windows.Forms.TextBox();
-            enoindukkp = new System.Windows.Forms.TextBox();
-            ekodedesa = new System.Windows.Forms.TextBox();
-            enamadesakp = new System.Windows.Forms.TextBox();
-            eketuakp = new System.Windows.Forms.TextBox();
-            esekkp = new System.Windows.Forms.TextBox();
-            ebendkp = new System.Windows.Forms.TextBox();
-            ealamatketuakp = new System.Windows.Forms.TextBox();
-            ealamatsekkp = new System.Windows.Forms.TextBox();
-            ealamatbendkp = new System.Windows.Forms.TextBox();
-            ejenisklp = new System.Windows.Forms.ComboBox();
-            ekembangklp = new System.Windows.Forms.ComboBox();
-            efungsiklp = new System.Windows.Forms.ComboBox();
-            eusahaklp = new System.Windows.Forms.ComboBox();
-            btsimpankp = new System.Windows.Forms.Button();
-            bttambahkp = new System.Windows.Forms.Button();
-            btubahkp = new System.Windows.Forms.Button();
-            bthapuskp = new System.Windows.Forms.Button();
-            btbatalkp = new System.Windows.Forms.Button();
-            btcetak = new System.Windows.Forms.Button();
-            rgcarix = new UPKPro.Controls.RadioGroup();
-            DBGrid1 = new System.Windows.Forms.DataGridView();
-            DBGrid1_no_kelompok = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid1_tglmasuk = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid1_nama = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid1_alamat = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid1_telp = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid1_desa = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid1_kecamatan = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid1_kabupaten = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid1_propinsi = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid1_ketua = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid1_alamatketua = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid1_sekretaris = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid1_alamatsek = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid1_bendahara = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid1_alamatbend = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid1_usaha = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid1_jenis = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid1_perkembangan = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid1_fungsi = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            Edit1 = new System.Windows.Forms.TextBox();
-            BitBtn1 = new System.Windows.Forms.Button();
-            Panel11 = new UPKPro.Controls.CaptionPanel();
-            Shape37 = new UPKPro.Controls.ShapeControl();
-            Label84 = new System.Windows.Forms.Label();
-            SpeedButton8 = new System.Windows.Forms.Button();
-            BitBtn10 = new System.Windows.Forms.Button();
-            BitBtn25 = new System.Windows.Forms.Button();
-            TabSheet2 = new System.Windows.Forms.TabPage();
-            Shape1 = new UPKPro.Controls.ShapeControl();
-            Image1 = new System.Windows.Forms.PictureBox();
-            GroupBox2 = new System.Windows.Forms.GroupBox();
-            Label1 = new System.Windows.Forms.Label();
-            Label10 = new System.Windows.Forms.Label();
-            Label11 = new System.Windows.Forms.Label();
-            Label14 = new System.Windows.Forms.Label();
-            enama1 = new System.Windows.Forms.TextBox();
-            etelp1 = new System.Windows.Forms.TextBox();
-            ealamat1 = new System.Windows.Forms.TextBox();
-            enik1 = new System.Windows.Forms.TextBox();
-            DBEdit1 = new System.Windows.Forms.TextBox();
-            gbanggota = new System.Windows.Forms.GroupBox();
-            Label2 = new System.Windows.Forms.Label();
-            Label3 = new System.Windows.Forms.Label();
-            Label4 = new System.Windows.Forms.Label();
-            Label16 = new System.Windows.Forms.Label();
-            Label17 = new System.Windows.Forms.Label();
-            Label35 = new System.Windows.Forms.Label();
-            Label36 = new System.Windows.Forms.Label();
-            Label37 = new System.Windows.Forms.Label();
-            Label38 = new System.Windows.Forms.Label();
-            Label39 = new System.Windows.Forms.Label();
-            Label15 = new System.Windows.Forms.Label();
-            Label49 = new System.Windows.Forms.Label();
-            Label50 = new System.Windows.Forms.Label();
-            ekodekp1 = new System.Windows.Forms.TextBox();
-            enoanggota = new System.Windows.Forms.TextBox();
-            enama = new System.Windows.Forms.TextBox();
-            cbsex = new System.Windows.Forms.ComboBox();
-            etgllhr = new System.Windows.Forms.MaskedTextBox();
-            etempatlhr = new System.Windows.Forms.TextBox();
-            enik = new System.Windows.Forms.TextBox();
-            enokk = new System.Windows.Forms.TextBox();
-            etglmasuk = new System.Windows.Forms.DateTimePicker();
-            epekerjaan = new System.Windows.Forms.TextBox();
-            eproduk = new System.Windows.Forms.TextBox();
-            ekategori = new System.Windows.Forms.TextBox();
-            GroupBox1 = new System.Windows.Forms.GroupBox();
-            Label5 = new System.Windows.Forms.Label();
-            Label9 = new System.Windows.Forms.Label();
-            Label28 = new System.Windows.Forms.Label();
-            Label40 = new System.Windows.Forms.Label();
-            Label41 = new System.Windows.Forms.Label();
-            Label42 = new System.Windows.Forms.Label();
-            ealamat = new System.Windows.Forms.TextBox();
-            etelp = new System.Windows.Forms.TextBox();
-            ekodedesa1x = new System.Windows.Forms.ComboBox();
-            ekec = new System.Windows.Forms.TextBox();
-            ekab = new System.Windows.Forms.TextBox();
-            eprop = new System.Windows.Forms.TextBox();
-            edesa = new System.Windows.Forms.TextBox();
-            enamakp1 = new System.Windows.Forms.ComboBox();
-            egakin = new System.Windows.Forms.ComboBox();
-            ekodekp = new System.Windows.Forms.TextBox();
-            enamakp2 = new System.Windows.Forms.TextBox();
-            egol = new System.Windows.Forms.TextBox();
-            btbatal = new System.Windows.Forms.Button();
-            bthapus = new System.Windows.Forms.Button();
-            btubah = new System.Windows.Forms.Button();
-            bttambah = new System.Windows.Forms.Button();
-            btsimpan = new System.Windows.Forms.Button();
-            DBImage1 = new System.Windows.Forms.PictureBox();
-            DBGrid6 = new System.Windows.Forms.DataGridView();
-            DBGrid2 = new System.Windows.Forms.DataGridView();
-            DBGrid2_nama = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid2_nik = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid2_nokk = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid2_tglmasuk = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid2_sex = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid2_tempat_lhr = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid2_tgl_lhr = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid2_alamat = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid2_telp = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid2_desa = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid2_kecamatan = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid2_kabupaten = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid2_propinsi = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid2_status = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid2_kodekelompok = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid2_namakelompok = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid2_kategori = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid2_pekerjaan = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid2_produk = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid2_goldarah = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            rgcari = new UPKPro.Controls.RadioGroup();
-            ecari = new System.Windows.Forms.TextBox();
-            BitBtn2 = new System.Windows.Forms.Button();
+            toolTip1 = new ToolTip(components);
+            btsimpankp = new Button();
+            bttambahkp = new Button();
+            btubahkp = new Button();
+            bthapuskp = new Button();
+            btbatalkp = new Button();
+            btcetak = new Button();
+            btbatal = new Button();
+            bthapus = new Button();
+            btubah = new Button();
+            bttambah = new Button();
+            btsimpan = new Button();
+            DBImage1 = new PictureBox();
             Panelmin = new UPKPro.Controls.CaptionPanel();
             Panelplus = new UPKPro.Controls.CaptionPanel();
+            Label18 = new Label();
+            btubah1kp = new Button();
+            estatus = new TextBox();
+            btubah1 = new Button();
+            btsimp1 = new Button();
+            btdetilsw = new Button();
+            btnrcsaldo = new Button();
+            PageControl1 = new TabControl();
+            TabSheet1 = new TabPage();
+            Panel11 = new UPKPro.Controls.CaptionPanel();
+            BitBtn25 = new Button();
+            BitBtn10 = new Button();
+            SpeedButton8 = new Button();
+            Shape37 = new UPKPro.Controls.ShapeControl();
+            Label84 = new Label();
+            BitBtn1 = new Button();
+            Edit1 = new TextBox();
+            DBGrid1 = new DataGridView();
+            DBGrid1_no_kelompok = new DataGridViewTextBoxColumn();
+            DBGrid1_tglmasuk = new DataGridViewTextBoxColumn();
+            DBGrid1_nama = new DataGridViewTextBoxColumn();
+            DBGrid1_alamat = new DataGridViewTextBoxColumn();
+            DBGrid1_telp = new DataGridViewTextBoxColumn();
+            DBGrid1_desa = new DataGridViewTextBoxColumn();
+            DBGrid1_kecamatan = new DataGridViewTextBoxColumn();
+            DBGrid1_kabupaten = new DataGridViewTextBoxColumn();
+            DBGrid1_propinsi = new DataGridViewTextBoxColumn();
+            DBGrid1_ketua = new DataGridViewTextBoxColumn();
+            DBGrid1_alamatketua = new DataGridViewTextBoxColumn();
+            DBGrid1_sekretaris = new DataGridViewTextBoxColumn();
+            DBGrid1_alamatsek = new DataGridViewTextBoxColumn();
+            DBGrid1_bendahara = new DataGridViewTextBoxColumn();
+            DBGrid1_alamatbend = new DataGridViewTextBoxColumn();
+            DBGrid1_usaha = new DataGridViewTextBoxColumn();
+            DBGrid1_jenis = new DataGridViewTextBoxColumn();
+            DBGrid1_perkembangan = new DataGridViewTextBoxColumn();
+            DBGrid1_fungsi = new DataGridViewTextBoxColumn();
+            rgcarix = new UPKPro.Controls.RadioGroup();
+            DBEdit2 = new TextBox();
+            gbkelompok = new GroupBox();
+            eusahaklp = new ComboBox();
+            efungsiklp = new ComboBox();
+            ekembangklp = new ComboBox();
+            ejenisklp = new ComboBox();
+            ealamatbendkp = new TextBox();
+            ealamatsekkp = new TextBox();
+            ealamatketuakp = new TextBox();
+            ebendkp = new TextBox();
+            esekkp = new TextBox();
+            eketuakp = new TextBox();
+            GroupBox3 = new GroupBox();
+            enamadesakp = new TextBox();
+            ekodedesa = new TextBox();
+            enoindukkp = new TextBox();
+            enamapropkp = new TextBox();
+            enamakabkp = new TextBox();
+            enamakeckp = new TextBox();
+            ekodedesax = new ComboBox();
+            etelpkp = new TextBox();
+            ealamatkp = new TextBox();
+            Label44 = new Label();
+            Label19 = new Label();
+            Label26 = new Label();
+            Label25 = new Label();
+            Label24 = new Label();
+            Label23 = new Label();
+            Label22 = new Label();
+            Label21 = new Label();
+            enamakp = new TextBox();
+            etglmasukkp = new DateTimePicker();
+            DBGrid7 = new DataGridView();
+            Bevel1 = new UPKPro.Controls.Bevel();
+            Label47 = new Label();
+            Label46 = new Label();
+            Label43 = new Label();
+            Label34 = new Label();
+            Label33 = new Label();
+            Label32 = new Label();
+            Label31 = new Label();
+            Label30 = new Label();
+            Label29 = new Label();
+            Label27 = new Label();
+            Label20 = new Label();
+            Label7 = new Label();
+            Shape4 = new UPKPro.Controls.ShapeControl();
+            TabSheet2 = new TabPage();
             Panel1 = new UPKPro.Controls.CaptionPanel();
+            BitBtn11 = new Button();
+            BitBtn9 = new Button();
+            SpeedButton1 = new Button();
             Shape7 = new UPKPro.Controls.ShapeControl();
-            Label51 = new System.Windows.Forms.Label();
-            SpeedButton1 = new System.Windows.Forms.Button();
-            BitBtn9 = new System.Windows.Forms.Button();
-            BitBtn11 = new System.Windows.Forms.Button();
-            TabSheet4 = new System.Windows.Forms.TabPage();
-            Label45 = new System.Windows.Forms.Label();
-            cbsebaran1 = new System.Windows.Forms.ComboBox();
-            DBGrid8 = new System.Windows.Forms.DataGridView();
-            DBGrid8_desa = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid8_jumlah = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            Edit3 = new System.Windows.Forms.TextBox();
-            Button2 = new System.Windows.Forms.Button();
-            DBGrid9 = new System.Windows.Forms.DataGridView();
-            DBGrid9_No_Kelompok = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid9_TglMasuk = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid9_Nama = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid9_Alamat = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid9_Telp = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid9_Kodedesa = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid9_Desa = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid9_Kecamatan = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid9_Kabupaten = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid9_Propinsi = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid9_Ketua = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid9_AlamatKetua = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid9_Sekretaris = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid9_Alamatsek = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid9_Bendahara = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid9_AlamatBend = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid9_Usaha = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid9_Jenis = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid9_Perkembangan = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid9_Fungsi = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            BitBtn4 = new System.Windows.Forms.Button();
+            Label51 = new Label();
+            BitBtn2 = new Button();
+            ecari = new TextBox();
+            rgcari = new UPKPro.Controls.RadioGroup();
+            DBGrid2 = new DataGridView();
+            DBGrid2_nama = new DataGridViewTextBoxColumn();
+            DBGrid2_nik = new DataGridViewTextBoxColumn();
+            DBGrid2_nokk = new DataGridViewTextBoxColumn();
+            DBGrid2_tglmasuk = new DataGridViewTextBoxColumn();
+            DBGrid2_sex = new DataGridViewTextBoxColumn();
+            DBGrid2_tempat_lhr = new DataGridViewTextBoxColumn();
+            DBGrid2_tgl_lhr = new DataGridViewTextBoxColumn();
+            DBGrid2_alamat = new DataGridViewTextBoxColumn();
+            DBGrid2_telp = new DataGridViewTextBoxColumn();
+            DBGrid2_desa = new DataGridViewTextBoxColumn();
+            DBGrid2_kecamatan = new DataGridViewTextBoxColumn();
+            DBGrid2_kabupaten = new DataGridViewTextBoxColumn();
+            DBGrid2_propinsi = new DataGridViewTextBoxColumn();
+            DBGrid2_status = new DataGridViewTextBoxColumn();
+            DBGrid2_kodekelompok = new DataGridViewTextBoxColumn();
+            DBGrid2_namakelompok = new DataGridViewTextBoxColumn();
+            DBGrid2_kategori = new DataGridViewTextBoxColumn();
+            DBGrid2_pekerjaan = new DataGridViewTextBoxColumn();
+            DBGrid2_produk = new DataGridViewTextBoxColumn();
+            DBGrid2_goldarah = new DataGridViewTextBoxColumn();
+            DBGrid6 = new DataGridView();
+            gbanggota = new GroupBox();
+            egol = new TextBox();
+            enamakp2 = new TextBox();
+            ekodekp = new TextBox();
+            egakin = new ComboBox();
+            enamakp1 = new ComboBox();
+            GroupBox1 = new GroupBox();
+            edesa = new TextBox();
+            eprop = new TextBox();
+            ekab = new TextBox();
+            ekec = new TextBox();
+            ekodedesa1x = new ComboBox();
+            etelp = new TextBox();
+            ealamat = new TextBox();
+            Label42 = new Label();
+            Label41 = new Label();
+            Label40 = new Label();
+            Label28 = new Label();
+            Label9 = new Label();
+            Label5 = new Label();
+            ekategori = new TextBox();
+            eproduk = new TextBox();
+            epekerjaan = new TextBox();
+            etglmasuk = new DateTimePicker();
+            enokk = new TextBox();
+            enik = new TextBox();
+            etempatlhr = new TextBox();
+            etgllhr = new MaskedTextBox();
+            cbsex = new ComboBox();
+            enama = new TextBox();
+            enoanggota = new TextBox();
+            ekodekp1 = new TextBox();
+            Label50 = new Label();
+            Label49 = new Label();
+            Label15 = new Label();
+            Label39 = new Label();
+            Label38 = new Label();
+            Label37 = new Label();
+            Label36 = new Label();
+            Label35 = new Label();
+            Label17 = new Label();
+            Label16 = new Label();
+            Label4 = new Label();
+            Label3 = new Label();
+            Label2 = new Label();
+            DBEdit1 = new TextBox();
+            GroupBox2 = new GroupBox();
+            enik1 = new TextBox();
+            ealamat1 = new TextBox();
+            etelp1 = new TextBox();
+            enama1 = new TextBox();
+            Label14 = new Label();
+            Label11 = new Label();
+            Label10 = new Label();
+            Label1 = new Label();
+            Image1 = new PictureBox();
+            Shape1 = new UPKPro.Controls.ShapeControl();
+            TabSheet4 = new TabPage();
             DBChart1 = new UPKPro.Controls.CaptionPanel();
-            TabSheet3 = new System.Windows.Forms.TabPage();
-            Label48 = new System.Windows.Forms.Label();
-            DBGrid5 = new System.Windows.Forms.DataGridView();
-            cbsebaran = new System.Windows.Forms.ComboBox();
-            Button1 = new System.Windows.Forms.Button();
-            DBGrid3 = new System.Windows.Forms.DataGridView();
-            DBGrid3_sex = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid3_jumlah = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            edit2 = new System.Windows.Forms.TextBox();
-            DBGrid4 = new System.Windows.Forms.DataGridView();
-            DBGrid4_Nama = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid4_NIK = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid4_NoKK = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid4_TglMasuk = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid4_Sex = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid4_Tempat_Lhr = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid4_Tgl_Lhr = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid4_Alamat = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid4_Telp = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid4_Desa = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid4_Kecamatan = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid4_Kabupaten = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid4_Propinsi = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid4_Status = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid4_KodeKelompok = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid4_NamaKelompok = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid4_Kategori = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid4_Pekerjaan = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid4_Produk = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DBGrid4_foto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            BitBtn3 = new System.Windows.Forms.Button();
+            BitBtn4 = new Button();
+            DBGrid9 = new DataGridView();
+            DBGrid9_No_Kelompok = new DataGridViewTextBoxColumn();
+            DBGrid9_TglMasuk = new DataGridViewTextBoxColumn();
+            DBGrid9_Nama = new DataGridViewTextBoxColumn();
+            DBGrid9_Alamat = new DataGridViewTextBoxColumn();
+            DBGrid9_Telp = new DataGridViewTextBoxColumn();
+            DBGrid9_Kodedesa = new DataGridViewTextBoxColumn();
+            DBGrid9_Desa = new DataGridViewTextBoxColumn();
+            DBGrid9_Kecamatan = new DataGridViewTextBoxColumn();
+            DBGrid9_Kabupaten = new DataGridViewTextBoxColumn();
+            DBGrid9_Propinsi = new DataGridViewTextBoxColumn();
+            DBGrid9_Ketua = new DataGridViewTextBoxColumn();
+            DBGrid9_AlamatKetua = new DataGridViewTextBoxColumn();
+            DBGrid9_Sekretaris = new DataGridViewTextBoxColumn();
+            DBGrid9_Alamatsek = new DataGridViewTextBoxColumn();
+            DBGrid9_Bendahara = new DataGridViewTextBoxColumn();
+            DBGrid9_AlamatBend = new DataGridViewTextBoxColumn();
+            DBGrid9_Usaha = new DataGridViewTextBoxColumn();
+            DBGrid9_Jenis = new DataGridViewTextBoxColumn();
+            DBGrid9_Perkembangan = new DataGridViewTextBoxColumn();
+            DBGrid9_Fungsi = new DataGridViewTextBoxColumn();
+            Button2 = new Button();
+            Edit3 = new TextBox();
+            DBGrid8 = new DataGridView();
+            DBGrid8_desa = new DataGridViewTextBoxColumn();
+            DBGrid8_jumlah = new DataGridViewTextBoxColumn();
+            cbsebaran1 = new ComboBox();
+            Label45 = new Label();
+            TabSheet3 = new TabPage();
             DBChart2 = new UPKPro.Controls.CaptionPanel();
-            open1 = new System.Windows.Forms.OpenFileDialog();
-            OpenPictureDialog1 = new System.Windows.Forms.OpenFileDialog();
+            BitBtn3 = new Button();
+            DBGrid4 = new DataGridView();
+            DBGrid4_Nama = new DataGridViewTextBoxColumn();
+            DBGrid4_NIK = new DataGridViewTextBoxColumn();
+            DBGrid4_NoKK = new DataGridViewTextBoxColumn();
+            DBGrid4_TglMasuk = new DataGridViewTextBoxColumn();
+            DBGrid4_Sex = new DataGridViewTextBoxColumn();
+            DBGrid4_Tempat_Lhr = new DataGridViewTextBoxColumn();
+            DBGrid4_Tgl_Lhr = new DataGridViewTextBoxColumn();
+            DBGrid4_Alamat = new DataGridViewTextBoxColumn();
+            DBGrid4_Telp = new DataGridViewTextBoxColumn();
+            DBGrid4_Desa = new DataGridViewTextBoxColumn();
+            DBGrid4_Kecamatan = new DataGridViewTextBoxColumn();
+            DBGrid4_Kabupaten = new DataGridViewTextBoxColumn();
+            DBGrid4_Propinsi = new DataGridViewTextBoxColumn();
+            DBGrid4_Status = new DataGridViewTextBoxColumn();
+            DBGrid4_KodeKelompok = new DataGridViewTextBoxColumn();
+            DBGrid4_NamaKelompok = new DataGridViewTextBoxColumn();
+            DBGrid4_Kategori = new DataGridViewTextBoxColumn();
+            DBGrid4_Pekerjaan = new DataGridViewTextBoxColumn();
+            DBGrid4_Produk = new DataGridViewTextBoxColumn();
+            DBGrid4_foto = new DataGridViewTextBoxColumn();
+            edit2 = new TextBox();
+            DBGrid3 = new DataGridView();
+            DBGrid3_sex = new DataGridViewTextBoxColumn();
+            DBGrid3_jumlah = new DataGridViewTextBoxColumn();
+            Button1 = new Button();
+            cbsebaran = new ComboBox();
+            DBGrid5 = new DataGridView();
+            Label48 = new Label();
+            open1 = new OpenFileDialog();
+            OpenPictureDialog1 = new OpenFileDialog();
+            ((System.ComponentModel.ISupportInitialize)DBImage1).BeginInit();
             PageControl1.SuspendLayout();
             TabSheet1.SuspendLayout();
-            gbkelompok.SuspendLayout();
-            GroupBox3.SuspendLayout();
             Panel11.SuspendLayout();
             Shape37.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)DBGrid1).BeginInit();
+            gbkelompok.SuspendLayout();
+            GroupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)DBGrid7).BeginInit();
             TabSheet2.SuspendLayout();
-            GroupBox2.SuspendLayout();
-            gbanggota.SuspendLayout();
-            GroupBox1.SuspendLayout();
             Panel1.SuspendLayout();
             Shape7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)DBGrid2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)DBGrid6).BeginInit();
+            gbanggota.SuspendLayout();
+            GroupBox1.SuspendLayout();
+            GroupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)Image1).BeginInit();
             TabSheet4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)DBGrid9).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)DBGrid8).BeginInit();
             TabSheet3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)DBGrid4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)DBGrid3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)DBGrid5).BeginInit();
             SuspendLayout();
+            // 
+            // btsimpankp
+            // 
+            btsimpankp.Enabled = false;
+            btsimpankp.Image = (Image)resources.GetObject("btsimpankp.Image");
+            btsimpankp.Location = new Point(14, 531);
+            btsimpankp.Name = "btsimpankp";
+            btsimpankp.Size = new Size(67, 41);
+            btsimpankp.TabIndex = 1;
+            btsimpankp.Text = "&Simpan";
+            btsimpankp.TextImageRelation = TextImageRelation.ImageAboveText;
+            toolTip1.SetToolTip(btsimpankp, "Klik untuk menyimpan data..");
+            btsimpankp.UseVisualStyleBackColor = true;
+            btsimpankp.Click += btsimpankpClick;
+            // 
+            // bttambahkp
+            // 
+            bttambahkp.Image = (Image)resources.GetObject("bttambahkp.Image");
+            bttambahkp.Location = new Point(80, 531);
+            bttambahkp.Name = "bttambahkp";
+            bttambahkp.Size = new Size(67, 41);
+            bttambahkp.TabIndex = 2;
+            bttambahkp.Text = "&Tambah";
+            bttambahkp.TextImageRelation = TextImageRelation.ImageAboveText;
+            toolTip1.SetToolTip(bttambahkp, "Klik untuk menambah kelompok baru..");
+            bttambahkp.UseVisualStyleBackColor = true;
+            bttambahkp.Click += bttambahkpClick;
+            // 
+            // btubahkp
+            // 
+            btubahkp.Image = (Image)resources.GetObject("btubahkp.Image");
+            btubahkp.Location = new Point(146, 531);
+            btubahkp.Name = "btubahkp";
+            btubahkp.Size = new Size(67, 41);
+            btubahkp.TabIndex = 3;
+            btubahkp.Text = "&Ubah";
+            btubahkp.TextImageRelation = TextImageRelation.ImageAboveText;
+            toolTip1.SetToolTip(btubahkp, "Klik untuk mengubah data..");
+            btubahkp.UseVisualStyleBackColor = true;
+            btubahkp.Click += btubahkpClick;
+            // 
+            // bthapuskp
+            // 
+            bthapuskp.Image = (Image)resources.GetObject("bthapuskp.Image");
+            bthapuskp.Location = new Point(212, 531);
+            bthapuskp.Name = "bthapuskp";
+            bthapuskp.Size = new Size(67, 41);
+            bthapuskp.TabIndex = 4;
+            bthapuskp.Text = "&Hapus";
+            bthapuskp.TextImageRelation = TextImageRelation.ImageAboveText;
+            toolTip1.SetToolTip(bthapuskp, "Klik untuk menghapus data terpilih..");
+            bthapuskp.UseVisualStyleBackColor = true;
+            bthapuskp.Click += bthapuskpClick;
+            // 
+            // btbatalkp
+            // 
+            btbatalkp.Image = (Image)resources.GetObject("btbatalkp.Image");
+            btbatalkp.Location = new Point(278, 531);
+            btbatalkp.Name = "btbatalkp";
+            btbatalkp.Size = new Size(67, 41);
+            btbatalkp.TabIndex = 5;
+            btbatalkp.Text = "&Batal";
+            btbatalkp.TextImageRelation = TextImageRelation.ImageAboveText;
+            toolTip1.SetToolTip(btbatalkp, "Klik untuk membatalkan transaksi..");
+            btbatalkp.UseVisualStyleBackColor = true;
+            btbatalkp.Click += btbatalkpClick;
+            // 
+            // btcetak
+            // 
+            btcetak.Image = (Image)resources.GetObject("btcetak.Image");
+            btcetak.Location = new Point(450, 532);
+            btcetak.Name = "btcetak";
+            btcetak.Size = new Size(67, 41);
+            btcetak.TabIndex = 6;
+            btcetak.Text = "&Cetak";
+            btcetak.TextImageRelation = TextImageRelation.ImageAboveText;
+            toolTip1.SetToolTip(btcetak, "Klik untuk mencetak data terpilih..");
+            btcetak.UseVisualStyleBackColor = true;
+            btcetak.Click += btcetakClick;
+            // 
+            // btbatal
+            // 
+            btbatal.Image = (Image)resources.GetObject("btbatal.Image");
+            btbatal.Location = new Point(286, 534);
+            btbatal.Name = "btbatal";
+            btbatal.Size = new Size(67, 41);
+            btbatal.TabIndex = 1;
+            btbatal.Text = "&Batal";
+            btbatal.TextImageRelation = TextImageRelation.ImageAboveText;
+            toolTip1.SetToolTip(btbatal, "Klik untuk membatalkan transaksi..");
+            btbatal.UseVisualStyleBackColor = true;
+            btbatal.Click += btbatalClick;
+            // 
+            // bthapus
+            // 
+            bthapus.Image = (Image)resources.GetObject("bthapus.Image");
+            bthapus.Location = new Point(220, 534);
+            bthapus.Name = "bthapus";
+            bthapus.Size = new Size(67, 41);
+            bthapus.TabIndex = 2;
+            bthapus.Text = "&Hapus";
+            bthapus.TextImageRelation = TextImageRelation.ImageAboveText;
+            toolTip1.SetToolTip(bthapus, "Klik untuk menghapus data terpilih..");
+            bthapus.UseVisualStyleBackColor = true;
+            bthapus.Click += bthapusClick;
+            // 
+            // btubah
+            // 
+            btubah.Image = (Image)resources.GetObject("btubah.Image");
+            btubah.Location = new Point(154, 534);
+            btubah.Name = "btubah";
+            btubah.Size = new Size(67, 41);
+            btubah.TabIndex = 3;
+            btubah.Text = "&Ubah";
+            btubah.TextImageRelation = TextImageRelation.ImageAboveText;
+            toolTip1.SetToolTip(btubah, "Klik untuk mengubah data terpilih..");
+            btubah.UseVisualStyleBackColor = true;
+            btubah.Click += btubahClick;
+            // 
+            // bttambah
+            // 
+            bttambah.Image = (Image)resources.GetObject("bttambah.Image");
+            bttambah.Location = new Point(88, 534);
+            bttambah.Name = "bttambah";
+            bttambah.Size = new Size(67, 41);
+            bttambah.TabIndex = 4;
+            bttambah.Text = "&Tambah";
+            bttambah.TextImageRelation = TextImageRelation.ImageAboveText;
+            toolTip1.SetToolTip(bttambah, "Klik untuk menambah anggota baru..");
+            bttambah.UseVisualStyleBackColor = true;
+            bttambah.Click += bttambahClick;
+            // 
+            // btsimpan
+            // 
+            btsimpan.Enabled = false;
+            btsimpan.Image = (Image)resources.GetObject("btsimpan.Image");
+            btsimpan.Location = new Point(22, 534);
+            btsimpan.Name = "btsimpan";
+            btsimpan.Size = new Size(67, 41);
+            btsimpan.TabIndex = 5;
+            btsimpan.Text = "&Simpan";
+            btsimpan.TextImageRelation = TextImageRelation.ImageAboveText;
+            toolTip1.SetToolTip(btsimpan, "Klik untuk menyimpan data..");
+            btsimpan.UseVisualStyleBackColor = true;
+            btsimpan.Click += btsimpanClick;
+            // 
+            // DBImage1
+            // 
+            DBImage1.Location = new Point(407, 311);
+            DBImage1.Name = "DBImage1";
+            DBImage1.Size = new Size(137, 169);
+            DBImage1.SizeMode = PictureBoxSizeMode.StretchImage;
+            DBImage1.TabIndex = 6;
+            DBImage1.TabStop = false;
+            DBImage1.Tag = "mdutama.dstbanggota:foto";
+            toolTip1.SetToolTip(DBImage1, "Double click to edit photo");
+            DBImage1.Visible = false;
+            DBImage1.DoubleClick += DBImage1DblClick;
+            // 
+            // Panelmin
+            // 
+            Panelmin.BackColor = Color.Red;
+            Panelmin.Font = new Font("Arial", 12F, FontStyle.Bold);
+            Panelmin.ForeColor = Color.White;
+            Panelmin.Location = new Point(518, 462);
+            Panelmin.Name = "Panelmin";
+            Panelmin.Padding = new Padding(1);
+            Panelmin.Size = new Size(25, 17);
+            Panelmin.TabIndex = 13;
+            Panelmin.Text = "-";
+            toolTip1.SetToolTip(Panelmin, "klik untuk menghapus foto");
+            Panelmin.Click += PanelminClick;
+            // 
+            // Panelplus
+            // 
+            Panelplus.BackColor = Color.Red;
+            Panelplus.Font = new Font("Arial", 12F, FontStyle.Bold);
+            Panelplus.ForeColor = Color.White;
+            Panelplus.Location = new Point(493, 462);
+            Panelplus.Name = "Panelplus";
+            Panelplus.Padding = new Padding(1);
+            Panelplus.Size = new Size(25, 17);
+            Panelplus.TabIndex = 14;
+            Panelplus.Text = "+";
+            toolTip1.SetToolTip(Panelplus, "klik untuk insert foto");
+            Panelplus.Click += PanelplusClick;
             // 
             // Label18
             // 
-            Label18.Name = "Label18";
-            Label18.Location = new System.Drawing.Point(96, 248);
-            Label18.Size = new System.Drawing.Size(38, 13);
-            Label18.Text = "Label18";
             Label18.AutoSize = true;
-            btubah1kp.Click += btubah1kpClick;
+            Label18.Location = new Point(96, 248);
+            Label18.Name = "Label18";
+            Label18.Size = new Size(45, 13);
+            Label18.TabIndex = 7;
+            Label18.Text = "Label18";
             // 
             // btubah1kp
             // 
+            btubah1kp.Location = new Point(288, 72);
             btubah1kp.Name = "btubah1kp";
-            btubah1kp.Location = new System.Drawing.Point(288, 72);
-            btubah1kp.Size = new System.Drawing.Size(75, 25);
-            btubah1kp.Text = "btubah1kp";
+            btubah1kp.Size = new Size(75, 25);
             btubah1kp.TabIndex = 6;
+            btubah1kp.Text = "btubah1kp";
             btubah1kp.UseVisualStyleBackColor = true;
+            btubah1kp.Click += btubah1kpClick;
             // 
             // estatus
             // 
+            estatus.Location = new Point(552, 148);
             estatus.Name = "estatus";
-            estatus.Location = new System.Drawing.Point(552, 148);
-            estatus.Size = new System.Drawing.Size(121, 21);
-            estatus.Text = "estatus";
+            estatus.Size = new Size(121, 20);
             estatus.TabIndex = 3;
-            btubah1.Click += btubah1Click;
+            estatus.Text = "estatus";
             // 
             // btubah1
             // 
+            btubah1.Location = new Point(432, 144);
             btubah1.Name = "btubah1";
-            btubah1.Location = new System.Drawing.Point(432, 144);
-            btubah1.Size = new System.Drawing.Size(75, 25);
-            btubah1.Text = "btubah1";
+            btubah1.Size = new Size(75, 25);
             btubah1.TabIndex = 4;
+            btubah1.Text = "btubah1";
             btubah1.UseVisualStyleBackColor = true;
+            btubah1.Click += btubah1Click;
             // 
             // btsimp1
             // 
+            btsimp1.Location = new Point(432, 96);
             btsimp1.Name = "btsimp1";
-            btsimp1.Location = new System.Drawing.Point(432, 96);
-            btsimp1.Size = new System.Drawing.Size(75, 25);
-            btsimp1.Text = "btsimp1";
+            btsimp1.Size = new Size(75, 25);
             btsimp1.TabIndex = 0;
+            btsimp1.Text = "btsimp1";
             btsimp1.UseVisualStyleBackColor = true;
             // 
             // btdetilsw
             // 
+            btdetilsw.Location = new Point(192, 272);
             btdetilsw.Name = "btdetilsw";
-            btdetilsw.Location = new System.Drawing.Point(192, 272);
-            btdetilsw.Size = new System.Drawing.Size(75, 25);
-            btdetilsw.Text = "btdetilsw";
+            btdetilsw.Size = new Size(75, 25);
             btdetilsw.TabIndex = 1;
+            btdetilsw.Text = "btdetilsw";
             btdetilsw.UseVisualStyleBackColor = true;
-            btnrcsaldo.Click += btnrcsaldoClick;
             // 
             // btnrcsaldo
             // 
+            btnrcsaldo.Location = new Point(272, 248);
             btnrcsaldo.Name = "btnrcsaldo";
-            btnrcsaldo.Location = new System.Drawing.Point(272, 248);
-            btnrcsaldo.Size = new System.Drawing.Size(75, 25);
-            btnrcsaldo.Text = "btnrcsaldo";
+            btnrcsaldo.Size = new Size(75, 25);
             btnrcsaldo.TabIndex = 2;
+            btnrcsaldo.Text = "btnrcsaldo";
             btnrcsaldo.UseVisualStyleBackColor = true;
+            btnrcsaldo.Click += btnrcsaldoClick;
             // 
             // PageControl1
             // 
@@ -365,10 +563,11 @@ namespace UPKPro.Forms
             PageControl1.Controls.Add(TabSheet2);
             PageControl1.Controls.Add(TabSheet4);
             PageControl1.Controls.Add(TabSheet3);
+            PageControl1.Dock = DockStyle.Fill;
+            PageControl1.Location = new Point(0, 0);
             PageControl1.Name = "PageControl1";
-            PageControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            PageControl1.Location = new System.Drawing.Point(0, 0);
-            PageControl1.Size = new System.Drawing.Size(1304, 617);
+            PageControl1.SelectedIndex = 0;
+            PageControl1.Size = new Size(1304, 617);
             PageControl1.TabIndex = 5;
             // 
             // TabSheet1
@@ -387,30 +586,297 @@ namespace UPKPro.Forms
             TabSheet1.Controls.Add(DBEdit2);
             TabSheet1.Controls.Add(gbkelompok);
             TabSheet1.Controls.Add(Shape4);
+            TabSheet1.Location = new Point(4, 22);
             TabSheet1.Name = "TabSheet1";
+            TabSheet1.Size = new Size(1296, 591);
+            TabSheet1.TabIndex = 0;
             TabSheet1.Text = "Data Kelompok";
             TabSheet1.UseVisualStyleBackColor = true;
             // 
-            // Shape4
+            // Panel11
             // 
-            Shape4.Name = "Shape4";
-            Shape4.Location = new System.Drawing.Point(3, 528);
-            Shape4.Size = new System.Drawing.Size(1313, 60);
-            Shape4.BrushColor = System.Drawing.Color.FromArgb(166, 202, 240);
-            Shape4.PenClear = true;
-            DBEdit2.TextChanged += DBEdit2Change;
+            Panel11.Controls.Add(BitBtn25);
+            Panel11.Controls.Add(BitBtn10);
+            Panel11.Controls.Add(SpeedButton8);
+            Panel11.Controls.Add(Shape37);
+            Panel11.Location = new Point(946, 475);
+            Panel11.Name = "Panel11";
+            Panel11.Padding = new Padding(1);
+            Panel11.Size = new Size(234, 100);
+            Panel11.TabIndex = 12;
+            Panel11.Visible = false;
+            // 
+            // BitBtn25
+            // 
+            BitBtn25.Image = (Image)resources.GetObject("BitBtn25.Image");
+            BitBtn25.Location = new Point(11, 65);
+            BitBtn25.Name = "BitBtn25";
+            BitBtn25.Size = new Size(209, 25);
+            BitBtn25.TabIndex = 1;
+            BitBtn25.Text = "Seluruh Data Kelompok";
+            BitBtn25.TextImageRelation = TextImageRelation.TextBeforeImage;
+            BitBtn25.UseVisualStyleBackColor = true;
+            BitBtn25.Click += BitBtn25Click;
+            // 
+            // BitBtn10
+            // 
+            BitBtn10.Image = (Image)resources.GetObject("BitBtn10.Image");
+            BitBtn10.Location = new Point(11, 34);
+            BitBtn10.Name = "BitBtn10";
+            BitBtn10.Size = new Size(209, 25);
+            BitBtn10.TabIndex = 0;
+            BitBtn10.Text = "Hanya Data Kelompok Terpilih";
+            BitBtn10.TextImageRelation = TextImageRelation.TextBeforeImage;
+            BitBtn10.UseVisualStyleBackColor = true;
+            BitBtn10.Click += BitBtn10Click;
+            // 
+            // SpeedButton8
+            // 
+            SpeedButton8.BackColor = Color.Transparent;
+            SpeedButton8.FlatAppearance.BorderSize = 0;
+            SpeedButton8.FlatAppearance.MouseOverBackColor = Color.FromArgb(229, 241, 251);
+            SpeedButton8.FlatStyle = FlatStyle.Flat;
+            SpeedButton8.Image = (Image)resources.GetObject("SpeedButton8.Image");
+            SpeedButton8.Location = new Point(205, 1);
+            SpeedButton8.Name = "SpeedButton8";
+            SpeedButton8.Size = new Size(26, 27);
+            SpeedButton8.TabIndex = 2;
+            SpeedButton8.TabStop = false;
+            SpeedButton8.UseVisualStyleBackColor = false;
+            SpeedButton8.Click += SpeedButton8Click;
+            // 
+            // Shape37
+            // 
+            Shape37.BackColor = Color.Transparent;
+            Shape37.BrushColor = SystemColors.GradientInactiveCaption;
+            Shape37.Controls.Add(Label84);
+            Shape37.Location = new Point(-536, 0);
+            Shape37.Name = "Shape37";
+            Shape37.PenClear = true;
+            Shape37.Size = new Size(993, 30);
+            Shape37.TabIndex = 3;
+            Shape37.TabStop = false;
+            // 
+            // Label84
+            // 
+            Label84.AutoSize = true;
+            Label84.BackColor = Color.Transparent;
+            Label84.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold);
+            Label84.ForeColor = Color.Black;
+            Label84.Location = new Point(561, 6);
+            Label84.Name = "Label84";
+            Label84.Size = new Size(183, 16);
+            Label84.TabIndex = 0;
+            Label84.Text = "Pilihan Export Data (CSV)";
+            // 
+            // BitBtn1
+            // 
+            BitBtn1.Image = (Image)resources.GetObject("BitBtn1.Image");
+            BitBtn1.Location = new Point(818, 538);
+            BitBtn1.Name = "BitBtn1";
+            BitBtn1.Size = new Size(105, 25);
+            BitBtn1.TabIndex = 10;
+            BitBtn1.Text = "Export To CSV";
+            BitBtn1.TextImageRelation = TextImageRelation.TextBeforeImage;
+            BitBtn1.UseVisualStyleBackColor = true;
+            BitBtn1.Click += BitBtn1Click;
+            // 
+            // Edit1
+            // 
+            Edit1.CharacterCasing = CharacterCasing.Lower;
+            Edit1.Location = new Point(675, 541);
+            Edit1.Name = "Edit1";
+            Edit1.Size = new Size(137, 20);
+            Edit1.TabIndex = 9;
+            Edit1.TextChanged += Edit1Change;
+            // 
+            // DBGrid1
+            // 
+            DBGrid1.AllowUserToAddRows = false;
+            DBGrid1.AllowUserToDeleteRows = false;
+            DBGrid1.BackgroundColor = SystemColors.Window;
+            DBGrid1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            DBGrid1.Columns.AddRange(new DataGridViewColumn[] { DBGrid1_no_kelompok, DBGrid1_tglmasuk, DBGrid1_nama, DBGrid1_alamat, DBGrid1_telp, DBGrid1_desa, DBGrid1_kecamatan, DBGrid1_kabupaten, DBGrid1_propinsi, DBGrid1_ketua, DBGrid1_alamatketua, DBGrid1_sekretaris, DBGrid1_alamatsek, DBGrid1_bendahara, DBGrid1_alamatbend, DBGrid1_usaha, DBGrid1_jenis, DBGrid1_perkembangan, DBGrid1_fungsi });
+            DBGrid1.Location = new Point(8, 334);
+            DBGrid1.Name = "DBGrid1";
+            DBGrid1.ReadOnly = true;
+            DBGrid1.RowHeadersWidth = 24;
+            DBGrid1.RowTemplate.Height = 20;
+            DBGrid1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            DBGrid1.Size = new Size(1279, 180);
+            DBGrid1.TabIndex = 8;
+            DBGrid1.Tag = "mdutama.dstbkelompok";
+            DBGrid1.CellClick += DBGrid1CellClick;
+            // 
+            // DBGrid1_no_kelompok
+            // 
+            DBGrid1_no_kelompok.DataPropertyName = "no_kelompok";
+            DBGrid1_no_kelompok.HeaderText = "No Kelompok";
+            DBGrid1_no_kelompok.Name = "DBGrid1_no_kelompok";
+            DBGrid1_no_kelompok.ReadOnly = true;
+            DBGrid1_no_kelompok.Width = 69;
+            // 
+            // DBGrid1_tglmasuk
+            // 
+            DBGrid1_tglmasuk.DataPropertyName = "tglmasuk";
+            DBGrid1_tglmasuk.HeaderText = "Tgl Masuk";
+            DBGrid1_tglmasuk.Name = "DBGrid1_tglmasuk";
+            DBGrid1_tglmasuk.ReadOnly = true;
+            // 
+            // DBGrid1_nama
+            // 
+            DBGrid1_nama.DataPropertyName = "nama";
+            DBGrid1_nama.HeaderText = "Nama";
+            DBGrid1_nama.Name = "DBGrid1_nama";
+            DBGrid1_nama.ReadOnly = true;
+            DBGrid1_nama.Width = 189;
+            // 
+            // DBGrid1_alamat
+            // 
+            DBGrid1_alamat.DataPropertyName = "alamat";
+            DBGrid1_alamat.HeaderText = "Alamat";
+            DBGrid1_alamat.Name = "DBGrid1_alamat";
+            DBGrid1_alamat.ReadOnly = true;
+            DBGrid1_alamat.Width = 222;
+            // 
+            // DBGrid1_telp
+            // 
+            DBGrid1_telp.DataPropertyName = "telp";
+            DBGrid1_telp.HeaderText = "Telp";
+            DBGrid1_telp.Name = "DBGrid1_telp";
+            DBGrid1_telp.ReadOnly = true;
+            DBGrid1_telp.Width = 117;
+            // 
+            // DBGrid1_desa
+            // 
+            DBGrid1_desa.DataPropertyName = "desa";
+            DBGrid1_desa.HeaderText = "Desa";
+            DBGrid1_desa.Name = "DBGrid1_desa";
+            DBGrid1_desa.ReadOnly = true;
+            DBGrid1_desa.Width = 127;
+            // 
+            // DBGrid1_kecamatan
+            // 
+            DBGrid1_kecamatan.DataPropertyName = "kecamatan";
+            DBGrid1_kecamatan.HeaderText = "Kecamatan";
+            DBGrid1_kecamatan.Name = "DBGrid1_kecamatan";
+            DBGrid1_kecamatan.ReadOnly = true;
+            DBGrid1_kecamatan.Width = 154;
+            // 
+            // DBGrid1_kabupaten
+            // 
+            DBGrid1_kabupaten.DataPropertyName = "kabupaten";
+            DBGrid1_kabupaten.HeaderText = "Kabupaten";
+            DBGrid1_kabupaten.Name = "DBGrid1_kabupaten";
+            DBGrid1_kabupaten.ReadOnly = true;
+            DBGrid1_kabupaten.Width = 120;
+            // 
+            // DBGrid1_propinsi
+            // 
+            DBGrid1_propinsi.DataPropertyName = "propinsi";
+            DBGrid1_propinsi.HeaderText = "Propinsi";
+            DBGrid1_propinsi.Name = "DBGrid1_propinsi";
+            DBGrid1_propinsi.ReadOnly = true;
+            // 
+            // DBGrid1_ketua
+            // 
+            DBGrid1_ketua.DataPropertyName = "ketua";
+            DBGrid1_ketua.HeaderText = "Ketua";
+            DBGrid1_ketua.Name = "DBGrid1_ketua";
+            DBGrid1_ketua.ReadOnly = true;
+            // 
+            // DBGrid1_alamatketua
+            // 
+            DBGrid1_alamatketua.DataPropertyName = "alamatketua";
+            DBGrid1_alamatketua.HeaderText = "Alamat Ketua";
+            DBGrid1_alamatketua.Name = "DBGrid1_alamatketua";
+            DBGrid1_alamatketua.ReadOnly = true;
+            // 
+            // DBGrid1_sekretaris
+            // 
+            DBGrid1_sekretaris.DataPropertyName = "sekretaris";
+            DBGrid1_sekretaris.HeaderText = "Sekretaris";
+            DBGrid1_sekretaris.Name = "DBGrid1_sekretaris";
+            DBGrid1_sekretaris.ReadOnly = true;
+            // 
+            // DBGrid1_alamatsek
+            // 
+            DBGrid1_alamatsek.DataPropertyName = "alamatsek";
+            DBGrid1_alamatsek.HeaderText = "Alamat Sekr.";
+            DBGrid1_alamatsek.Name = "DBGrid1_alamatsek";
+            DBGrid1_alamatsek.ReadOnly = true;
+            // 
+            // DBGrid1_bendahara
+            // 
+            DBGrid1_bendahara.DataPropertyName = "bendahara";
+            DBGrid1_bendahara.HeaderText = "Bendahara";
+            DBGrid1_bendahara.Name = "DBGrid1_bendahara";
+            DBGrid1_bendahara.ReadOnly = true;
+            // 
+            // DBGrid1_alamatbend
+            // 
+            DBGrid1_alamatbend.DataPropertyName = "alamatbend";
+            DBGrid1_alamatbend.HeaderText = "Alamat Bendahara";
+            DBGrid1_alamatbend.Name = "DBGrid1_alamatbend";
+            DBGrid1_alamatbend.ReadOnly = true;
+            // 
+            // DBGrid1_usaha
+            // 
+            DBGrid1_usaha.DataPropertyName = "usaha";
+            DBGrid1_usaha.HeaderText = "Usaha";
+            DBGrid1_usaha.Name = "DBGrid1_usaha";
+            DBGrid1_usaha.ReadOnly = true;
+            // 
+            // DBGrid1_jenis
+            // 
+            DBGrid1_jenis.DataPropertyName = "jenis";
+            DBGrid1_jenis.HeaderText = "Jenis";
+            DBGrid1_jenis.Name = "DBGrid1_jenis";
+            DBGrid1_jenis.ReadOnly = true;
+            // 
+            // DBGrid1_perkembangan
+            // 
+            DBGrid1_perkembangan.DataPropertyName = "perkembangan";
+            DBGrid1_perkembangan.HeaderText = "Perkembangan";
+            DBGrid1_perkembangan.Name = "DBGrid1_perkembangan";
+            DBGrid1_perkembangan.ReadOnly = true;
+            // 
+            // DBGrid1_fungsi
+            // 
+            DBGrid1_fungsi.DataPropertyName = "fungsi";
+            DBGrid1_fungsi.HeaderText = "Fungsi";
+            DBGrid1_fungsi.Name = "DBGrid1_fungsi";
+            DBGrid1_fungsi.ReadOnly = true;
+            // 
+            // rgcarix
+            // 
+            rgcarix.BackColor = SystemColors.Control;
+            rgcarix.Items = new string[]
+    {
+    "No Kelompok",
+    "Nama Kelompok"
+    };
+            rgcarix.Location = new Point(531, 524);
+            rgcarix.Name = "rgcarix";
+            rgcarix.Size = new Size(409, 51);
+            rgcarix.TabIndex = 7;
+            rgcarix.TabStop = false;
+            rgcarix.Text = "Pencarian Kelompok Berdasarkan";
+            rgcarix.SelectedIndexChanged += rgcarixClick;
             // 
             // DBEdit2
             // 
+            DBEdit2.Location = new Point(378, 14);
             DBEdit2.Name = "DBEdit2";
-            DBEdit2.Location = new System.Drawing.Point(378, 14);
-            DBEdit2.Size = new System.Drawing.Size(161, 21);
-            DBEdit2.Visible = false;
+            DBEdit2.Size = new Size(161, 20);
             DBEdit2.TabIndex = 11;
             DBEdit2.Tag = "mdutama.dstbkelompok:no_kelompok";
+            DBEdit2.Visible = false;
+            DBEdit2.TextChanged += DBEdit2Change;
             // 
             // gbkelompok
             // 
+            gbkelompok.BackColor = SystemColors.Control;
             gbkelompok.Controls.Add(eusahaklp);
             gbkelompok.Controls.Add(efungsiklp);
             gbkelompok.Controls.Add(ekembangklp);
@@ -438,156 +904,110 @@ namespace UPKPro.Forms
             gbkelompok.Controls.Add(Label27);
             gbkelompok.Controls.Add(Label20);
             gbkelompok.Controls.Add(Label7);
-            gbkelompok.Name = "gbkelompok";
-            gbkelompok.Dock = System.Windows.Forms.DockStyle.Fill;
-            gbkelompok.Location = new System.Drawing.Point(0, 0);
-            gbkelompok.Size = new System.Drawing.Size(1296, 589);
+            gbkelompok.Dock = DockStyle.Fill;
             gbkelompok.Enabled = false;
+            gbkelompok.Location = new Point(0, 0);
+            gbkelompok.Name = "gbkelompok";
+            gbkelompok.Size = new Size(1296, 591);
             gbkelompok.TabIndex = 0;
-            gbkelompok.BackColor = System.Drawing.SystemColors.Control;
+            gbkelompok.TabStop = false;
             // 
-            // Label7
+            // eusahaklp
             // 
-            Label7.Name = "Label7";
-            Label7.Location = new System.Drawing.Point(8, 33);
-            Label7.Size = new System.Drawing.Size(60, 13);
-            Label7.Text = "Tgl Masuk";
-            Label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
-            Label7.ForeColor = System.Drawing.Color.Purple;
-            Label7.AutoSize = true;
-            Label7.BackColor = System.Drawing.Color.Transparent;
+            eusahaklp.FormattingEnabled = true;
+            eusahaklp.Items.AddRange(new object[] { "Simpan Pinjam", "Jasa", "Dagang", "Industri", "Pertanian", "Peternakan", "Perikanan" });
+            eusahaklp.Location = new Point(104, 296);
+            eusahaklp.Name = "eusahaklp";
+            eusahaklp.Size = new Size(145, 21);
+            eusahaklp.TabIndex = 12;
+            eusahaklp.Text = "ComboBox1";
+            eusahaklp.KeyPress += eusahaklpKeyPress;
             // 
-            // Label20
+            // efungsiklp
             // 
-            Label20.Name = "Label20";
-            Label20.Location = new System.Drawing.Point(8, 60);
-            Label20.Size = new System.Drawing.Size(92, 13);
-            Label20.Text = "Nama Kelompok";
-            Label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
-            Label20.ForeColor = System.Drawing.Color.Purple;
-            Label20.AutoSize = true;
+            efungsiklp.FormattingEnabled = true;
+            efungsiklp.Items.AddRange(new object[] { "Chanelling", "Executing" });
+            efungsiklp.Location = new Point(368, 296);
+            efungsiklp.Name = "efungsiklp";
+            efungsiklp.Size = new Size(145, 21);
+            efungsiklp.TabIndex = 11;
+            efungsiklp.Text = "ComboBox1";
+            efungsiklp.KeyPress += efungsiklpKeyPress;
             // 
-            // Label27
+            // ekembangklp
             // 
-            Label27.Name = "Label27";
-            Label27.Location = new System.Drawing.Point(8, 304);
-            Label27.Size = new System.Drawing.Size(81, 13);
-            Label27.Text = "Usaha Kelompok";
-            Label27.AutoSize = true;
+            ekembangklp.FormattingEnabled = true;
+            ekembangklp.Items.AddRange(new object[] { "Pemula", "Berkembang", "Matang" });
+            ekembangklp.Location = new Point(368, 272);
+            ekembangklp.Name = "ekembangklp";
+            ekembangklp.Size = new Size(145, 21);
+            ekembangklp.TabIndex = 10;
+            ekembangklp.Text = "ComboBox1";
+            ekembangklp.KeyPress += ekembangklpKeyPress;
             // 
-            // Label29
+            // ejenisklp
             // 
-            Label29.Name = "Label29";
-            Label29.Location = new System.Drawing.Point(589, 33);
-            Label29.Size = new System.Drawing.Size(28, 13);
-            Label29.Text = "Ketua";
-            Label29.AutoSize = true;
+            ejenisklp.FormattingEnabled = true;
+            ejenisklp.Items.AddRange(new object[] { "SPP", "SP Campuran", "Aneka Usaha", "Usaha Bersama" });
+            ejenisklp.Location = new Point(104, 272);
+            ejenisklp.Name = "ejenisklp";
+            ejenisklp.Size = new Size(145, 21);
+            ejenisklp.TabIndex = 9;
+            ejenisklp.Text = "ejenisklp";
+            ejenisklp.KeyPress += ejenisklpKeyPress;
             // 
-            // Label30
+            // ealamatbendkp
             // 
-            Label30.Name = "Label30";
-            Label30.Location = new System.Drawing.Point(589, 81);
-            Label30.Size = new System.Drawing.Size(47, 13);
-            Label30.Text = "Sekretaris";
-            Label30.AutoSize = true;
+            ealamatbendkp.Location = new Point(685, 145);
+            ealamatbendkp.Name = "ealamatbendkp";
+            ealamatbendkp.Size = new Size(297, 20);
+            ealamatbendkp.TabIndex = 8;
+            ealamatbendkp.Text = "Edit1";
             // 
-            // Label31
+            // ealamatsekkp
             // 
-            Label31.Name = "Label31";
-            Label31.Location = new System.Drawing.Point(589, 129);
-            Label31.Size = new System.Drawing.Size(52, 13);
-            Label31.Text = "Bendahara";
-            Label31.AutoSize = true;
+            ealamatsekkp.Location = new Point(685, 97);
+            ealamatsekkp.Name = "ealamatsekkp";
+            ealamatsekkp.Size = new Size(297, 20);
+            ealamatsekkp.TabIndex = 7;
+            ealamatsekkp.Text = "Edit1";
+            ealamatsekkp.KeyPress += ealamatsekkpKeyPress;
             // 
-            // Label32
+            // ealamatketuakp
             // 
-            Label32.Name = "Label32";
-            Label32.Location = new System.Drawing.Point(589, 57);
-            Label32.Size = new System.Drawing.Size(32, 13);
-            Label32.Text = "Alamat";
-            Label32.AutoSize = true;
+            ealamatketuakp.Location = new Point(685, 49);
+            ealamatketuakp.Name = "ealamatketuakp";
+            ealamatketuakp.Size = new Size(297, 20);
+            ealamatketuakp.TabIndex = 6;
+            ealamatketuakp.Text = "Edit1";
+            ealamatketuakp.KeyPress += ealamatketuakpKeyPress;
             // 
-            // Label33
+            // ebendkp
             // 
-            Label33.Name = "Label33";
-            Label33.Location = new System.Drawing.Point(589, 105);
-            Label33.Size = new System.Drawing.Size(32, 13);
-            Label33.Text = "Alamat";
-            Label33.AutoSize = true;
+            ebendkp.Location = new Point(685, 121);
+            ebendkp.Name = "ebendkp";
+            ebendkp.Size = new Size(169, 20);
+            ebendkp.TabIndex = 5;
+            ebendkp.Text = "Edit1";
+            ebendkp.KeyPress += ebendkpKeyPress;
             // 
-            // Label34
+            // esekkp
             // 
-            Label34.Name = "Label34";
-            Label34.Location = new System.Drawing.Point(589, 153);
-            Label34.Size = new System.Drawing.Size(32, 13);
-            Label34.Text = "Alamat";
-            Label34.AutoSize = true;
+            esekkp.Location = new Point(685, 73);
+            esekkp.Name = "esekkp";
+            esekkp.Size = new Size(169, 20);
+            esekkp.TabIndex = 4;
+            esekkp.Text = "Edit1";
+            esekkp.KeyPress += esekkpKeyPress;
             // 
-            // Label43
+            // eketuakp
             // 
-            Label43.Name = "Label43";
-            Label43.Location = new System.Drawing.Point(8, 280);
-            Label43.Size = new System.Drawing.Size(74, 13);
-            Label43.Text = "Jenis Kelompok";
-            Label43.AutoSize = true;
-            // 
-            // Label46
-            // 
-            Label46.Name = "Label46";
-            Label46.Location = new System.Drawing.Point(280, 280);
-            Label46.Size = new System.Drawing.Size(72, 13);
-            Label46.Text = "Perkembangan";
-            Label46.AutoSize = true;
-            // 
-            // Label47
-            // 
-            Label47.Name = "Label47";
-            Label47.Location = new System.Drawing.Point(280, 304);
-            Label47.Size = new System.Drawing.Size(81, 13);
-            Label47.Text = "Fungsi Kelompok";
-            Label47.AutoSize = true;
-            // 
-            // Bevel1
-            // 
-            Bevel1.Name = "Bevel1";
-            Bevel1.Location = new System.Drawing.Point(8, 324);
-            Bevel1.Size = new System.Drawing.Size(529, 4);
-            // 
-            // DBGrid7
-            // 
-            DBGrid7.Name = "DBGrid7";
-            DBGrid7.Location = new System.Drawing.Point(704, 334);
-            DBGrid7.Size = new System.Drawing.Size(320, 120);
-            DBGrid7.Visible = false;
-            DBGrid7.TabIndex = 13;
-            DBGrid7.AllowUserToAddRows = false;
-            DBGrid7.AllowUserToDeleteRows = false;
-            DBGrid7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            DBGrid7.RowTemplate.Height = 20;
-            DBGrid7.BackgroundColor = System.Drawing.SystemColors.Window;
-            DBGrid7.RowHeadersWidth = 24;
-            DBGrid7.Tag = "mdutama.dstbkelompok";
-            // 
-            // etglmasukkp
-            // 
-            etglmasukkp.Name = "etglmasukkp";
-            etglmasukkp.Location = new System.Drawing.Point(104, 25);
-            etglmasukkp.Size = new System.Drawing.Size(105, 21);
-            etglmasukkp.TabIndex = 0;
-            etglmasukkp.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
-            etglmasukkp.ForeColor = System.Drawing.Color.Purple;
-            etglmasukkp.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            enamakp.KeyPress += enamakpKeyPress;
-            // 
-            // enamakp
-            // 
-            enamakp.Name = "enamakp";
-            enamakp.Location = new System.Drawing.Point(104, 52);
-            enamakp.Size = new System.Drawing.Size(209, 21);
-            enamakp.Text = "Edit1";
-            enamakp.TabIndex = 1;
-            enamakp.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
-            enamakp.ForeColor = System.Drawing.Color.Purple;
+            eketuakp.Location = new Point(685, 25);
+            eketuakp.Name = "eketuakp";
+            eketuakp.Size = new Size(169, 20);
+            eketuakp.TabIndex = 3;
+            eketuakp.Text = "Edit1";
+            eketuakp.KeyPress += eketuakpKeyPress;
             // 
             // GroupBox3
             // 
@@ -608,525 +1028,342 @@ namespace UPKPro.Forms
             GroupBox3.Controls.Add(Label23);
             GroupBox3.Controls.Add(Label22);
             GroupBox3.Controls.Add(Label21);
+            GroupBox3.Location = new Point(8, 87);
             GroupBox3.Name = "GroupBox3";
-            GroupBox3.Location = new System.Drawing.Point(8, 87);
-            GroupBox3.Size = new System.Drawing.Size(529, 175);
+            GroupBox3.Size = new Size(529, 175);
             GroupBox3.TabIndex = 2;
-            // 
-            // Label21
-            // 
-            Label21.Name = "Label21";
-            Label21.Location = new System.Drawing.Point(16, 23);
-            Label21.Size = new System.Drawing.Size(32, 13);
-            Label21.Text = "Alamat";
-            Label21.AutoSize = true;
-            Label21.BackColor = System.Drawing.Color.Transparent;
-            // 
-            // Label22
-            // 
-            Label22.Name = "Label22";
-            Label22.Location = new System.Drawing.Point(16, 48);
-            Label22.Size = new System.Drawing.Size(25, 13);
-            Label22.Text = "Desa";
-            Label22.AutoSize = true;
-            Label22.BackColor = System.Drawing.Color.Transparent;
-            // 
-            // Label23
-            // 
-            Label23.Name = "Label23";
-            Label23.Location = new System.Drawing.Point(16, 74);
-            Label23.Size = new System.Drawing.Size(54, 13);
-            Label23.Text = "Kecamatan";
-            Label23.AutoSize = true;
-            Label23.BackColor = System.Drawing.Color.Transparent;
-            // 
-            // Label24
-            // 
-            Label24.Name = "Label24";
-            Label24.Location = new System.Drawing.Point(16, 100);
-            Label24.Size = new System.Drawing.Size(60, 13);
-            Label24.Text = "Kab./ Kodya";
-            Label24.AutoSize = true;
-            Label24.BackColor = System.Drawing.Color.Transparent;
-            // 
-            // Label25
-            // 
-            Label25.Name = "Label25";
-            Label25.Location = new System.Drawing.Point(249, 99);
-            Label25.Size = new System.Drawing.Size(37, 13);
-            Label25.Text = "Propinsi";
-            Label25.AutoSize = true;
-            Label25.BackColor = System.Drawing.Color.Transparent;
-            // 
-            // Label26
-            // 
-            Label26.Name = "Label26";
-            Label26.Location = new System.Drawing.Point(16, 151);
-            Label26.Size = new System.Drawing.Size(21, 13);
-            Label26.Text = "Telp";
-            Label26.AutoSize = true;
-            Label26.BackColor = System.Drawing.Color.Transparent;
-            // 
-            // Label19
-            // 
-            Label19.Name = "Label19";
-            Label19.Location = new System.Drawing.Point(16, 126);
-            Label19.Size = new System.Drawing.Size(67, 13);
-            Label19.Text = "No. Kelompok";
-            Label19.AutoSize = true;
-            // 
-            // Label44
-            // 
-            Label44.Name = "Label44";
-            Label44.Location = new System.Drawing.Point(296, 47);
-            Label44.Size = new System.Drawing.Size(53, 13);
-            Label44.Text = "Kode Desa";
-            Label44.AutoSize = true;
-            Label44.BackColor = System.Drawing.Color.Transparent;
-            ealamatkp.KeyPress += ealamatkpKeyPress;
-            // 
-            // ealamatkp
-            // 
-            ealamatkp.Name = "ealamatkp";
-            ealamatkp.Location = new System.Drawing.Point(96, 15);
-            ealamatkp.Size = new System.Drawing.Size(313, 21);
-            ealamatkp.Text = "ealamat";
-            ealamatkp.TabIndex = 0;
-            etelpkp.KeyPress += etelpkpKeyPress;
-            // 
-            // etelpkp
-            // 
-            etelpkp.Name = "etelpkp";
-            etelpkp.Location = new System.Drawing.Point(96, 143);
-            etelpkp.Size = new System.Drawing.Size(145, 21);
-            etelpkp.Text = "Edit3";
-            etelpkp.TabIndex = 1;
-            ekodedesax.SelectionChangeCommitted += ekodedesaxClick;
-            ekodedesax.KeyPress += ekodedesaxKeyPress;
-            // 
-            // ekodedesax
-            // 
-            ekodedesax.Name = "ekodedesax";
-            ekodedesax.Location = new System.Drawing.Point(96, 40);
-            ekodedesax.Size = new System.Drawing.Size(185, 21);
-            ekodedesax.TabIndex = 2;
-            ekodedesax.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            ekodedesax.FormattingEnabled = true;
-            ekodedesax.DisplayMember = "NamaDesa";
-            ekodedesax.ValueMember = "NamaDesa";
-            // 
-            // enamakeckp
-            // 
-            enamakeckp.Name = "enamakeckp";
-            enamakeckp.Location = new System.Drawing.Point(96, 66);
-            enamakeckp.Size = new System.Drawing.Size(217, 21);
-            enamakeckp.TabIndex = 3;
-            enamakeckp.Tag = "mdutama.dstbdesa:NamaKec";
-            // 
-            // enamakabkp
-            // 
-            enamakabkp.Name = "enamakabkp";
-            enamakabkp.Location = new System.Drawing.Point(96, 92);
-            enamakabkp.Size = new System.Drawing.Size(145, 21);
-            enamakabkp.TabIndex = 4;
-            enamakabkp.Tag = "mdutama.dstbdesa:NamaKab";
-            // 
-            // enamapropkp
-            // 
-            enamapropkp.Name = "enamapropkp";
-            enamapropkp.Location = new System.Drawing.Point(291, 93);
-            enamapropkp.Size = new System.Drawing.Size(225, 21);
-            enamapropkp.TabIndex = 5;
-            enamapropkp.Tag = "mdutama.dstbdesa:NamaProp";
-            enoindukkp.TextChanged += enoindukkpChange;
-            enoindukkp.KeyPress += enoindukkpKeyPress;
-            // 
-            // enoindukkp
-            // 
-            enoindukkp.Name = "enoindukkp";
-            enoindukkp.Location = new System.Drawing.Point(96, 118);
-            enoindukkp.Size = new System.Drawing.Size(145, 21);
-            enoindukkp.Text = "enoindukkp";
-            enoindukkp.TabIndex = 6;
-            // 
-            // ekodedesa
-            // 
-            ekodedesa.Name = "ekodedesa";
-            ekodedesa.Location = new System.Drawing.Point(360, 40);
-            ekodedesa.Size = new System.Drawing.Size(121, 21);
-            ekodedesa.TabIndex = 7;
-            ekodedesa.ReadOnly = true;
-            enamadesakp.Click += enamadesakpClick;
-            enamadesakp.KeyPress += enamadesakpKeyPress;
+            GroupBox3.TabStop = false;
             // 
             // enamadesakp
             // 
+            enamadesakp.Location = new Point(96, 40);
             enamadesakp.Name = "enamadesakp";
-            enamadesakp.Location = new System.Drawing.Point(96, 40);
-            enamadesakp.Size = new System.Drawing.Size(167, 21);
-            enamadesakp.TabIndex = 8;
             enamadesakp.ReadOnly = true;
-            eketuakp.KeyPress += eketuakpKeyPress;
+            enamadesakp.Size = new Size(167, 20);
+            enamadesakp.TabIndex = 8;
+            enamadesakp.Click += enamadesakpClick;
+            enamadesakp.KeyPress += enamadesakpKeyPress;
             // 
-            // eketuakp
+            // ekodedesa
             // 
-            eketuakp.Name = "eketuakp";
-            eketuakp.Location = new System.Drawing.Point(685, 25);
-            eketuakp.Size = new System.Drawing.Size(169, 21);
-            eketuakp.Text = "Edit1";
-            eketuakp.TabIndex = 3;
-            esekkp.KeyPress += esekkpKeyPress;
+            ekodedesa.Location = new Point(360, 40);
+            ekodedesa.Name = "ekodedesa";
+            ekodedesa.ReadOnly = true;
+            ekodedesa.Size = new Size(121, 20);
+            ekodedesa.TabIndex = 7;
             // 
-            // esekkp
+            // enoindukkp
             // 
-            esekkp.Name = "esekkp";
-            esekkp.Location = new System.Drawing.Point(685, 73);
-            esekkp.Size = new System.Drawing.Size(169, 21);
-            esekkp.Text = "Edit1";
-            esekkp.TabIndex = 4;
-            ebendkp.KeyPress += ebendkpKeyPress;
+            enoindukkp.Location = new Point(96, 118);
+            enoindukkp.Name = "enoindukkp";
+            enoindukkp.Size = new Size(145, 20);
+            enoindukkp.TabIndex = 6;
+            enoindukkp.Text = "enoindukkp";
+            enoindukkp.TextChanged += enoindukkpChange;
+            enoindukkp.KeyPress += enoindukkpKeyPress;
             // 
-            // ebendkp
+            // enamapropkp
             // 
-            ebendkp.Name = "ebendkp";
-            ebendkp.Location = new System.Drawing.Point(685, 121);
-            ebendkp.Size = new System.Drawing.Size(169, 21);
-            ebendkp.Text = "Edit1";
-            ebendkp.TabIndex = 5;
-            ealamatketuakp.KeyPress += ealamatketuakpKeyPress;
+            enamapropkp.Location = new Point(291, 93);
+            enamapropkp.Name = "enamapropkp";
+            enamapropkp.Size = new Size(225, 20);
+            enamapropkp.TabIndex = 5;
+            enamapropkp.Tag = "mdutama.dstbdesa:NamaProp";
             // 
-            // ealamatketuakp
+            // enamakabkp
             // 
-            ealamatketuakp.Name = "ealamatketuakp";
-            ealamatketuakp.Location = new System.Drawing.Point(685, 49);
-            ealamatketuakp.Size = new System.Drawing.Size(297, 21);
-            ealamatketuakp.Text = "Edit1";
-            ealamatketuakp.TabIndex = 6;
-            ealamatsekkp.KeyPress += ealamatsekkpKeyPress;
+            enamakabkp.Location = new Point(96, 92);
+            enamakabkp.Name = "enamakabkp";
+            enamakabkp.Size = new Size(145, 20);
+            enamakabkp.TabIndex = 4;
+            enamakabkp.Tag = "mdutama.dstbdesa:NamaKab";
             // 
-            // ealamatsekkp
+            // enamakeckp
             // 
-            ealamatsekkp.Name = "ealamatsekkp";
-            ealamatsekkp.Location = new System.Drawing.Point(685, 97);
-            ealamatsekkp.Size = new System.Drawing.Size(297, 21);
-            ealamatsekkp.Text = "Edit1";
-            ealamatsekkp.TabIndex = 7;
+            enamakeckp.Location = new Point(96, 66);
+            enamakeckp.Name = "enamakeckp";
+            enamakeckp.Size = new Size(217, 20);
+            enamakeckp.TabIndex = 3;
+            enamakeckp.Tag = "mdutama.dstbdesa:NamaKec";
             // 
-            // ealamatbendkp
+            // ekodedesax
             // 
-            ealamatbendkp.Name = "ealamatbendkp";
-            ealamatbendkp.Location = new System.Drawing.Point(685, 145);
-            ealamatbendkp.Size = new System.Drawing.Size(297, 21);
-            ealamatbendkp.Text = "Edit1";
-            ealamatbendkp.TabIndex = 8;
-            ejenisklp.KeyPress += ejenisklpKeyPress;
+            ekodedesax.DisplayMember = "NamaDesa";
+            ekodedesax.DropDownStyle = ComboBoxStyle.DropDownList;
+            ekodedesax.FormattingEnabled = true;
+            ekodedesax.Location = new Point(96, 40);
+            ekodedesax.Name = "ekodedesax";
+            ekodedesax.Size = new Size(185, 21);
+            ekodedesax.TabIndex = 2;
+            ekodedesax.ValueMember = "NamaDesa";
+            ekodedesax.SelectionChangeCommitted += ekodedesaxClick;
+            ekodedesax.KeyPress += ekodedesaxKeyPress;
             // 
-            // ejenisklp
+            // etelpkp
             // 
-            ejenisklp.Name = "ejenisklp";
-            ejenisklp.Location = new System.Drawing.Point(104, 272);
-            ejenisklp.Size = new System.Drawing.Size(145, 21);
-            ejenisklp.Text = "ejenisklp";
-            ejenisklp.TabIndex = 9;
-            ejenisklp.FormattingEnabled = true;
-            ejenisklp.Items.AddRange(new object[] { "SPP", "SP Campuran", "Aneka Usaha", "Usaha Bersama" });
-            ekembangklp.KeyPress += ekembangklpKeyPress;
+            etelpkp.Location = new Point(96, 143);
+            etelpkp.Name = "etelpkp";
+            etelpkp.Size = new Size(145, 20);
+            etelpkp.TabIndex = 1;
+            etelpkp.Text = "Edit3";
+            etelpkp.KeyPress += etelpkpKeyPress;
             // 
-            // ekembangklp
+            // ealamatkp
             // 
-            ekembangklp.Name = "ekembangklp";
-            ekembangklp.Location = new System.Drawing.Point(368, 272);
-            ekembangklp.Size = new System.Drawing.Size(145, 21);
-            ekembangklp.Text = "ComboBox1";
-            ekembangklp.TabIndex = 10;
-            ekembangklp.FormattingEnabled = true;
-            ekembangklp.Items.AddRange(new object[] { "Pemula", "Berkembang", "Matang" });
-            efungsiklp.KeyPress += efungsiklpKeyPress;
+            ealamatkp.Location = new Point(96, 15);
+            ealamatkp.Name = "ealamatkp";
+            ealamatkp.Size = new Size(313, 20);
+            ealamatkp.TabIndex = 0;
+            ealamatkp.Text = "ealamat";
+            ealamatkp.KeyPress += ealamatkpKeyPress;
             // 
-            // efungsiklp
+            // Label44
             // 
-            efungsiklp.Name = "efungsiklp";
-            efungsiklp.Location = new System.Drawing.Point(368, 296);
-            efungsiklp.Size = new System.Drawing.Size(145, 21);
-            efungsiklp.Text = "ComboBox1";
-            efungsiklp.TabIndex = 11;
-            efungsiklp.FormattingEnabled = true;
-            efungsiklp.Items.AddRange(new object[] { "Chanelling", "Executing" });
-            eusahaklp.KeyPress += eusahaklpKeyPress;
+            Label44.AutoSize = true;
+            Label44.BackColor = Color.Transparent;
+            Label44.Location = new Point(296, 47);
+            Label44.Name = "Label44";
+            Label44.Size = new Size(60, 13);
+            Label44.TabIndex = 9;
+            Label44.Text = "Kode Desa";
             // 
-            // eusahaklp
+            // Label19
             // 
-            eusahaklp.Name = "eusahaklp";
-            eusahaklp.Location = new System.Drawing.Point(104, 296);
-            eusahaklp.Size = new System.Drawing.Size(145, 21);
-            eusahaklp.Text = "ComboBox1";
-            eusahaklp.TabIndex = 12;
-            eusahaklp.FormattingEnabled = true;
-            eusahaklp.Items.AddRange(new object[] { "Simpan Pinjam", "Jasa", "Dagang", "Industri", "Pertanian", "Peternakan", "Perikanan" });
-            btsimpankp.Click += btsimpankpClick;
+            Label19.AutoSize = true;
+            Label19.Location = new Point(16, 126);
+            Label19.Name = "Label19";
+            Label19.Size = new Size(74, 13);
+            Label19.TabIndex = 10;
+            Label19.Text = "No. Kelompok";
             // 
-            // btsimpankp
+            // Label26
             // 
-            btsimpankp.Name = "btsimpankp";
-            btsimpankp.Location = new System.Drawing.Point(14, 531);
-            btsimpankp.Size = new System.Drawing.Size(67, 41);
-            btsimpankp.Text = "&Simpan";
-            btsimpankp.Enabled = false;
-            btsimpankp.TabIndex = 1;
-            toolTip1.SetToolTip(btsimpankp, "Klik untuk menyimpan data..");
-            btsimpankp.Image = (System.Drawing.Image)resources.GetObject("btsimpankp.Image");
-            btsimpankp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            btsimpankp.UseVisualStyleBackColor = true;
-            bttambahkp.Click += bttambahkpClick;
+            Label26.AutoSize = true;
+            Label26.BackColor = Color.Transparent;
+            Label26.Location = new Point(16, 151);
+            Label26.Name = "Label26";
+            Label26.Size = new Size(28, 13);
+            Label26.TabIndex = 11;
+            Label26.Text = "Telp";
             // 
-            // bttambahkp
+            // Label25
             // 
-            bttambahkp.Name = "bttambahkp";
-            bttambahkp.Location = new System.Drawing.Point(80, 531);
-            bttambahkp.Size = new System.Drawing.Size(67, 41);
-            bttambahkp.Text = "&Tambah";
-            bttambahkp.TabIndex = 2;
-            toolTip1.SetToolTip(bttambahkp, "Klik untuk menambah kelompok baru..");
-            bttambahkp.Image = (System.Drawing.Image)resources.GetObject("bttambahkp.Image");
-            bttambahkp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            bttambahkp.UseVisualStyleBackColor = true;
-            btubahkp.Click += btubahkpClick;
+            Label25.AutoSize = true;
+            Label25.BackColor = Color.Transparent;
+            Label25.Location = new Point(249, 99);
+            Label25.Name = "Label25";
+            Label25.Size = new Size(44, 13);
+            Label25.TabIndex = 12;
+            Label25.Text = "Propinsi";
             // 
-            // btubahkp
+            // Label24
             // 
-            btubahkp.Name = "btubahkp";
-            btubahkp.Location = new System.Drawing.Point(146, 531);
-            btubahkp.Size = new System.Drawing.Size(67, 41);
-            btubahkp.Text = "&Ubah";
-            btubahkp.TabIndex = 3;
-            toolTip1.SetToolTip(btubahkp, "Klik untuk mengubah data..");
-            btubahkp.Image = (System.Drawing.Image)resources.GetObject("btubahkp.Image");
-            btubahkp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            btubahkp.UseVisualStyleBackColor = true;
-            bthapuskp.Click += bthapuskpClick;
+            Label24.AutoSize = true;
+            Label24.BackColor = Color.Transparent;
+            Label24.Location = new Point(16, 100);
+            Label24.Name = "Label24";
+            Label24.Size = new Size(67, 13);
+            Label24.TabIndex = 13;
+            Label24.Text = "Kab./ Kodya";
             // 
-            // bthapuskp
+            // Label23
             // 
-            bthapuskp.Name = "bthapuskp";
-            bthapuskp.Location = new System.Drawing.Point(212, 531);
-            bthapuskp.Size = new System.Drawing.Size(67, 41);
-            bthapuskp.Text = "&Hapus";
-            bthapuskp.TabIndex = 4;
-            toolTip1.SetToolTip(bthapuskp, "Klik untuk menghapus data terpilih..");
-            bthapuskp.Image = (System.Drawing.Image)resources.GetObject("bthapuskp.Image");
-            bthapuskp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            bthapuskp.UseVisualStyleBackColor = true;
-            btbatalkp.Click += btbatalkpClick;
+            Label23.AutoSize = true;
+            Label23.BackColor = Color.Transparent;
+            Label23.Location = new Point(16, 74);
+            Label23.Name = "Label23";
+            Label23.Size = new Size(61, 13);
+            Label23.TabIndex = 14;
+            Label23.Text = "Kecamatan";
             // 
-            // btbatalkp
+            // Label22
             // 
-            btbatalkp.Name = "btbatalkp";
-            btbatalkp.Location = new System.Drawing.Point(278, 531);
-            btbatalkp.Size = new System.Drawing.Size(67, 41);
-            btbatalkp.Text = "&Batal";
-            btbatalkp.TabIndex = 5;
-            toolTip1.SetToolTip(btbatalkp, "Klik untuk membatalkan transaksi..");
-            btbatalkp.Image = (System.Drawing.Image)resources.GetObject("btbatalkp.Image");
-            btbatalkp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            btbatalkp.UseVisualStyleBackColor = true;
-            btcetak.Click += btcetakClick;
+            Label22.AutoSize = true;
+            Label22.BackColor = Color.Transparent;
+            Label22.Location = new Point(16, 48);
+            Label22.Name = "Label22";
+            Label22.Size = new Size(32, 13);
+            Label22.TabIndex = 15;
+            Label22.Text = "Desa";
             // 
-            // btcetak
+            // Label21
             // 
-            btcetak.Name = "btcetak";
-            btcetak.Location = new System.Drawing.Point(450, 532);
-            btcetak.Size = new System.Drawing.Size(67, 41);
-            btcetak.Text = "&Cetak";
-            btcetak.TabIndex = 6;
-            toolTip1.SetToolTip(btcetak, "Klik untuk mencetak data terpilih..");
-            btcetak.Image = (System.Drawing.Image)resources.GetObject("btcetak.Image");
-            btcetak.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            btcetak.UseVisualStyleBackColor = true;
-            rgcarix.SelectedIndexChanged += rgcarixClick;
+            Label21.AutoSize = true;
+            Label21.BackColor = Color.Transparent;
+            Label21.Location = new Point(16, 23);
+            Label21.Name = "Label21";
+            Label21.Size = new Size(39, 13);
+            Label21.TabIndex = 16;
+            Label21.Text = "Alamat";
             // 
-            // rgcarix
+            // enamakp
             // 
-            rgcarix.Name = "rgcarix";
-            rgcarix.Location = new System.Drawing.Point(531, 524);
-            rgcarix.Size = new System.Drawing.Size(409, 51);
-            rgcarix.Text = "Pencarian Kelompok Berdasarkan";
-            rgcarix.TabIndex = 7;
-            rgcarix.BackColor = System.Drawing.SystemColors.Control;
-            rgcarix.Items = new string[] { "No Kelompok", "Nama Kelompok" };
-            rgcarix.ItemIndex = 1;
-            DBGrid1_no_kelompok.Name = "DBGrid1_no_kelompok";
-            DBGrid1_no_kelompok.DataPropertyName = "no_kelompok";
-            DBGrid1_no_kelompok.HeaderText = "No Kelompok";
-            DBGrid1_no_kelompok.Width = 69;
-            DBGrid1_tglmasuk.Name = "DBGrid1_tglmasuk";
-            DBGrid1_tglmasuk.DataPropertyName = "tglmasuk";
-            DBGrid1_tglmasuk.HeaderText = "Tgl Masuk";
-            DBGrid1_nama.Name = "DBGrid1_nama";
-            DBGrid1_nama.DataPropertyName = "nama";
-            DBGrid1_nama.HeaderText = "Nama";
-            DBGrid1_nama.Width = 189;
-            DBGrid1_alamat.Name = "DBGrid1_alamat";
-            DBGrid1_alamat.DataPropertyName = "alamat";
-            DBGrid1_alamat.HeaderText = "Alamat";
-            DBGrid1_alamat.Width = 222;
-            DBGrid1_telp.Name = "DBGrid1_telp";
-            DBGrid1_telp.DataPropertyName = "telp";
-            DBGrid1_telp.HeaderText = "Telp";
-            DBGrid1_telp.Width = 117;
-            DBGrid1_desa.Name = "DBGrid1_desa";
-            DBGrid1_desa.DataPropertyName = "desa";
-            DBGrid1_desa.HeaderText = "Desa";
-            DBGrid1_desa.Width = 127;
-            DBGrid1_kecamatan.Name = "DBGrid1_kecamatan";
-            DBGrid1_kecamatan.DataPropertyName = "kecamatan";
-            DBGrid1_kecamatan.HeaderText = "Kecamatan";
-            DBGrid1_kecamatan.Width = 154;
-            DBGrid1_kabupaten.Name = "DBGrid1_kabupaten";
-            DBGrid1_kabupaten.DataPropertyName = "kabupaten";
-            DBGrid1_kabupaten.HeaderText = "Kabupaten";
-            DBGrid1_kabupaten.Width = 120;
-            DBGrid1_propinsi.Name = "DBGrid1_propinsi";
-            DBGrid1_propinsi.DataPropertyName = "propinsi";
-            DBGrid1_propinsi.HeaderText = "Propinsi";
-            DBGrid1_ketua.Name = "DBGrid1_ketua";
-            DBGrid1_ketua.DataPropertyName = "ketua";
-            DBGrid1_ketua.HeaderText = "Ketua";
-            DBGrid1_alamatketua.Name = "DBGrid1_alamatketua";
-            DBGrid1_alamatketua.DataPropertyName = "alamatketua";
-            DBGrid1_alamatketua.HeaderText = "Alamat Ketua";
-            DBGrid1_sekretaris.Name = "DBGrid1_sekretaris";
-            DBGrid1_sekretaris.DataPropertyName = "sekretaris";
-            DBGrid1_sekretaris.HeaderText = "Sekretaris";
-            DBGrid1_alamatsek.Name = "DBGrid1_alamatsek";
-            DBGrid1_alamatsek.DataPropertyName = "alamatsek";
-            DBGrid1_alamatsek.HeaderText = "Alamat Sekr.";
-            DBGrid1_bendahara.Name = "DBGrid1_bendahara";
-            DBGrid1_bendahara.DataPropertyName = "bendahara";
-            DBGrid1_bendahara.HeaderText = "Bendahara";
-            DBGrid1_alamatbend.Name = "DBGrid1_alamatbend";
-            DBGrid1_alamatbend.DataPropertyName = "alamatbend";
-            DBGrid1_alamatbend.HeaderText = "Alamat Bendahara";
-            DBGrid1_usaha.Name = "DBGrid1_usaha";
-            DBGrid1_usaha.DataPropertyName = "usaha";
-            DBGrid1_usaha.HeaderText = "Usaha";
-            DBGrid1_jenis.Name = "DBGrid1_jenis";
-            DBGrid1_jenis.DataPropertyName = "jenis";
-            DBGrid1_jenis.HeaderText = "Jenis";
-            DBGrid1_perkembangan.Name = "DBGrid1_perkembangan";
-            DBGrid1_perkembangan.DataPropertyName = "perkembangan";
-            DBGrid1_perkembangan.HeaderText = "Perkembangan";
-            DBGrid1_fungsi.Name = "DBGrid1_fungsi";
-            DBGrid1_fungsi.DataPropertyName = "fungsi";
-            DBGrid1_fungsi.HeaderText = "Fungsi";
-            DBGrid1.CellClick += DBGrid1CellClick;
+            enamakp.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold);
+            enamakp.ForeColor = Color.Purple;
+            enamakp.Location = new Point(104, 52);
+            enamakp.Name = "enamakp";
+            enamakp.Size = new Size(209, 20);
+            enamakp.TabIndex = 1;
+            enamakp.Text = "Edit1";
+            enamakp.KeyPress += enamakpKeyPress;
             // 
-            // DBGrid1
+            // etglmasukkp
             // 
-            DBGrid1.Name = "DBGrid1";
-            DBGrid1.Location = new System.Drawing.Point(8, 334);
-            DBGrid1.Size = new System.Drawing.Size(1279, 180);
-            DBGrid1.TabIndex = 8;
-            DBGrid1.AllowUserToAddRows = false;
-            DBGrid1.AllowUserToDeleteRows = false;
-            DBGrid1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            DBGrid1.RowTemplate.Height = 20;
-            DBGrid1.BackgroundColor = System.Drawing.SystemColors.Window;
-            DBGrid1.ReadOnly = true;
-            DBGrid1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            DBGrid1.RowHeadersWidth = 24;
-            DBGrid1.Tag = "mdutama.dstbkelompok";
-            DBGrid1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] { DBGrid1_no_kelompok, DBGrid1_tglmasuk, DBGrid1_nama, DBGrid1_alamat, DBGrid1_telp, DBGrid1_desa, DBGrid1_kecamatan, DBGrid1_kabupaten, DBGrid1_propinsi, DBGrid1_ketua, DBGrid1_alamatketua, DBGrid1_sekretaris, DBGrid1_alamatsek, DBGrid1_bendahara, DBGrid1_alamatbend, DBGrid1_usaha, DBGrid1_jenis, DBGrid1_perkembangan, DBGrid1_fungsi });
-            Edit1.TextChanged += Edit1Change;
+            etglmasukkp.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold);
+            etglmasukkp.ForeColor = Color.Purple;
+            etglmasukkp.Format = DateTimePickerFormat.Short;
+            etglmasukkp.Location = new Point(104, 25);
+            etglmasukkp.Name = "etglmasukkp";
+            etglmasukkp.Size = new Size(105, 20);
+            etglmasukkp.TabIndex = 0;
             // 
-            // Edit1
+            // DBGrid7
             // 
-            Edit1.Name = "Edit1";
-            Edit1.Location = new System.Drawing.Point(675, 541);
-            Edit1.Size = new System.Drawing.Size(137, 21);
-            Edit1.TabIndex = 9;
-            Edit1.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower;
-            BitBtn1.Click += BitBtn1Click;
+            DBGrid7.AllowUserToAddRows = false;
+            DBGrid7.AllowUserToDeleteRows = false;
+            DBGrid7.BackgroundColor = SystemColors.Window;
+            DBGrid7.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            DBGrid7.Location = new Point(704, 334);
+            DBGrid7.Name = "DBGrid7";
+            DBGrid7.RowHeadersWidth = 24;
+            DBGrid7.RowTemplate.Height = 20;
+            DBGrid7.Size = new Size(320, 120);
+            DBGrid7.TabIndex = 13;
+            DBGrid7.Tag = "mdutama.dstbkelompok";
+            DBGrid7.Visible = false;
             // 
-            // BitBtn1
+            // Bevel1
             // 
-            BitBtn1.Name = "BitBtn1";
-            BitBtn1.Location = new System.Drawing.Point(818, 538);
-            BitBtn1.Size = new System.Drawing.Size(105, 25);
-            BitBtn1.Text = "Export To CSV";
-            BitBtn1.TabIndex = 10;
-            BitBtn1.Image = (System.Drawing.Image)resources.GetObject("BitBtn1.Image");
-            BitBtn1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            BitBtn1.UseVisualStyleBackColor = true;
+            Bevel1.BackColor = Color.Transparent;
+            Bevel1.Location = new Point(8, 324);
+            Bevel1.Name = "Bevel1";
+            Bevel1.Size = new Size(529, 4);
+            Bevel1.TabIndex = 14;
+            Bevel1.TabStop = false;
             // 
-            // Panel11
+            // Label47
             // 
-            Panel11.Controls.Add(BitBtn25);
-            Panel11.Controls.Add(BitBtn10);
-            Panel11.Controls.Add(SpeedButton8);
-            Panel11.Controls.Add(Shape37);
-            Panel11.Name = "Panel11";
-            Panel11.Location = new System.Drawing.Point(946, 475);
-            Panel11.Size = new System.Drawing.Size(234, 100);
-            Panel11.Visible = false;
-            Panel11.TabIndex = 12;
-            Panel11.Padding = new System.Windows.Forms.Padding(1);
+            Label47.AutoSize = true;
+            Label47.Location = new Point(280, 304);
+            Label47.Name = "Label47";
+            Label47.Size = new Size(88, 13);
+            Label47.TabIndex = 15;
+            Label47.Text = "Fungsi Kelompok";
             // 
-            // Shape37
+            // Label46
             // 
-            Shape37.Controls.Add(Label84);
-            Shape37.Name = "Shape37";
-            Shape37.Location = new System.Drawing.Point(-536, 0);
-            Shape37.Size = new System.Drawing.Size(993, 30);
-            Shape37.BrushColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            Shape37.PenClear = true;
+            Label46.AutoSize = true;
+            Label46.Location = new Point(280, 280);
+            Label46.Name = "Label46";
+            Label46.Size = new Size(79, 13);
+            Label46.TabIndex = 16;
+            Label46.Text = "Perkembangan";
             // 
-            // Label84
+            // Label43
             // 
-            Label84.Name = "Label84";
-            Label84.Location = new System.Drawing.Point(561, 6);
-            Label84.Size = new System.Drawing.Size(177, 16);
-            Label84.Text = "Pilihan Export Data (CSV)";
-            Label84.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
-            Label84.ForeColor = System.Drawing.Color.Black;
-            Label84.AutoSize = true;
-            Label84.BackColor = System.Drawing.Color.Transparent;
-            SpeedButton8.Click += SpeedButton8Click;
+            Label43.AutoSize = true;
+            Label43.Location = new Point(8, 280);
+            Label43.Name = "Label43";
+            Label43.Size = new Size(81, 13);
+            Label43.TabIndex = 17;
+            Label43.Text = "Jenis Kelompok";
             // 
-            // SpeedButton8
+            // Label34
             // 
-            SpeedButton8.Name = "SpeedButton8";
-            SpeedButton8.Location = new System.Drawing.Point(205, 1);
-            SpeedButton8.Size = new System.Drawing.Size(26, 27);
-            SpeedButton8.Image = (System.Drawing.Image)resources.GetObject("SpeedButton8.Image");
-            SpeedButton8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            SpeedButton8.FlatAppearance.BorderSize = 0;
-            SpeedButton8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(229, 241, 251);
-            SpeedButton8.BackColor = System.Drawing.Color.Transparent;
-            SpeedButton8.TabStop = false;
-            BitBtn10.Click += BitBtn10Click;
+            Label34.AutoSize = true;
+            Label34.Location = new Point(589, 153);
+            Label34.Name = "Label34";
+            Label34.Size = new Size(39, 13);
+            Label34.TabIndex = 18;
+            Label34.Text = "Alamat";
             // 
-            // BitBtn10
+            // Label33
             // 
-            BitBtn10.Name = "BitBtn10";
-            BitBtn10.Location = new System.Drawing.Point(11, 34);
-            BitBtn10.Size = new System.Drawing.Size(209, 25);
-            BitBtn10.Text = "Hanya Data Kelompok Terpilih";
-            BitBtn10.TabIndex = 0;
-            BitBtn10.Image = (System.Drawing.Image)resources.GetObject("BitBtn10.Image");
-            BitBtn10.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            BitBtn10.UseVisualStyleBackColor = true;
-            BitBtn25.Click += BitBtn25Click;
+            Label33.AutoSize = true;
+            Label33.Location = new Point(589, 105);
+            Label33.Name = "Label33";
+            Label33.Size = new Size(39, 13);
+            Label33.TabIndex = 19;
+            Label33.Text = "Alamat";
             // 
-            // BitBtn25
+            // Label32
             // 
-            BitBtn25.Name = "BitBtn25";
-            BitBtn25.Location = new System.Drawing.Point(11, 65);
-            BitBtn25.Size = new System.Drawing.Size(209, 25);
-            BitBtn25.Text = "Seluruh Data Kelompok";
-            BitBtn25.TabIndex = 1;
-            BitBtn25.Image = (System.Drawing.Image)resources.GetObject("BitBtn25.Image");
-            BitBtn25.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            BitBtn25.UseVisualStyleBackColor = true;
+            Label32.AutoSize = true;
+            Label32.Location = new Point(589, 57);
+            Label32.Name = "Label32";
+            Label32.Size = new Size(39, 13);
+            Label32.TabIndex = 20;
+            Label32.Text = "Alamat";
+            // 
+            // Label31
+            // 
+            Label31.AutoSize = true;
+            Label31.Location = new Point(589, 129);
+            Label31.Name = "Label31";
+            Label31.Size = new Size(59, 13);
+            Label31.TabIndex = 21;
+            Label31.Text = "Bendahara";
+            // 
+            // Label30
+            // 
+            Label30.AutoSize = true;
+            Label30.Location = new Point(589, 81);
+            Label30.Name = "Label30";
+            Label30.Size = new Size(54, 13);
+            Label30.TabIndex = 22;
+            Label30.Text = "Sekretaris";
+            // 
+            // Label29
+            // 
+            Label29.AutoSize = true;
+            Label29.Location = new Point(589, 33);
+            Label29.Name = "Label29";
+            Label29.Size = new Size(35, 13);
+            Label29.TabIndex = 23;
+            Label29.Text = "Ketua";
+            // 
+            // Label27
+            // 
+            Label27.AutoSize = true;
+            Label27.Location = new Point(8, 304);
+            Label27.Name = "Label27";
+            Label27.Size = new Size(88, 13);
+            Label27.TabIndex = 24;
+            Label27.Text = "Usaha Kelompok";
+            // 
+            // Label20
+            // 
+            Label20.AutoSize = true;
+            Label20.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold);
+            Label20.ForeColor = Color.Purple;
+            Label20.Location = new Point(8, 60);
+            Label20.Name = "Label20";
+            Label20.Size = new Size(98, 13);
+            Label20.TabIndex = 25;
+            Label20.Text = "Nama Kelompok";
+            // 
+            // Label7
+            // 
+            Label7.AutoSize = true;
+            Label7.BackColor = Color.Transparent;
+            Label7.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold);
+            Label7.ForeColor = Color.Purple;
+            Label7.Location = new Point(8, 33);
+            Label7.Name = "Label7";
+            Label7.Size = new Size(66, 13);
+            Label7.TabIndex = 26;
+            Label7.Text = "Tgl Masuk";
+            // 
+            // Shape4
+            // 
+            Shape4.BackColor = Color.Transparent;
+            Shape4.BrushColor = Color.FromArgb(166, 202, 240);
+            Shape4.Location = new Point(3, 528);
+            Shape4.Name = "Shape4";
+            Shape4.PenClear = true;
+            Shape4.Size = new Size(1313, 60);
+            Shape4.TabIndex = 13;
+            Shape4.TabStop = false;
             // 
             // TabSheet2
             // 
@@ -1149,120 +1386,302 @@ namespace UPKPro.Forms
             TabSheet2.Controls.Add(DBImage1);
             TabSheet2.Controls.Add(Image1);
             TabSheet2.Controls.Add(Shape1);
+            TabSheet2.Location = new Point(4, 24);
             TabSheet2.Name = "TabSheet2";
+            TabSheet2.Size = new Size(1296, 589);
+            TabSheet2.TabIndex = 1;
             TabSheet2.Text = "Data Anggota Kelompok";
             TabSheet2.UseVisualStyleBackColor = true;
             // 
-            // Shape1
+            // Panel1
             // 
-            Shape1.Name = "Shape1";
-            Shape1.Location = new System.Drawing.Point(5, 524);
-            Shape1.Size = new System.Drawing.Size(1278, 60);
-            Shape1.BrushColor = System.Drawing.Color.FromArgb(166, 202, 240);
-            Shape1.PenClear = true;
+            Panel1.Controls.Add(BitBtn11);
+            Panel1.Controls.Add(BitBtn9);
+            Panel1.Controls.Add(SpeedButton1);
+            Panel1.Controls.Add(Shape7);
+            Panel1.Location = new Point(776, 185);
+            Panel1.Name = "Panel1";
+            Panel1.Padding = new Padding(1);
+            Panel1.Size = new Size(345, 169);
+            Panel1.TabIndex = 15;
+            Panel1.Visible = false;
             // 
-            // Image1
+            // BitBtn11
             // 
-            Image1.Name = "Image1";
-            Image1.Location = new System.Drawing.Point(408, 308);
-            Image1.Size = new System.Drawing.Size(137, 173);
-            Image1.TabStop = false;
+            BitBtn11.Image = (Image)resources.GetObject("BitBtn11.Image");
+            BitBtn11.Location = new Point(72, 96);
+            BitBtn11.Name = "BitBtn11";
+            BitBtn11.Size = new Size(209, 25);
+            BitBtn11.TabIndex = 1;
+            BitBtn11.Text = "Seluruh Data Anggota";
+            BitBtn11.TextImageRelation = TextImageRelation.TextBeforeImage;
+            BitBtn11.UseVisualStyleBackColor = true;
+            BitBtn11.Click += BitBtn11Click;
             // 
-            // GroupBox2
+            // BitBtn9
             // 
-            GroupBox2.Controls.Add(enik1);
-            GroupBox2.Controls.Add(ealamat1);
-            GroupBox2.Controls.Add(etelp1);
-            GroupBox2.Controls.Add(enama1);
-            GroupBox2.Controls.Add(Label14);
-            GroupBox2.Controls.Add(Label11);
-            GroupBox2.Controls.Add(Label10);
-            GroupBox2.Controls.Add(Label1);
-            GroupBox2.Name = "GroupBox2";
-            GroupBox2.Location = new System.Drawing.Point(584, 138);
-            GroupBox2.Size = new System.Drawing.Size(425, 114);
-            GroupBox2.Text = "Data Suami atau Istri";
-            GroupBox2.TabIndex = 16;
-            GroupBox2.BackColor = System.Drawing.SystemColors.Control;
+            BitBtn9.Image = (Image)resources.GetObject("BitBtn9.Image");
+            BitBtn9.Location = new Point(72, 56);
+            BitBtn9.Name = "BitBtn9";
+            BitBtn9.Size = new Size(209, 25);
+            BitBtn9.TabIndex = 0;
+            BitBtn9.Text = "Hanya Data Anggota Terpilih";
+            BitBtn9.TextImageRelation = TextImageRelation.TextBeforeImage;
+            BitBtn9.UseVisualStyleBackColor = true;
+            BitBtn9.Click += BitBtn9Click;
             // 
-            // Label1
+            // SpeedButton1
             // 
-            Label1.Name = "Label1";
-            Label1.Location = new System.Drawing.Point(15, 28);
-            Label1.Size = new System.Drawing.Size(28, 13);
-            Label1.Text = "Nama";
-            Label1.AutoSize = true;
-            Label1.BackColor = System.Drawing.Color.Transparent;
+            SpeedButton1.BackColor = Color.Transparent;
+            SpeedButton1.FlatAppearance.BorderSize = 0;
+            SpeedButton1.FlatAppearance.MouseOverBackColor = Color.FromArgb(229, 241, 251);
+            SpeedButton1.FlatStyle = FlatStyle.Flat;
+            SpeedButton1.Image = (Image)resources.GetObject("SpeedButton1.Image");
+            SpeedButton1.Location = new Point(318, 1);
+            SpeedButton1.Name = "SpeedButton1";
+            SpeedButton1.Size = new Size(26, 27);
+            SpeedButton1.TabIndex = 2;
+            SpeedButton1.TabStop = false;
+            SpeedButton1.UseVisualStyleBackColor = false;
+            SpeedButton1.Click += SpeedButton1Click;
             // 
-            // Label10
+            // Shape7
             // 
-            Label10.Name = "Label10";
-            Label10.Location = new System.Drawing.Point(15, 49);
-            Label10.Size = new System.Drawing.Size(32, 13);
-            Label10.Text = "Alamat";
-            Label10.AutoSize = true;
-            Label10.BackColor = System.Drawing.Color.Transparent;
+            Shape7.BackColor = Color.Transparent;
+            Shape7.BrushColor = SystemColors.GradientInactiveCaption;
+            Shape7.Controls.Add(Label51);
+            Shape7.Location = new Point(-536, 0);
+            Shape7.Name = "Shape7";
+            Shape7.PenClear = true;
+            Shape7.Size = new Size(993, 30);
+            Shape7.TabIndex = 3;
+            Shape7.TabStop = false;
             // 
-            // Label11
+            // Label51
             // 
-            Label11.Name = "Label11";
-            Label11.Location = new System.Drawing.Point(15, 71);
-            Label11.Size = new System.Drawing.Size(18, 13);
-            Label11.Text = "NIK";
-            Label11.AutoSize = true;
-            Label11.BackColor = System.Drawing.Color.Transparent;
+            Label51.AutoSize = true;
+            Label51.BackColor = Color.Transparent;
+            Label51.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold);
+            Label51.ForeColor = Color.Black;
+            Label51.Location = new Point(621, 7);
+            Label51.Name = "Label51";
+            Label51.Size = new Size(183, 16);
+            Label51.TabIndex = 0;
+            Label51.Text = "Pilihan Export Data (CSV)";
             // 
-            // Label14
+            // BitBtn2
             // 
-            Label14.Name = "Label14";
-            Label14.Location = new System.Drawing.Point(15, 93);
-            Label14.Size = new System.Drawing.Size(21, 13);
-            Label14.Text = "Telp";
-            Label14.AutoSize = true;
-            Label14.BackColor = System.Drawing.Color.Transparent;
+            BitBtn2.Image = (Image)resources.GetObject("BitBtn2.Image");
+            BitBtn2.Location = new Point(840, 41);
+            BitBtn2.Name = "BitBtn2";
+            BitBtn2.Size = new Size(105, 25);
+            BitBtn2.TabIndex = 11;
+            BitBtn2.Text = "Export to CSV";
+            BitBtn2.TextImageRelation = TextImageRelation.TextBeforeImage;
+            BitBtn2.UseVisualStyleBackColor = true;
+            BitBtn2.Click += BitBtn2Click;
             // 
-            // enama1
+            // ecari
             // 
-            enama1.Name = "enama1";
-            enama1.Location = new System.Drawing.Point(103, 20);
-            enama1.Size = new System.Drawing.Size(194, 21);
-            enama1.Text = "ealamat";
-            enama1.TabIndex = 0;
+            ecari.CharacterCasing = CharacterCasing.Lower;
+            ecari.Location = new Point(688, 44);
+            ecari.Name = "ecari";
+            ecari.Size = new Size(145, 20);
+            ecari.TabIndex = 10;
+            ecari.TextChanged += ecariChange;
             // 
-            // etelp1
+            // rgcari
             // 
-            etelp1.Name = "etelp1";
-            etelp1.Location = new System.Drawing.Point(103, 86);
-            etelp1.Size = new System.Drawing.Size(162, 21);
-            etelp1.Text = "etelp";
-            etelp1.TabIndex = 3;
+            rgcari.Items = new string[]
+    {
+    "No Kelompok",
+    "Nama Anggota",
+    "NIK",
+    "NoKK"
+    };
+            rgcari.Location = new Point(560, 3);
+            rgcari.Name = "rgcari";
+            rgcari.Size = new Size(409, 93);
+            rgcari.TabIndex = 9;
+            rgcari.TabStop = false;
+            rgcari.Text = "Pencarian Anggota Berdasarkan";
+            rgcari.SelectedIndexChanged += rgcariClick;
             // 
-            // ealamat1
+            // DBGrid2
             // 
-            ealamat1.Name = "ealamat1";
-            ealamat1.Location = new System.Drawing.Point(103, 42);
-            ealamat1.Size = new System.Drawing.Size(298, 21);
-            ealamat1.TabIndex = 1;
+            DBGrid2.AllowUserToAddRows = false;
+            DBGrid2.AllowUserToDeleteRows = false;
+            DBGrid2.BackgroundColor = SystemColors.Window;
+            DBGrid2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            DBGrid2.Columns.AddRange(new DataGridViewColumn[] { DBGrid2_nama, DBGrid2_nik, DBGrid2_nokk, DBGrid2_tglmasuk, DBGrid2_sex, DBGrid2_tempat_lhr, DBGrid2_tgl_lhr, DBGrid2_alamat, DBGrid2_telp, DBGrid2_desa, DBGrid2_kecamatan, DBGrid2_kabupaten, DBGrid2_propinsi, DBGrid2_status, DBGrid2_kodekelompok, DBGrid2_namakelompok, DBGrid2_kategori, DBGrid2_pekerjaan, DBGrid2_produk, DBGrid2_goldarah });
+            DBGrid2.Location = new Point(560, 98);
+            DBGrid2.Name = "DBGrid2";
+            DBGrid2.ReadOnly = true;
+            DBGrid2.RowHeadersWidth = 24;
+            DBGrid2.RowTemplate.Height = 20;
+            DBGrid2.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            DBGrid2.Size = new Size(723, 420);
+            DBGrid2.TabIndex = 8;
+            DBGrid2.Tag = "mdutama.dstbanggota";
+            DBGrid2.CellClick += DBGrid2CellClick;
             // 
-            // enik1
+            // DBGrid2_nama
             // 
-            enik1.Name = "enik1";
-            enik1.Location = new System.Drawing.Point(103, 64);
-            enik1.Size = new System.Drawing.Size(162, 21);
-            enik1.TabIndex = 2;
-            DBEdit1.TextChanged += DBEdit1Change;
+            DBGrid2_nama.DataPropertyName = "nama";
+            DBGrid2_nama.HeaderText = "Nama";
+            DBGrid2_nama.Name = "DBGrid2_nama";
+            DBGrid2_nama.ReadOnly = true;
             // 
-            // DBEdit1
+            // DBGrid2_nik
             // 
-            DBEdit1.Name = "DBEdit1";
-            DBEdit1.Location = new System.Drawing.Point(1112, 175);
-            DBEdit1.Size = new System.Drawing.Size(121, 21);
-            DBEdit1.Visible = false;
-            DBEdit1.TabIndex = 12;
-            DBEdit1.Tag = "mdutama.dstbanggota:no_anggota";
+            DBGrid2_nik.DataPropertyName = "nik";
+            DBGrid2_nik.HeaderText = "NIK";
+            DBGrid2_nik.Name = "DBGrid2_nik";
+            DBGrid2_nik.ReadOnly = true;
+            // 
+            // DBGrid2_nokk
+            // 
+            DBGrid2_nokk.DataPropertyName = "nokk";
+            DBGrid2_nokk.HeaderText = "No KK";
+            DBGrid2_nokk.Name = "DBGrid2_nokk";
+            DBGrid2_nokk.ReadOnly = true;
+            // 
+            // DBGrid2_tglmasuk
+            // 
+            DBGrid2_tglmasuk.DataPropertyName = "tglmasuk";
+            DBGrid2_tglmasuk.HeaderText = "Tgl Masuk";
+            DBGrid2_tglmasuk.Name = "DBGrid2_tglmasuk";
+            DBGrid2_tglmasuk.ReadOnly = true;
+            // 
+            // DBGrid2_sex
+            // 
+            DBGrid2_sex.DataPropertyName = "sex";
+            DBGrid2_sex.HeaderText = "Sex";
+            DBGrid2_sex.Name = "DBGrid2_sex";
+            DBGrid2_sex.ReadOnly = true;
+            // 
+            // DBGrid2_tempat_lhr
+            // 
+            DBGrid2_tempat_lhr.DataPropertyName = "tempat_lhr";
+            DBGrid2_tempat_lhr.HeaderText = "Tempat Lhr";
+            DBGrid2_tempat_lhr.Name = "DBGrid2_tempat_lhr";
+            DBGrid2_tempat_lhr.ReadOnly = true;
+            // 
+            // DBGrid2_tgl_lhr
+            // 
+            DBGrid2_tgl_lhr.DataPropertyName = "tgl_lhr";
+            DBGrid2_tgl_lhr.HeaderText = "Tgl Lahir";
+            DBGrid2_tgl_lhr.Name = "DBGrid2_tgl_lhr";
+            DBGrid2_tgl_lhr.ReadOnly = true;
+            // 
+            // DBGrid2_alamat
+            // 
+            DBGrid2_alamat.DataPropertyName = "alamat";
+            DBGrid2_alamat.HeaderText = "Alamat";
+            DBGrid2_alamat.Name = "DBGrid2_alamat";
+            DBGrid2_alamat.ReadOnly = true;
+            // 
+            // DBGrid2_telp
+            // 
+            DBGrid2_telp.DataPropertyName = "telp";
+            DBGrid2_telp.HeaderText = "Telp";
+            DBGrid2_telp.Name = "DBGrid2_telp";
+            DBGrid2_telp.ReadOnly = true;
+            // 
+            // DBGrid2_desa
+            // 
+            DBGrid2_desa.DataPropertyName = "desa";
+            DBGrid2_desa.HeaderText = "Desa";
+            DBGrid2_desa.Name = "DBGrid2_desa";
+            DBGrid2_desa.ReadOnly = true;
+            // 
+            // DBGrid2_kecamatan
+            // 
+            DBGrid2_kecamatan.DataPropertyName = "kecamatan";
+            DBGrid2_kecamatan.HeaderText = "Kecamatan";
+            DBGrid2_kecamatan.Name = "DBGrid2_kecamatan";
+            DBGrid2_kecamatan.ReadOnly = true;
+            // 
+            // DBGrid2_kabupaten
+            // 
+            DBGrid2_kabupaten.DataPropertyName = "kabupaten";
+            DBGrid2_kabupaten.HeaderText = "Kabupaten";
+            DBGrid2_kabupaten.Name = "DBGrid2_kabupaten";
+            DBGrid2_kabupaten.ReadOnly = true;
+            // 
+            // DBGrid2_propinsi
+            // 
+            DBGrid2_propinsi.DataPropertyName = "propinsi";
+            DBGrid2_propinsi.HeaderText = "Propinsi";
+            DBGrid2_propinsi.Name = "DBGrid2_propinsi";
+            DBGrid2_propinsi.ReadOnly = true;
+            // 
+            // DBGrid2_status
+            // 
+            DBGrid2_status.DataPropertyName = "status";
+            DBGrid2_status.HeaderText = "Status";
+            DBGrid2_status.Name = "DBGrid2_status";
+            DBGrid2_status.ReadOnly = true;
+            // 
+            // DBGrid2_kodekelompok
+            // 
+            DBGrid2_kodekelompok.DataPropertyName = "kodekelompok";
+            DBGrid2_kodekelompok.HeaderText = "No Kelompok";
+            DBGrid2_kodekelompok.Name = "DBGrid2_kodekelompok";
+            DBGrid2_kodekelompok.ReadOnly = true;
+            // 
+            // DBGrid2_namakelompok
+            // 
+            DBGrid2_namakelompok.DataPropertyName = "namakelompok";
+            DBGrid2_namakelompok.HeaderText = "Nama Kelompok";
+            DBGrid2_namakelompok.Name = "DBGrid2_namakelompok";
+            DBGrid2_namakelompok.ReadOnly = true;
+            // 
+            // DBGrid2_kategori
+            // 
+            DBGrid2_kategori.DataPropertyName = "kategori";
+            DBGrid2_kategori.HeaderText = "Ketegori ";
+            DBGrid2_kategori.Name = "DBGrid2_kategori";
+            DBGrid2_kategori.ReadOnly = true;
+            // 
+            // DBGrid2_pekerjaan
+            // 
+            DBGrid2_pekerjaan.DataPropertyName = "pekerjaan";
+            DBGrid2_pekerjaan.HeaderText = "Pekerjaan";
+            DBGrid2_pekerjaan.Name = "DBGrid2_pekerjaan";
+            DBGrid2_pekerjaan.ReadOnly = true;
+            // 
+            // DBGrid2_produk
+            // 
+            DBGrid2_produk.DataPropertyName = "produk";
+            DBGrid2_produk.HeaderText = "Produk";
+            DBGrid2_produk.Name = "DBGrid2_produk";
+            DBGrid2_produk.ReadOnly = true;
+            // 
+            // DBGrid2_goldarah
+            // 
+            DBGrid2_goldarah.DataPropertyName = "goldarah";
+            DBGrid2_goldarah.HeaderText = "Gol Darah";
+            DBGrid2_goldarah.Name = "DBGrid2_goldarah";
+            DBGrid2_goldarah.ReadOnly = true;
+            // 
+            // DBGrid6
+            // 
+            DBGrid6.AllowUserToAddRows = false;
+            DBGrid6.AllowUserToDeleteRows = false;
+            DBGrid6.BackgroundColor = SystemColors.Window;
+            DBGrid6.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            DBGrid6.Location = new Point(1056, 203);
+            DBGrid6.Name = "DBGrid6";
+            DBGrid6.RowHeadersWidth = 24;
+            DBGrid6.RowTemplate.Height = 20;
+            DBGrid6.Size = new Size(225, 89);
+            DBGrid6.TabIndex = 7;
+            DBGrid6.Tag = "mdutama.dstbanggota";
             // 
             // gbanggota
             // 
+            gbanggota.BackColor = SystemColors.Control;
             gbanggota.Controls.Add(egol);
             gbanggota.Controls.Add(enamakp2);
             gbanggota.Controls.Add(ekodekp);
@@ -1294,239 +1713,69 @@ namespace UPKPro.Forms
             gbanggota.Controls.Add(Label4);
             gbanggota.Controls.Add(Label3);
             gbanggota.Controls.Add(Label2);
-            gbanggota.Name = "gbanggota";
-            gbanggota.Location = new System.Drawing.Point(5, 5);
-            gbanggota.Size = new System.Drawing.Size(549, 515);
-            gbanggota.Text = "Input Data Anggota ";
             gbanggota.Enabled = false;
+            gbanggota.Location = new Point(5, 5);
+            gbanggota.Name = "gbanggota";
+            gbanggota.Size = new Size(549, 515);
             gbanggota.TabIndex = 0;
-            gbanggota.BackColor = System.Drawing.SystemColors.Control;
+            gbanggota.TabStop = false;
+            gbanggota.Text = "Input Data Anggota ";
             // 
-            // Label2
+            // egol
             // 
-            Label2.Name = "Label2";
-            Label2.Location = new System.Drawing.Point(16, 56);
-            Label2.Size = new System.Drawing.Size(28, 13);
-            Label2.Text = "Nama";
-            Label2.AutoSize = true;
-            Label2.BackColor = System.Drawing.Color.Transparent;
+            egol.CharacterCasing = CharacterCasing.Upper;
+            egol.Location = new Point(486, 96);
+            egol.Name = "egol";
+            egol.Size = new Size(49, 20);
+            egol.TabIndex = 17;
+            egol.Text = "-";
+            egol.KeyPress += egolKeyPress;
             // 
-            // Label3
+            // enamakp2
             // 
-            Label3.Name = "Label3";
-            Label3.Location = new System.Drawing.Point(16, 79);
-            Label3.Size = new System.Drawing.Size(64, 13);
-            Label3.Text = "Jenis Kelamin";
-            Label3.AutoSize = true;
-            Label3.BackColor = System.Drawing.Color.Transparent;
+            enamakp2.Location = new Point(120, 272);
+            enamakp2.Name = "enamakp2";
+            enamakp2.ReadOnly = true;
+            enamakp2.Size = new Size(190, 20);
+            enamakp2.TabIndex = 15;
+            enamakp2.Click += enamakp2Click;
             // 
-            // Label4
+            // ekodekp
             // 
-            Label4.Name = "Label4";
-            Label4.Location = new System.Drawing.Point(16, 103);
-            Label4.Size = new System.Drawing.Size(88, 13);
-            Label4.Text = "Tempat/ Tgl. Lahir";
-            Label4.AutoSize = true;
-            Label4.BackColor = System.Drawing.Color.Transparent;
+            ekodekp.Location = new Point(342, 272);
+            ekodekp.Name = "ekodekp";
+            ekodekp.ReadOnly = true;
+            ekodekp.Size = new Size(81, 20);
+            ekodekp.TabIndex = 16;
+            ekodekp.Text = "ekodekp";
             // 
-            // Label16
+            // egakin
             // 
-            Label16.Name = "Label16";
-            Label16.Location = new System.Drawing.Point(16, 307);
-            Label16.Size = new System.Drawing.Size(18, 13);
-            Label16.Text = "NIK";
-            Label16.AutoSize = true;
+            egakin.FormattingEnabled = true;
+            egakin.Items.AddRange(new object[] { "Tidak Miskin", "Miskin", "Miskin Sekali" });
+            egakin.Location = new Point(120, 347);
+            egakin.Name = "egakin";
+            egakin.Size = new Size(145, 21);
+            egakin.TabIndex = 14;
+            egakin.Text = "Tidak Miskin";
+            egakin.KeyPress += egakinKeyPress;
             // 
-            // Label17
+            // enamakp1
             // 
-            Label17.Name = "Label17";
-            Label17.Location = new System.Drawing.Point(16, 331);
-            Label17.Size = new System.Drawing.Size(31, 13);
-            Label17.Text = "No KK";
-            Label17.AutoSize = true;
-            // 
-            // Label35
-            // 
-            Label35.Name = "Label35";
-            Label35.Location = new System.Drawing.Point(16, 32);
-            Label35.Size = new System.Drawing.Size(50, 13);
-            Label35.Text = "Tgl Masuk";
-            Label35.AutoSize = true;
-            Label35.BackColor = System.Drawing.Color.Transparent;
-            // 
-            // Label36
-            // 
-            Label36.Name = "Label36";
-            Label36.Location = new System.Drawing.Point(16, 403);
-            Label36.Size = new System.Drawing.Size(48, 13);
-            Label36.Text = "Pekerjaan";
-            Label36.AutoSize = true;
-            // 
-            // Label37
-            // 
-            Label37.Name = "Label37";
-            Label37.Location = new System.Drawing.Point(16, 427);
-            Label37.Size = new System.Drawing.Size(34, 13);
-            Label37.Text = "Produk";
-            Label37.AutoSize = true;
-            // 
-            // Label38
-            // 
-            Label38.Name = "Label38";
-            Label38.Location = new System.Drawing.Point(16, 280);
-            Label38.Size = new System.Drawing.Size(78, 13);
-            Label38.Text = "Nama Kelompok";
-            Label38.AutoSize = true;
-            // 
-            // Label39
-            // 
-            Label39.Name = "Label39";
-            Label39.Location = new System.Drawing.Point(16, 379);
-            Label39.Size = new System.Drawing.Size(73, 13);
-            Label39.Text = "Kategori Usaha";
-            Label39.AutoSize = true;
-            // 
-            // Label15
-            // 
-            Label15.Name = "Label15";
-            Label15.Location = new System.Drawing.Point(16, 355);
-            Label15.Size = new System.Drawing.Size(75, 13);
-            Label15.Text = "Kategori GAKIN";
-            Label15.AutoSize = true;
-            // 
-            // Label49
-            // 
-            Label49.Name = "Label49";
-            Label49.Location = new System.Drawing.Point(430, 102);
-            Label49.Size = new System.Drawing.Size(51, 13);
-            Label49.Text = "Gol. Darah";
-            Label49.AutoSize = true;
-            Label49.BackColor = System.Drawing.Color.Transparent;
-            // 
-            // Label50
-            // 
-            Label50.Name = "Label50";
-            Label50.Location = new System.Drawing.Point(332, 102);
-            Label50.Size = new System.Drawing.Size(58, 13);
-            Label50.Text = "dd/mm/yyyy";
-            Label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular);
-            Label50.AutoSize = true;
-            Label50.BackColor = System.Drawing.Color.Transparent;
-            // 
-            // ekodekp1
-            // 
-            ekodekp1.Name = "ekodekp1";
-            ekodekp1.Location = new System.Drawing.Point(432, 326);
-            ekodekp1.Size = new System.Drawing.Size(81, 21);
-            ekodekp1.TabIndex = 13;
-            ekodekp1.Tag = "mdutama.dstbkelompok:No_Kelompok";
-            enoanggota.KeyPress += enoanggotaKeyPress;
-            // 
-            // enoanggota
-            // 
-            enoanggota.Name = "enoanggota";
-            enoanggota.Location = new System.Drawing.Point(341, 272);
-            enoanggota.Size = new System.Drawing.Size(129, 21);
-            enoanggota.Text = "enoanggota";
-            enoanggota.Visible = false;
-            enoanggota.TabIndex = 0;
-            enoanggota.ReadOnly = true;
-            enama.KeyPress += enamaKeyPress;
-            // 
-            // enama
-            // 
-            enama.Name = "enama";
-            enama.Location = new System.Drawing.Point(120, 48);
-            enama.Size = new System.Drawing.Size(321, 21);
-            enama.Text = "enama";
-            enama.TabIndex = 1;
-            cbsex.KeyPress += cbsexKeyPress;
-            // 
-            // cbsex
-            // 
-            cbsex.Name = "cbsex";
-            cbsex.Location = new System.Drawing.Point(120, 72);
-            cbsex.Size = new System.Drawing.Size(144, 21);
-            cbsex.TabIndex = 2;
-            cbsex.FormattingEnabled = true;
-            cbsex.Items.AddRange(new object[] { "Laki-Laki", "Perempuan" });
-            etgllhr.KeyPress += etgllhrKeyPress;
-            // 
-            // etgllhr
-            // 
-            etgllhr.Name = "etgllhr";
-            etgllhr.Location = new System.Drawing.Point(264, 96);
-            etgllhr.Size = new System.Drawing.Size(65, 21);
-            etgllhr.Text = "  /  /    ";
-            etgllhr.TabIndex = 3;
-            etgllhr.Mask = "99/99/0000";
-            etgllhr.MaxLength = 10;
-            etempatlhr.KeyPress += etempatlhrKeyPress;
-            // 
-            // etempatlhr
-            // 
-            etempatlhr.Name = "etempatlhr";
-            etempatlhr.Location = new System.Drawing.Point(120, 96);
-            etempatlhr.Size = new System.Drawing.Size(137, 21);
-            etempatlhr.Text = "enama";
-            etempatlhr.TabIndex = 4;
-            enik.KeyPress += enikKeyPress;
-            // 
-            // enik
-            // 
-            enik.Name = "enik";
-            enik.Location = new System.Drawing.Point(120, 299);
-            enik.Size = new System.Drawing.Size(121, 21);
-            enik.Text = "edit1";
-            enik.TabIndex = 5;
-            enik.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower;
-            enokk.KeyPress += enokkKeyPress;
-            // 
-            // enokk
-            // 
-            enokk.Name = "enokk";
-            enokk.Location = new System.Drawing.Point(120, 323);
-            enokk.Size = new System.Drawing.Size(193, 21);
-            enokk.Text = "edit1";
-            enokk.TabIndex = 6;
-            enokk.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower;
-            // 
-            // etglmasuk
-            // 
-            etglmasuk.Name = "etglmasuk";
-            etglmasuk.Location = new System.Drawing.Point(120, 24);
-            etglmasuk.Size = new System.Drawing.Size(105, 21);
-            etglmasuk.TabIndex = 7;
-            etglmasuk.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            epekerjaan.KeyPress += epekerjaanKeyPress;
-            // 
-            // epekerjaan
-            // 
-            epekerjaan.Name = "epekerjaan";
-            epekerjaan.Location = new System.Drawing.Point(120, 395);
-            epekerjaan.Size = new System.Drawing.Size(169, 21);
-            epekerjaan.Text = "Edit1";
-            epekerjaan.TabIndex = 8;
-            // 
-            // eproduk
-            // 
-            eproduk.Name = "eproduk";
-            eproduk.Location = new System.Drawing.Point(120, 419);
-            eproduk.Size = new System.Drawing.Size(169, 21);
-            eproduk.Text = "Edit1";
-            eproduk.TabIndex = 9;
-            ekategori.KeyPress += ekategoriKeyPress;
-            // 
-            // ekategori
-            // 
-            ekategori.Name = "ekategori";
-            ekategori.Location = new System.Drawing.Point(120, 371);
-            ekategori.Size = new System.Drawing.Size(169, 21);
-            ekategori.Text = "Edit1";
-            ekategori.TabIndex = 10;
+            enamakp1.DisplayMember = "Nama";
+            enamakp1.DropDownStyle = ComboBoxStyle.DropDownList;
+            enamakp1.FormattingEnabled = true;
+            enamakp1.Location = new Point(120, 272);
+            enamakp1.Name = "enamakp1";
+            enamakp1.Size = new Size(209, 21);
+            enamakp1.TabIndex = 12;
+            enamakp1.ValueMember = "Nama";
+            enamakp1.SelectionChangeCommitted += enamakp1Click;
+            enamakp1.KeyPress += enamakp1KeyPress;
             // 
             // GroupBox1
             // 
+            GroupBox1.BackColor = SystemColors.Control;
             GroupBox1.Controls.Add(edesa);
             GroupBox1.Controls.Add(eprop);
             GroupBox1.Controls.Add(ekab);
@@ -1540,480 +1789,486 @@ namespace UPKPro.Forms
             GroupBox1.Controls.Add(Label28);
             GroupBox1.Controls.Add(Label9);
             GroupBox1.Controls.Add(Label5);
+            GroupBox1.Location = new Point(16, 123);
             GroupBox1.Name = "GroupBox1";
-            GroupBox1.Location = new System.Drawing.Point(16, 123);
-            GroupBox1.Size = new System.Drawing.Size(521, 137);
+            GroupBox1.Size = new Size(521, 137);
             GroupBox1.TabIndex = 11;
-            GroupBox1.BackColor = System.Drawing.SystemColors.Control;
-            // 
-            // Label5
-            // 
-            Label5.Name = "Label5";
-            Label5.Location = new System.Drawing.Point(15, 20);
-            Label5.Size = new System.Drawing.Size(32, 13);
-            Label5.Text = "Alamat";
-            Label5.AutoSize = true;
-            Label5.BackColor = System.Drawing.Color.Transparent;
-            // 
-            // Label9
-            // 
-            Label9.Name = "Label9";
-            Label9.Location = new System.Drawing.Point(15, 43);
-            Label9.Size = new System.Drawing.Size(25, 13);
-            Label9.Text = "Desa";
-            Label9.AutoSize = true;
-            Label9.BackColor = System.Drawing.Color.Transparent;
-            // 
-            // Label28
-            // 
-            Label28.Name = "Label28";
-            Label28.Location = new System.Drawing.Point(15, 67);
-            Label28.Size = new System.Drawing.Size(54, 13);
-            Label28.Text = "Kecamatan";
-            Label28.AutoSize = true;
-            Label28.BackColor = System.Drawing.Color.Transparent;
-            // 
-            // Label40
-            // 
-            Label40.Name = "Label40";
-            Label40.Location = new System.Drawing.Point(16, 91);
-            Label40.Size = new System.Drawing.Size(60, 13);
-            Label40.Text = "Kab./ Kodya";
-            Label40.AutoSize = true;
-            Label40.BackColor = System.Drawing.Color.Transparent;
-            // 
-            // Label41
-            // 
-            Label41.Name = "Label41";
-            Label41.Location = new System.Drawing.Point(253, 91);
-            Label41.Size = new System.Drawing.Size(37, 13);
-            Label41.Text = "Propinsi";
-            Label41.AutoSize = true;
-            Label41.BackColor = System.Drawing.Color.Transparent;
-            // 
-            // Label42
-            // 
-            Label42.Name = "Label42";
-            Label42.Location = new System.Drawing.Point(15, 116);
-            Label42.Size = new System.Drawing.Size(21, 13);
-            Label42.Text = "Telp";
-            Label42.AutoSize = true;
-            Label42.BackColor = System.Drawing.Color.Transparent;
-            ealamat.KeyPress += ealamatKeyPress;
-            // 
-            // ealamat
-            // 
-            ealamat.Name = "ealamat";
-            ealamat.Location = new System.Drawing.Point(103, 12);
-            ealamat.Size = new System.Drawing.Size(297, 21);
-            ealamat.Text = "ealamat";
-            ealamat.TabIndex = 0;
-            etelp.KeyPress += etelpKeyPress;
-            // 
-            // etelp
-            // 
-            etelp.Name = "etelp";
-            etelp.Location = new System.Drawing.Point(103, 108);
-            etelp.Size = new System.Drawing.Size(113, 21);
-            etelp.Text = "etelp";
-            etelp.TabIndex = 1;
-            ekodedesa1x.SelectionChangeCommitted += ekodedesa1xClick;
-            ekodedesa1x.KeyPress += ekodedesa1xKeyPress;
-            // 
-            // ekodedesa1x
-            // 
-            ekodedesa1x.Name = "ekodedesa1x";
-            ekodedesa1x.Location = new System.Drawing.Point(103, 36);
-            ekodedesa1x.Size = new System.Drawing.Size(180, 21);
-            ekodedesa1x.TabIndex = 2;
-            ekodedesa1x.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            ekodedesa1x.FormattingEnabled = true;
-            ekodedesa1x.ValueMember = "NamaDesa";
-            // 
-            // ekec
-            // 
-            ekec.Name = "ekec";
-            ekec.Location = new System.Drawing.Point(103, 60);
-            ekec.Size = new System.Drawing.Size(217, 21);
-            ekec.TabIndex = 3;
-            ekec.Tag = "mdutama.dstbdesa:NamaKec";
-            // 
-            // ekab
-            // 
-            ekab.Name = "ekab";
-            ekab.Location = new System.Drawing.Point(104, 84);
-            ekab.Size = new System.Drawing.Size(140, 21);
-            ekab.TabIndex = 4;
-            ekab.Tag = "mdutama.dstbdesa:NamaKab";
-            // 
-            // eprop
-            // 
-            eprop.Name = "eprop";
-            eprop.Location = new System.Drawing.Point(294, 84);
-            eprop.Size = new System.Drawing.Size(213, 21);
-            eprop.TabIndex = 5;
-            eprop.Tag = "mdutama.dstbdesa:NamaProp";
-            edesa.Click += edesaClick;
+            GroupBox1.TabStop = false;
             // 
             // edesa
             // 
+            edesa.Location = new Point(103, 36);
             edesa.Name = "edesa";
-            edesa.Location = new System.Drawing.Point(103, 36);
-            edesa.Size = new System.Drawing.Size(162, 21);
-            edesa.TabIndex = 6;
             edesa.ReadOnly = true;
-            enamakp1.SelectionChangeCommitted += enamakp1Click;
-            enamakp1.KeyPress += enamakp1KeyPress;
+            edesa.Size = new Size(162, 20);
+            edesa.TabIndex = 6;
+            edesa.Click += edesaClick;
             // 
-            // enamakp1
+            // eprop
             // 
-            enamakp1.Name = "enamakp1";
-            enamakp1.Location = new System.Drawing.Point(120, 272);
-            enamakp1.Size = new System.Drawing.Size(209, 21);
-            enamakp1.TabIndex = 12;
-            enamakp1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            enamakp1.FormattingEnabled = true;
-            enamakp1.ValueMember = "Nama";
-            egakin.KeyPress += egakinKeyPress;
+            eprop.Location = new Point(294, 84);
+            eprop.Name = "eprop";
+            eprop.Size = new Size(213, 20);
+            eprop.TabIndex = 5;
+            eprop.Tag = "mdutama.dstbdesa:NamaProp";
             // 
-            // egakin
+            // ekab
             // 
-            egakin.Name = "egakin";
-            egakin.Location = new System.Drawing.Point(120, 347);
-            egakin.Size = new System.Drawing.Size(145, 21);
-            egakin.Text = "Tidak Miskin";
-            egakin.TabIndex = 14;
-            egakin.FormattingEnabled = true;
-            egakin.Items.AddRange(new object[] { "Tidak Miskin", "Miskin", "Miskin Sekali" });
+            ekab.Location = new Point(104, 84);
+            ekab.Name = "ekab";
+            ekab.Size = new Size(140, 20);
+            ekab.TabIndex = 4;
+            ekab.Tag = "mdutama.dstbdesa:NamaKab";
             // 
-            // ekodekp
+            // ekec
             // 
-            ekodekp.Name = "ekodekp";
-            ekodekp.Location = new System.Drawing.Point(342, 272);
-            ekodekp.Size = new System.Drawing.Size(81, 21);
-            ekodekp.Text = "ekodekp";
-            ekodekp.TabIndex = 16;
-            ekodekp.ReadOnly = true;
-            enamakp2.Click += enamakp2Click;
+            ekec.Location = new Point(103, 60);
+            ekec.Name = "ekec";
+            ekec.Size = new Size(217, 20);
+            ekec.TabIndex = 3;
+            ekec.Tag = "mdutama.dstbdesa:NamaKec";
             // 
-            // enamakp2
+            // ekodedesa1x
             // 
-            enamakp2.Name = "enamakp2";
-            enamakp2.Location = new System.Drawing.Point(120, 272);
-            enamakp2.Size = new System.Drawing.Size(190, 21);
-            enamakp2.TabIndex = 15;
-            enamakp2.ReadOnly = true;
-            egol.KeyPress += egolKeyPress;
+            ekodedesa1x.DisplayMember = "NamaDesa";
+            ekodedesa1x.DropDownStyle = ComboBoxStyle.DropDownList;
+            ekodedesa1x.FormattingEnabled = true;
+            ekodedesa1x.Location = new Point(103, 36);
+            ekodedesa1x.Name = "ekodedesa1x";
+            ekodedesa1x.Size = new Size(180, 21);
+            ekodedesa1x.TabIndex = 2;
+            ekodedesa1x.ValueMember = "NamaDesa";
+            ekodedesa1x.SelectionChangeCommitted += ekodedesa1xClick;
+            ekodedesa1x.KeyPress += ekodedesa1xKeyPress;
             // 
-            // egol
+            // etelp
             // 
-            egol.Name = "egol";
-            egol.Location = new System.Drawing.Point(486, 96);
-            egol.Size = new System.Drawing.Size(49, 21);
-            egol.Text = "-";
-            egol.TabIndex = 17;
-            egol.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            btbatal.Click += btbatalClick;
+            etelp.Location = new Point(103, 108);
+            etelp.Name = "etelp";
+            etelp.Size = new Size(113, 20);
+            etelp.TabIndex = 1;
+            etelp.Text = "etelp";
+            etelp.KeyPress += etelpKeyPress;
             // 
-            // btbatal
+            // ealamat
             // 
-            btbatal.Name = "btbatal";
-            btbatal.Location = new System.Drawing.Point(286, 534);
-            btbatal.Size = new System.Drawing.Size(67, 41);
-            btbatal.Text = "&Batal";
-            btbatal.TabIndex = 1;
-            toolTip1.SetToolTip(btbatal, "Klik untuk membatalkan transaksi..");
-            btbatal.Image = (System.Drawing.Image)resources.GetObject("btbatal.Image");
-            btbatal.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            btbatal.UseVisualStyleBackColor = true;
-            bthapus.Click += bthapusClick;
+            ealamat.Location = new Point(103, 12);
+            ealamat.Name = "ealamat";
+            ealamat.Size = new Size(297, 20);
+            ealamat.TabIndex = 0;
+            ealamat.Text = "ealamat";
+            ealamat.KeyPress += ealamatKeyPress;
             // 
-            // bthapus
+            // Label42
             // 
-            bthapus.Name = "bthapus";
-            bthapus.Location = new System.Drawing.Point(220, 534);
-            bthapus.Size = new System.Drawing.Size(67, 41);
-            bthapus.Text = "&Hapus";
-            bthapus.TabIndex = 2;
-            toolTip1.SetToolTip(bthapus, "Klik untuk menghapus data terpilih..");
-            bthapus.Image = (System.Drawing.Image)resources.GetObject("bthapus.Image");
-            bthapus.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            bthapus.UseVisualStyleBackColor = true;
-            btubah.Click += btubahClick;
+            Label42.AutoSize = true;
+            Label42.BackColor = Color.Transparent;
+            Label42.Location = new Point(15, 116);
+            Label42.Name = "Label42";
+            Label42.Size = new Size(28, 13);
+            Label42.TabIndex = 7;
+            Label42.Text = "Telp";
             // 
-            // btubah
+            // Label41
             // 
-            btubah.Name = "btubah";
-            btubah.Location = new System.Drawing.Point(154, 534);
-            btubah.Size = new System.Drawing.Size(67, 41);
-            btubah.Text = "&Ubah";
-            btubah.TabIndex = 3;
-            toolTip1.SetToolTip(btubah, "Klik untuk mengubah data terpilih..");
-            btubah.Image = (System.Drawing.Image)resources.GetObject("btubah.Image");
-            btubah.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            btubah.UseVisualStyleBackColor = true;
-            bttambah.Click += bttambahClick;
+            Label41.AutoSize = true;
+            Label41.BackColor = Color.Transparent;
+            Label41.Location = new Point(253, 91);
+            Label41.Name = "Label41";
+            Label41.Size = new Size(44, 13);
+            Label41.TabIndex = 8;
+            Label41.Text = "Propinsi";
             // 
-            // bttambah
+            // Label40
             // 
-            bttambah.Name = "bttambah";
-            bttambah.Location = new System.Drawing.Point(88, 534);
-            bttambah.Size = new System.Drawing.Size(67, 41);
-            bttambah.Text = "&Tambah";
-            bttambah.TabIndex = 4;
-            toolTip1.SetToolTip(bttambah, "Klik untuk menambah anggota baru..");
-            bttambah.Image = (System.Drawing.Image)resources.GetObject("bttambah.Image");
-            bttambah.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            bttambah.UseVisualStyleBackColor = true;
-            btsimpan.Click += btsimpanClick;
+            Label40.AutoSize = true;
+            Label40.BackColor = Color.Transparent;
+            Label40.Location = new Point(16, 91);
+            Label40.Name = "Label40";
+            Label40.Size = new Size(67, 13);
+            Label40.TabIndex = 9;
+            Label40.Text = "Kab./ Kodya";
             // 
-            // btsimpan
+            // Label28
             // 
-            btsimpan.Name = "btsimpan";
-            btsimpan.Location = new System.Drawing.Point(22, 534);
-            btsimpan.Size = new System.Drawing.Size(67, 41);
-            btsimpan.Text = "&Simpan";
-            btsimpan.Enabled = false;
-            btsimpan.TabIndex = 5;
-            toolTip1.SetToolTip(btsimpan, "Klik untuk menyimpan data..");
-            btsimpan.Image = (System.Drawing.Image)resources.GetObject("btsimpan.Image");
-            btsimpan.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            btsimpan.UseVisualStyleBackColor = true;
-            DBImage1.DoubleClick += DBImage1DblClick;
+            Label28.AutoSize = true;
+            Label28.BackColor = Color.Transparent;
+            Label28.Location = new Point(15, 67);
+            Label28.Name = "Label28";
+            Label28.Size = new Size(61, 13);
+            Label28.TabIndex = 10;
+            Label28.Text = "Kecamatan";
             // 
-            // DBImage1
+            // Label9
             // 
-            DBImage1.Name = "DBImage1";
-            DBImage1.Location = new System.Drawing.Point(407, 311);
-            DBImage1.Size = new System.Drawing.Size(137, 169);
-            DBImage1.Visible = false;
-            DBImage1.TabIndex = 6;
-            toolTip1.SetToolTip(DBImage1, "Double click to edit photo");
-            DBImage1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            DBImage1.TabStop = false;
-            DBImage1.Tag = "mdutama.dstbanggota:foto";
+            Label9.AutoSize = true;
+            Label9.BackColor = Color.Transparent;
+            Label9.Location = new Point(15, 43);
+            Label9.Name = "Label9";
+            Label9.Size = new Size(32, 13);
+            Label9.TabIndex = 11;
+            Label9.Text = "Desa";
             // 
-            // DBGrid6
+            // Label5
             // 
-            DBGrid6.Name = "DBGrid6";
-            DBGrid6.Location = new System.Drawing.Point(1056, 203);
-            DBGrid6.Size = new System.Drawing.Size(225, 89);
-            DBGrid6.TabIndex = 7;
-            DBGrid6.AllowUserToAddRows = false;
-            DBGrid6.AllowUserToDeleteRows = false;
-            DBGrid6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            DBGrid6.RowTemplate.Height = 20;
-            DBGrid6.BackgroundColor = System.Drawing.SystemColors.Window;
-            DBGrid6.RowHeadersWidth = 24;
-            DBGrid6.Tag = "mdutama.dstbanggota";
-            DBGrid2_nama.Name = "DBGrid2_nama";
-            DBGrid2_nama.DataPropertyName = "nama";
-            DBGrid2_nama.HeaderText = "Nama";
-            DBGrid2_nik.Name = "DBGrid2_nik";
-            DBGrid2_nik.DataPropertyName = "nik";
-            DBGrid2_nik.HeaderText = "NIK";
-            DBGrid2_nokk.Name = "DBGrid2_nokk";
-            DBGrid2_nokk.DataPropertyName = "nokk";
-            DBGrid2_nokk.HeaderText = "No KK";
-            DBGrid2_tglmasuk.Name = "DBGrid2_tglmasuk";
-            DBGrid2_tglmasuk.DataPropertyName = "tglmasuk";
-            DBGrid2_tglmasuk.HeaderText = "Tgl Masuk";
-            DBGrid2_sex.Name = "DBGrid2_sex";
-            DBGrid2_sex.DataPropertyName = "sex";
-            DBGrid2_sex.HeaderText = "Sex";
-            DBGrid2_tempat_lhr.Name = "DBGrid2_tempat_lhr";
-            DBGrid2_tempat_lhr.DataPropertyName = "tempat_lhr";
-            DBGrid2_tempat_lhr.HeaderText = "Tempat Lhr";
-            DBGrid2_tgl_lhr.Name = "DBGrid2_tgl_lhr";
-            DBGrid2_tgl_lhr.DataPropertyName = "tgl_lhr";
-            DBGrid2_tgl_lhr.HeaderText = "Tgl Lahir";
-            DBGrid2_alamat.Name = "DBGrid2_alamat";
-            DBGrid2_alamat.DataPropertyName = "alamat";
-            DBGrid2_alamat.HeaderText = "Alamat";
-            DBGrid2_telp.Name = "DBGrid2_telp";
-            DBGrid2_telp.DataPropertyName = "telp";
-            DBGrid2_telp.HeaderText = "Telp";
-            DBGrid2_desa.Name = "DBGrid2_desa";
-            DBGrid2_desa.DataPropertyName = "desa";
-            DBGrid2_desa.HeaderText = "Desa";
-            DBGrid2_kecamatan.Name = "DBGrid2_kecamatan";
-            DBGrid2_kecamatan.DataPropertyName = "kecamatan";
-            DBGrid2_kecamatan.HeaderText = "Kecamatan";
-            DBGrid2_kabupaten.Name = "DBGrid2_kabupaten";
-            DBGrid2_kabupaten.DataPropertyName = "kabupaten";
-            DBGrid2_kabupaten.HeaderText = "Kabupaten";
-            DBGrid2_propinsi.Name = "DBGrid2_propinsi";
-            DBGrid2_propinsi.DataPropertyName = "propinsi";
-            DBGrid2_propinsi.HeaderText = "Propinsi";
-            DBGrid2_status.Name = "DBGrid2_status";
-            DBGrid2_status.DataPropertyName = "status";
-            DBGrid2_status.HeaderText = "Status";
-            DBGrid2_kodekelompok.Name = "DBGrid2_kodekelompok";
-            DBGrid2_kodekelompok.DataPropertyName = "kodekelompok";
-            DBGrid2_kodekelompok.HeaderText = "No Kelompok";
-            DBGrid2_namakelompok.Name = "DBGrid2_namakelompok";
-            DBGrid2_namakelompok.DataPropertyName = "namakelompok";
-            DBGrid2_namakelompok.HeaderText = "Nama Kelompok";
-            DBGrid2_kategori.Name = "DBGrid2_kategori";
-            DBGrid2_kategori.DataPropertyName = "kategori";
-            DBGrid2_kategori.HeaderText = "Ketegori ";
-            DBGrid2_pekerjaan.Name = "DBGrid2_pekerjaan";
-            DBGrid2_pekerjaan.DataPropertyName = "pekerjaan";
-            DBGrid2_pekerjaan.HeaderText = "Pekerjaan";
-            DBGrid2_produk.Name = "DBGrid2_produk";
-            DBGrid2_produk.DataPropertyName = "produk";
-            DBGrid2_produk.HeaderText = "Produk";
-            DBGrid2_goldarah.Name = "DBGrid2_goldarah";
-            DBGrid2_goldarah.DataPropertyName = "goldarah";
-            DBGrid2_goldarah.HeaderText = "Gol Darah";
-            DBGrid2.CellClick += DBGrid2CellClick;
+            Label5.AutoSize = true;
+            Label5.BackColor = Color.Transparent;
+            Label5.Location = new Point(15, 20);
+            Label5.Name = "Label5";
+            Label5.Size = new Size(39, 13);
+            Label5.TabIndex = 12;
+            Label5.Text = "Alamat";
             // 
-            // DBGrid2
+            // ekategori
             // 
-            DBGrid2.Name = "DBGrid2";
-            DBGrid2.Location = new System.Drawing.Point(560, 98);
-            DBGrid2.Size = new System.Drawing.Size(723, 420);
-            DBGrid2.TabIndex = 8;
-            DBGrid2.AllowUserToAddRows = false;
-            DBGrid2.AllowUserToDeleteRows = false;
-            DBGrid2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            DBGrid2.RowTemplate.Height = 20;
-            DBGrid2.BackgroundColor = System.Drawing.SystemColors.Window;
-            DBGrid2.ReadOnly = true;
-            DBGrid2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            DBGrid2.RowHeadersWidth = 24;
-            DBGrid2.Tag = "mdutama.dstbanggota";
-            DBGrid2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] { DBGrid2_nama, DBGrid2_nik, DBGrid2_nokk, DBGrid2_tglmasuk, DBGrid2_sex, DBGrid2_tempat_lhr, DBGrid2_tgl_lhr, DBGrid2_alamat, DBGrid2_telp, DBGrid2_desa, DBGrid2_kecamatan, DBGrid2_kabupaten, DBGrid2_propinsi, DBGrid2_status, DBGrid2_kodekelompok, DBGrid2_namakelompok, DBGrid2_kategori, DBGrid2_pekerjaan, DBGrid2_produk, DBGrid2_goldarah });
-            rgcari.SelectedIndexChanged += rgcariClick;
+            ekategori.Location = new Point(120, 371);
+            ekategori.Name = "ekategori";
+            ekategori.Size = new Size(169, 20);
+            ekategori.TabIndex = 10;
+            ekategori.Text = "Edit1";
+            ekategori.KeyPress += ekategoriKeyPress;
             // 
-            // rgcari
+            // eproduk
             // 
-            rgcari.Name = "rgcari";
-            rgcari.Location = new System.Drawing.Point(560, 3);
-            rgcari.Size = new System.Drawing.Size(409, 93);
-            rgcari.Text = "Pencarian Anggota Berdasarkan";
-            rgcari.TabIndex = 9;
-            rgcari.Items = new string[] { "No Kelompok", "Nama Anggota", "NIK", "NoKK" };
-            rgcari.ItemIndex = 1;
-            ecari.TextChanged += ecariChange;
+            eproduk.Location = new Point(120, 419);
+            eproduk.Name = "eproduk";
+            eproduk.Size = new Size(169, 20);
+            eproduk.TabIndex = 9;
+            eproduk.Text = "Edit1";
             // 
-            // ecari
+            // epekerjaan
             // 
-            ecari.Name = "ecari";
-            ecari.Location = new System.Drawing.Point(688, 44);
-            ecari.Size = new System.Drawing.Size(145, 21);
-            ecari.TabIndex = 10;
-            ecari.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower;
-            BitBtn2.Click += BitBtn2Click;
+            epekerjaan.Location = new Point(120, 395);
+            epekerjaan.Name = "epekerjaan";
+            epekerjaan.Size = new Size(169, 20);
+            epekerjaan.TabIndex = 8;
+            epekerjaan.Text = "Edit1";
+            epekerjaan.KeyPress += epekerjaanKeyPress;
             // 
-            // BitBtn2
+            // etglmasuk
             // 
-            BitBtn2.Name = "BitBtn2";
-            BitBtn2.Location = new System.Drawing.Point(840, 41);
-            BitBtn2.Size = new System.Drawing.Size(105, 25);
-            BitBtn2.Text = "Export to CSV";
-            BitBtn2.TabIndex = 11;
-            BitBtn2.Image = (System.Drawing.Image)resources.GetObject("BitBtn2.Image");
-            BitBtn2.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            BitBtn2.UseVisualStyleBackColor = true;
-            Panelmin.Click += PanelminClick;
+            etglmasuk.Format = DateTimePickerFormat.Short;
+            etglmasuk.Location = new Point(120, 24);
+            etglmasuk.Name = "etglmasuk";
+            etglmasuk.Size = new Size(105, 20);
+            etglmasuk.TabIndex = 7;
             // 
-            // Panelmin
+            // enokk
             // 
-            Panelmin.Name = "Panelmin";
-            Panelmin.Location = new System.Drawing.Point(518, 462);
-            Panelmin.Size = new System.Drawing.Size(25, 17);
-            Panelmin.Text = "-";
-            Panelmin.TabIndex = 13;
-            toolTip1.SetToolTip(Panelmin, "klik untuk menghapus foto");
-            Panelmin.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
-            Panelmin.ForeColor = System.Drawing.Color.White;
-            Panelmin.BackColor = System.Drawing.Color.Red;
-            Panelmin.Padding = new System.Windows.Forms.Padding(1);
-            Panelplus.Click += PanelplusClick;
+            enokk.CharacterCasing = CharacterCasing.Lower;
+            enokk.Location = new Point(120, 323);
+            enokk.Name = "enokk";
+            enokk.Size = new Size(193, 20);
+            enokk.TabIndex = 6;
+            enokk.Text = "edit1";
+            enokk.KeyPress += enokkKeyPress;
             // 
-            // Panelplus
+            // enik
             // 
-            Panelplus.Name = "Panelplus";
-            Panelplus.Location = new System.Drawing.Point(493, 462);
-            Panelplus.Size = new System.Drawing.Size(25, 17);
-            Panelplus.Text = "+";
-            Panelplus.TabIndex = 14;
-            toolTip1.SetToolTip(Panelplus, "klik untuk insert foto");
-            Panelplus.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
-            Panelplus.ForeColor = System.Drawing.Color.White;
-            Panelplus.BackColor = System.Drawing.Color.Red;
-            Panelplus.Padding = new System.Windows.Forms.Padding(1);
+            enik.CharacterCasing = CharacterCasing.Lower;
+            enik.Location = new Point(120, 299);
+            enik.Name = "enik";
+            enik.Size = new Size(121, 20);
+            enik.TabIndex = 5;
+            enik.Text = "edit1";
+            enik.KeyPress += enikKeyPress;
             // 
-            // Panel1
+            // etempatlhr
             // 
-            Panel1.Controls.Add(BitBtn11);
-            Panel1.Controls.Add(BitBtn9);
-            Panel1.Controls.Add(SpeedButton1);
-            Panel1.Controls.Add(Shape7);
-            Panel1.Name = "Panel1";
-            Panel1.Location = new System.Drawing.Point(776, 185);
-            Panel1.Size = new System.Drawing.Size(345, 169);
-            Panel1.Visible = false;
-            Panel1.TabIndex = 15;
-            Panel1.Padding = new System.Windows.Forms.Padding(1);
+            etempatlhr.Location = new Point(120, 96);
+            etempatlhr.Name = "etempatlhr";
+            etempatlhr.Size = new Size(137, 20);
+            etempatlhr.TabIndex = 4;
+            etempatlhr.Text = "enama";
+            etempatlhr.KeyPress += etempatlhrKeyPress;
             // 
-            // Shape7
+            // etgllhr
             // 
-            Shape7.Controls.Add(Label51);
-            Shape7.Name = "Shape7";
-            Shape7.Location = new System.Drawing.Point(-536, 0);
-            Shape7.Size = new System.Drawing.Size(993, 30);
-            Shape7.BrushColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            Shape7.PenClear = true;
+            etgllhr.Location = new Point(264, 96);
+            etgllhr.Mask = "99/99/0000";
+            etgllhr.Name = "etgllhr";
+            etgllhr.Size = new Size(65, 20);
+            etgllhr.TabIndex = 3;
+            etgllhr.KeyPress += etgllhrKeyPress;
             // 
-            // Label51
+            // cbsex
             // 
-            Label51.Name = "Label51";
-            Label51.Location = new System.Drawing.Point(621, 7);
-            Label51.Size = new System.Drawing.Size(177, 16);
-            Label51.Text = "Pilihan Export Data (CSV)";
-            Label51.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
-            Label51.ForeColor = System.Drawing.Color.Black;
-            Label51.AutoSize = true;
-            Label51.BackColor = System.Drawing.Color.Transparent;
-            SpeedButton1.Click += SpeedButton1Click;
+            cbsex.FormattingEnabled = true;
+            cbsex.Items.AddRange(new object[] { "Laki-Laki", "Perempuan" });
+            cbsex.Location = new Point(120, 72);
+            cbsex.Name = "cbsex";
+            cbsex.Size = new Size(144, 21);
+            cbsex.TabIndex = 2;
+            cbsex.KeyPress += cbsexKeyPress;
             // 
-            // SpeedButton1
+            // enama
             // 
-            SpeedButton1.Name = "SpeedButton1";
-            SpeedButton1.Location = new System.Drawing.Point(318, 1);
-            SpeedButton1.Size = new System.Drawing.Size(26, 27);
-            SpeedButton1.Image = (System.Drawing.Image)resources.GetObject("SpeedButton1.Image");
-            SpeedButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            SpeedButton1.FlatAppearance.BorderSize = 0;
-            SpeedButton1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(229, 241, 251);
-            SpeedButton1.BackColor = System.Drawing.Color.Transparent;
-            SpeedButton1.TabStop = false;
-            BitBtn9.Click += BitBtn9Click;
+            enama.Location = new Point(120, 48);
+            enama.Name = "enama";
+            enama.Size = new Size(321, 20);
+            enama.TabIndex = 1;
+            enama.Text = "enama";
+            enama.KeyPress += enamaKeyPress;
             // 
-            // BitBtn9
+            // enoanggota
             // 
-            BitBtn9.Name = "BitBtn9";
-            BitBtn9.Location = new System.Drawing.Point(72, 56);
-            BitBtn9.Size = new System.Drawing.Size(209, 25);
-            BitBtn9.Text = "Hanya Data Anggota Terpilih";
-            BitBtn9.TabIndex = 0;
-            BitBtn9.Image = (System.Drawing.Image)resources.GetObject("BitBtn9.Image");
-            BitBtn9.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            BitBtn9.UseVisualStyleBackColor = true;
-            BitBtn11.Click += BitBtn11Click;
+            enoanggota.Location = new Point(341, 272);
+            enoanggota.Name = "enoanggota";
+            enoanggota.ReadOnly = true;
+            enoanggota.Size = new Size(129, 20);
+            enoanggota.TabIndex = 0;
+            enoanggota.Text = "enoanggota";
+            enoanggota.Visible = false;
+            enoanggota.KeyPress += enoanggotaKeyPress;
             // 
-            // BitBtn11
+            // ekodekp1
             // 
-            BitBtn11.Name = "BitBtn11";
-            BitBtn11.Location = new System.Drawing.Point(72, 96);
-            BitBtn11.Size = new System.Drawing.Size(209, 25);
-            BitBtn11.Text = "Seluruh Data Anggota";
-            BitBtn11.TabIndex = 1;
-            BitBtn11.Image = (System.Drawing.Image)resources.GetObject("BitBtn11.Image");
-            BitBtn11.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            BitBtn11.UseVisualStyleBackColor = true;
+            ekodekp1.Location = new Point(432, 326);
+            ekodekp1.Name = "ekodekp1";
+            ekodekp1.Size = new Size(81, 20);
+            ekodekp1.TabIndex = 13;
+            ekodekp1.Tag = "mdutama.dstbkelompok:No_Kelompok";
+            // 
+            // Label50
+            // 
+            Label50.AutoSize = true;
+            Label50.BackColor = Color.Transparent;
+            Label50.Font = new Font("Microsoft Sans Serif", 6.75F);
+            Label50.Location = new Point(332, 102);
+            Label50.Name = "Label50";
+            Label50.Size = new Size(57, 12);
+            Label50.TabIndex = 18;
+            Label50.Text = "dd/mm/yyyy";
+            // 
+            // Label49
+            // 
+            Label49.AutoSize = true;
+            Label49.BackColor = Color.Transparent;
+            Label49.Location = new Point(430, 102);
+            Label49.Name = "Label49";
+            Label49.Size = new Size(58, 13);
+            Label49.TabIndex = 19;
+            Label49.Text = "Gol. Darah";
+            // 
+            // Label15
+            // 
+            Label15.AutoSize = true;
+            Label15.Location = new Point(16, 355);
+            Label15.Name = "Label15";
+            Label15.Size = new Size(82, 13);
+            Label15.TabIndex = 20;
+            Label15.Text = "Kategori GAKIN";
+            // 
+            // Label39
+            // 
+            Label39.AutoSize = true;
+            Label39.Location = new Point(16, 379);
+            Label39.Name = "Label39";
+            Label39.Size = new Size(80, 13);
+            Label39.TabIndex = 21;
+            Label39.Text = "Kategori Usaha";
+            // 
+            // Label38
+            // 
+            Label38.AutoSize = true;
+            Label38.Location = new Point(16, 280);
+            Label38.Name = "Label38";
+            Label38.Size = new Size(85, 13);
+            Label38.TabIndex = 22;
+            Label38.Text = "Nama Kelompok";
+            // 
+            // Label37
+            // 
+            Label37.AutoSize = true;
+            Label37.Location = new Point(16, 427);
+            Label37.Name = "Label37";
+            Label37.Size = new Size(41, 13);
+            Label37.TabIndex = 23;
+            Label37.Text = "Produk";
+            // 
+            // Label36
+            // 
+            Label36.AutoSize = true;
+            Label36.Location = new Point(16, 403);
+            Label36.Name = "Label36";
+            Label36.Size = new Size(55, 13);
+            Label36.TabIndex = 24;
+            Label36.Text = "Pekerjaan";
+            // 
+            // Label35
+            // 
+            Label35.AutoSize = true;
+            Label35.BackColor = Color.Transparent;
+            Label35.Location = new Point(16, 32);
+            Label35.Name = "Label35";
+            Label35.Size = new Size(57, 13);
+            Label35.TabIndex = 25;
+            Label35.Text = "Tgl Masuk";
+            // 
+            // Label17
+            // 
+            Label17.AutoSize = true;
+            Label17.Location = new Point(16, 331);
+            Label17.Name = "Label17";
+            Label17.Size = new Size(38, 13);
+            Label17.TabIndex = 26;
+            Label17.Text = "No KK";
+            // 
+            // Label16
+            // 
+            Label16.AutoSize = true;
+            Label16.Location = new Point(16, 307);
+            Label16.Name = "Label16";
+            Label16.Size = new Size(25, 13);
+            Label16.TabIndex = 27;
+            Label16.Text = "NIK";
+            // 
+            // Label4
+            // 
+            Label4.AutoSize = true;
+            Label4.BackColor = Color.Transparent;
+            Label4.Location = new Point(16, 103);
+            Label4.Name = "Label4";
+            Label4.Size = new Size(95, 13);
+            Label4.TabIndex = 28;
+            Label4.Text = "Tempat/ Tgl. Lahir";
+            // 
+            // Label3
+            // 
+            Label3.AutoSize = true;
+            Label3.BackColor = Color.Transparent;
+            Label3.Location = new Point(16, 79);
+            Label3.Name = "Label3";
+            Label3.Size = new Size(71, 13);
+            Label3.TabIndex = 29;
+            Label3.Text = "Jenis Kelamin";
+            // 
+            // Label2
+            // 
+            Label2.AutoSize = true;
+            Label2.BackColor = Color.Transparent;
+            Label2.Location = new Point(16, 56);
+            Label2.Name = "Label2";
+            Label2.Size = new Size(35, 13);
+            Label2.TabIndex = 30;
+            Label2.Text = "Nama";
+            // 
+            // DBEdit1
+            // 
+            DBEdit1.Location = new Point(1112, 175);
+            DBEdit1.Name = "DBEdit1";
+            DBEdit1.Size = new Size(121, 20);
+            DBEdit1.TabIndex = 12;
+            DBEdit1.Tag = "mdutama.dstbanggota:no_anggota";
+            DBEdit1.Visible = false;
+            DBEdit1.TextChanged += DBEdit1Change;
+            // 
+            // GroupBox2
+            // 
+            GroupBox2.BackColor = SystemColors.Control;
+            GroupBox2.Controls.Add(enik1);
+            GroupBox2.Controls.Add(ealamat1);
+            GroupBox2.Controls.Add(etelp1);
+            GroupBox2.Controls.Add(enama1);
+            GroupBox2.Controls.Add(Label14);
+            GroupBox2.Controls.Add(Label11);
+            GroupBox2.Controls.Add(Label10);
+            GroupBox2.Controls.Add(Label1);
+            GroupBox2.Location = new Point(584, 138);
+            GroupBox2.Name = "GroupBox2";
+            GroupBox2.Size = new Size(425, 114);
+            GroupBox2.TabIndex = 16;
+            GroupBox2.TabStop = false;
+            GroupBox2.Text = "Data Suami atau Istri";
+            // 
+            // enik1
+            // 
+            enik1.Location = new Point(103, 64);
+            enik1.Name = "enik1";
+            enik1.Size = new Size(162, 20);
+            enik1.TabIndex = 2;
+            // 
+            // ealamat1
+            // 
+            ealamat1.Location = new Point(103, 42);
+            ealamat1.Name = "ealamat1";
+            ealamat1.Size = new Size(298, 20);
+            ealamat1.TabIndex = 1;
+            // 
+            // etelp1
+            // 
+            etelp1.Location = new Point(103, 86);
+            etelp1.Name = "etelp1";
+            etelp1.Size = new Size(162, 20);
+            etelp1.TabIndex = 3;
+            etelp1.Text = "etelp";
+            // 
+            // enama1
+            // 
+            enama1.Location = new Point(103, 20);
+            enama1.Name = "enama1";
+            enama1.Size = new Size(194, 20);
+            enama1.TabIndex = 0;
+            enama1.Text = "ealamat";
+            // 
+            // Label14
+            // 
+            Label14.AutoSize = true;
+            Label14.BackColor = Color.Transparent;
+            Label14.Location = new Point(15, 93);
+            Label14.Name = "Label14";
+            Label14.Size = new Size(28, 13);
+            Label14.TabIndex = 4;
+            Label14.Text = "Telp";
+            // 
+            // Label11
+            // 
+            Label11.AutoSize = true;
+            Label11.BackColor = Color.Transparent;
+            Label11.Location = new Point(15, 71);
+            Label11.Name = "Label11";
+            Label11.Size = new Size(25, 13);
+            Label11.TabIndex = 5;
+            Label11.Text = "NIK";
+            // 
+            // Label10
+            // 
+            Label10.AutoSize = true;
+            Label10.BackColor = Color.Transparent;
+            Label10.Location = new Point(15, 49);
+            Label10.Name = "Label10";
+            Label10.Size = new Size(39, 13);
+            Label10.TabIndex = 6;
+            Label10.Text = "Alamat";
+            // 
+            // Label1
+            // 
+            Label1.AutoSize = true;
+            Label1.BackColor = Color.Transparent;
+            Label1.Location = new Point(15, 28);
+            Label1.Name = "Label1";
+            Label1.Size = new Size(35, 13);
+            Label1.TabIndex = 7;
+            Label1.Text = "Nama";
+            // 
+            // Image1
+            // 
+            Image1.Location = new Point(408, 308);
+            Image1.Name = "Image1";
+            Image1.Size = new Size(137, 173);
+            Image1.TabIndex = 17;
+            Image1.TabStop = false;
+            // 
+            // Shape1
+            // 
+            Shape1.BackColor = Color.Transparent;
+            Shape1.BrushColor = Color.FromArgb(166, 202, 240);
+            Shape1.Location = new Point(5, 524);
+            Shape1.Name = "Shape1";
+            Shape1.PenClear = true;
+            Shape1.Size = new Size(1278, 60);
+            Shape1.TabIndex = 18;
+            Shape1.TabStop = false;
             // 
             // TabSheet4
             // 
@@ -2025,173 +2280,264 @@ namespace UPKPro.Forms
             TabSheet4.Controls.Add(DBGrid8);
             TabSheet4.Controls.Add(cbsebaran1);
             TabSheet4.Controls.Add(Label45);
+            TabSheet4.Location = new Point(4, 24);
             TabSheet4.Name = "TabSheet4";
+            TabSheet4.Size = new Size(1296, 589);
+            TabSheet4.TabIndex = 2;
             TabSheet4.Text = "Sebaran Data Kelompok";
             TabSheet4.UseVisualStyleBackColor = true;
             // 
-            // Label45
+            // DBChart1
             // 
-            Label45.Name = "Label45";
-            Label45.Location = new System.Drawing.Point(16, 24);
-            Label45.Size = new System.Drawing.Size(179, 13);
-            Label45.Text = "Data Sebaran Kelompok Berdasarkan";
-            Label45.AutoSize = true;
-            cbsebaran1.TextChanged += cbsebaran1Change;
-            // 
-            // cbsebaran1
-            // 
-            cbsebaran1.Name = "cbsebaran1";
-            cbsebaran1.Location = new System.Drawing.Point(200, 16);
-            cbsebaran1.Size = new System.Drawing.Size(145, 21);
-            cbsebaran1.Text = "Desa";
-            cbsebaran1.TabIndex = 0;
-            cbsebaran1.FormattingEnabled = true;
-            cbsebaran1.Items.AddRange(new object[] { "Desa", "Jenis Kelompok", "Usaha Kelompok", "Perkembangan", "Fungsi" });
-            DBGrid8_desa.Name = "DBGrid8_desa";
-            DBGrid8_desa.DataPropertyName = "desa";
-            DBGrid8_desa.HeaderText = "desa";
-            DBGrid8_desa.Width = 202;
-            DBGrid8_jumlah.Name = "DBGrid8_jumlah";
-            DBGrid8_jumlah.DataPropertyName = "jumlah";
-            DBGrid8_jumlah.HeaderText = "Jumlah";
-            DBGrid8.CellClick += DBGrid8CellClick;
-            // 
-            // DBGrid8
-            // 
-            DBGrid8.Name = "DBGrid8";
-            DBGrid8.Location = new System.Drawing.Point(16, 48);
-            DBGrid8.Size = new System.Drawing.Size(329, 281);
-            DBGrid8.TabIndex = 1;
-            DBGrid8.AllowUserToAddRows = false;
-            DBGrid8.AllowUserToDeleteRows = false;
-            DBGrid8.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            DBGrid8.RowTemplate.Height = 20;
-            DBGrid8.BackgroundColor = System.Drawing.SystemColors.Window;
-            DBGrid8.ReadOnly = true;
-            DBGrid8.RowHeadersWidth = 24;
-            DBGrid8.Tag = "mdutama.dsqsebaran1";
-            DBGrid8.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] { DBGrid8_desa, DBGrid8_jumlah });
-            // 
-            // Edit3
-            // 
-            Edit3.Name = "Edit3";
-            Edit3.Location = new System.Drawing.Point(416, 256);
-            Edit3.Size = new System.Drawing.Size(121, 21);
-            Edit3.Text = "desa";
-            Edit3.Visible = false;
-            Edit3.TabIndex = 2;
-            Button2.Click += Button2Click;
-            // 
-            // Button2
-            // 
-            Button2.Name = "Button2";
-            Button2.Location = new System.Drawing.Point(464, 224);
-            Button2.Size = new System.Drawing.Size(75, 25);
-            Button2.Text = "Button2";
-            Button2.Visible = false;
-            Button2.TabIndex = 3;
-            Button2.UseVisualStyleBackColor = true;
-            DBGrid9_No_Kelompok.Name = "DBGrid9_No_Kelompok";
-            DBGrid9_No_Kelompok.DataPropertyName = "No_Kelompok";
-            DBGrid9_No_Kelompok.HeaderText = "No_Kelompok";
-            DBGrid9_TglMasuk.Name = "DBGrid9_TglMasuk";
-            DBGrid9_TglMasuk.DataPropertyName = "TglMasuk";
-            DBGrid9_TglMasuk.HeaderText = "TglMasuk";
-            DBGrid9_Nama.Name = "DBGrid9_Nama";
-            DBGrid9_Nama.DataPropertyName = "Nama";
-            DBGrid9_Nama.HeaderText = "Nama";
-            DBGrid9_Alamat.Name = "DBGrid9_Alamat";
-            DBGrid9_Alamat.DataPropertyName = "Alamat";
-            DBGrid9_Alamat.HeaderText = "Alamat";
-            DBGrid9_Telp.Name = "DBGrid9_Telp";
-            DBGrid9_Telp.DataPropertyName = "Telp";
-            DBGrid9_Telp.HeaderText = "Telp";
-            DBGrid9_Kodedesa.Name = "DBGrid9_Kodedesa";
-            DBGrid9_Kodedesa.DataPropertyName = "Kodedesa";
-            DBGrid9_Kodedesa.HeaderText = "Kodedesa";
-            DBGrid9_Desa.Name = "DBGrid9_Desa";
-            DBGrid9_Desa.DataPropertyName = "Desa";
-            DBGrid9_Desa.HeaderText = "Desa";
-            DBGrid9_Kecamatan.Name = "DBGrid9_Kecamatan";
-            DBGrid9_Kecamatan.DataPropertyName = "Kecamatan";
-            DBGrid9_Kecamatan.HeaderText = "Kecamatan";
-            DBGrid9_Kabupaten.Name = "DBGrid9_Kabupaten";
-            DBGrid9_Kabupaten.DataPropertyName = "Kabupaten";
-            DBGrid9_Kabupaten.HeaderText = "Kabupaten";
-            DBGrid9_Propinsi.Name = "DBGrid9_Propinsi";
-            DBGrid9_Propinsi.DataPropertyName = "Propinsi";
-            DBGrid9_Propinsi.HeaderText = "Propinsi";
-            DBGrid9_Ketua.Name = "DBGrid9_Ketua";
-            DBGrid9_Ketua.DataPropertyName = "Ketua";
-            DBGrid9_Ketua.HeaderText = "Ketua";
-            DBGrid9_AlamatKetua.Name = "DBGrid9_AlamatKetua";
-            DBGrid9_AlamatKetua.DataPropertyName = "AlamatKetua";
-            DBGrid9_AlamatKetua.HeaderText = "AlamatKetua";
-            DBGrid9_Sekretaris.Name = "DBGrid9_Sekretaris";
-            DBGrid9_Sekretaris.DataPropertyName = "Sekretaris";
-            DBGrid9_Sekretaris.HeaderText = "Sekretaris";
-            DBGrid9_Alamatsek.Name = "DBGrid9_Alamatsek";
-            DBGrid9_Alamatsek.DataPropertyName = "Alamatsek";
-            DBGrid9_Alamatsek.HeaderText = "Alamatsek";
-            DBGrid9_Bendahara.Name = "DBGrid9_Bendahara";
-            DBGrid9_Bendahara.DataPropertyName = "Bendahara";
-            DBGrid9_Bendahara.HeaderText = "Bendahara";
-            DBGrid9_AlamatBend.Name = "DBGrid9_AlamatBend";
-            DBGrid9_AlamatBend.DataPropertyName = "AlamatBend";
-            DBGrid9_AlamatBend.HeaderText = "AlamatBend";
-            DBGrid9_Usaha.Name = "DBGrid9_Usaha";
-            DBGrid9_Usaha.DataPropertyName = "Usaha";
-            DBGrid9_Usaha.HeaderText = "Usaha";
-            DBGrid9_Jenis.Name = "DBGrid9_Jenis";
-            DBGrid9_Jenis.DataPropertyName = "Jenis";
-            DBGrid9_Jenis.HeaderText = "Jenis";
-            DBGrid9_Perkembangan.Name = "DBGrid9_Perkembangan";
-            DBGrid9_Perkembangan.DataPropertyName = "Perkembangan";
-            DBGrid9_Perkembangan.HeaderText = "Perkembangan";
-            DBGrid9_Fungsi.Name = "DBGrid9_Fungsi";
-            DBGrid9_Fungsi.DataPropertyName = "Fungsi";
-            DBGrid9_Fungsi.HeaderText = "Fungsi";
-            // 
-            // DBGrid9
-            // 
-            DBGrid9.Name = "DBGrid9";
-            DBGrid9.Location = new System.Drawing.Point(16, 336);
-            DBGrid9.Size = new System.Drawing.Size(1261, 234);
-            DBGrid9.TabIndex = 4;
-            DBGrid9.AllowUserToAddRows = false;
-            DBGrid9.AllowUserToDeleteRows = false;
-            DBGrid9.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            DBGrid9.RowTemplate.Height = 20;
-            DBGrid9.BackgroundColor = System.Drawing.SystemColors.Window;
-            DBGrid9.ReadOnly = true;
-            DBGrid9.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            DBGrid9.RowHeadersWidth = 24;
-            DBGrid9.Tag = "DataSource2";
-            DBGrid9.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] { DBGrid9_No_Kelompok, DBGrid9_TglMasuk, DBGrid9_Nama, DBGrid9_Alamat, DBGrid9_Telp, DBGrid9_Kodedesa, DBGrid9_Desa, DBGrid9_Kecamatan, DBGrid9_Kabupaten, DBGrid9_Propinsi, DBGrid9_Ketua, DBGrid9_AlamatKetua, DBGrid9_Sekretaris, DBGrid9_Alamatsek, DBGrid9_Bendahara, DBGrid9_AlamatBend, DBGrid9_Usaha, DBGrid9_Jenis, DBGrid9_Perkembangan, DBGrid9_Fungsi });
-            BitBtn4.Click += BitBtn4Click;
+            DBChart1.BackColor = Color.White;
+            DBChart1.BevelOuter = UPKPro.Controls.PanelBevel.Lowered;
+            DBChart1.Location = new Point(352, 8);
+            DBChart1.Name = "DBChart1";
+            DBChart1.Size = new Size(617, 321);
+            DBChart1.TabIndex = 6;
+            DBChart1.Tag = "TODO: grafik (TDBChart) belum diporting";
+            DBChart1.Text = "[Grafik] ";
             // 
             // BitBtn4
             // 
+            BitBtn4.Image = (Image)resources.GetObject("BitBtn4.Image");
+            BitBtn4.Location = new Point(1172, 305);
             BitBtn4.Name = "BitBtn4";
-            BitBtn4.Location = new System.Drawing.Point(1172, 305);
-            BitBtn4.Size = new System.Drawing.Size(105, 25);
-            BitBtn4.Text = "Export to CSV";
+            BitBtn4.Size = new Size(105, 25);
             BitBtn4.TabIndex = 5;
-            BitBtn4.Image = (System.Drawing.Image)resources.GetObject("BitBtn4.Image");
-            BitBtn4.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            BitBtn4.Text = "Export to CSV";
+            BitBtn4.TextImageRelation = TextImageRelation.TextBeforeImage;
             BitBtn4.UseVisualStyleBackColor = true;
+            BitBtn4.Click += BitBtn4Click;
             // 
-            // DBChart1
+            // DBGrid9
             // 
-            DBChart1.Name = "DBChart1";
-            DBChart1.Location = new System.Drawing.Point(352, 8);
-            DBChart1.Size = new System.Drawing.Size(617, 321);
-            DBChart1.TabIndex = 6;
-            DBChart1.BackColor = System.Drawing.Color.White;
-            DBChart1.BevelOuter = UPKPro.Controls.PanelBevel.Lowered;
-            DBChart1.BackColor = System.Drawing.Color.White;
-            DBChart1.Text = "[Grafik] ";
-            DBChart1.Tag = "TODO: grafik (TDBChart) belum diporting";
+            DBGrid9.AllowUserToAddRows = false;
+            DBGrid9.AllowUserToDeleteRows = false;
+            DBGrid9.BackgroundColor = SystemColors.Window;
+            DBGrid9.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            DBGrid9.Columns.AddRange(new DataGridViewColumn[] { DBGrid9_No_Kelompok, DBGrid9_TglMasuk, DBGrid9_Nama, DBGrid9_Alamat, DBGrid9_Telp, DBGrid9_Kodedesa, DBGrid9_Desa, DBGrid9_Kecamatan, DBGrid9_Kabupaten, DBGrid9_Propinsi, DBGrid9_Ketua, DBGrid9_AlamatKetua, DBGrid9_Sekretaris, DBGrid9_Alamatsek, DBGrid9_Bendahara, DBGrid9_AlamatBend, DBGrid9_Usaha, DBGrid9_Jenis, DBGrid9_Perkembangan, DBGrid9_Fungsi });
+            DBGrid9.Location = new Point(16, 336);
+            DBGrid9.Name = "DBGrid9";
+            DBGrid9.ReadOnly = true;
+            DBGrid9.RowHeadersWidth = 24;
+            DBGrid9.RowTemplate.Height = 20;
+            DBGrid9.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            DBGrid9.Size = new Size(1261, 234);
+            DBGrid9.TabIndex = 4;
+            DBGrid9.Tag = "DataSource2";
+            // 
+            // DBGrid9_No_Kelompok
+            // 
+            DBGrid9_No_Kelompok.DataPropertyName = "No_Kelompok";
+            DBGrid9_No_Kelompok.HeaderText = "No_Kelompok";
+            DBGrid9_No_Kelompok.Name = "DBGrid9_No_Kelompok";
+            DBGrid9_No_Kelompok.ReadOnly = true;
+            // 
+            // DBGrid9_TglMasuk
+            // 
+            DBGrid9_TglMasuk.DataPropertyName = "TglMasuk";
+            DBGrid9_TglMasuk.HeaderText = "TglMasuk";
+            DBGrid9_TglMasuk.Name = "DBGrid9_TglMasuk";
+            DBGrid9_TglMasuk.ReadOnly = true;
+            // 
+            // DBGrid9_Nama
+            // 
+            DBGrid9_Nama.DataPropertyName = "Nama";
+            DBGrid9_Nama.HeaderText = "Nama";
+            DBGrid9_Nama.Name = "DBGrid9_Nama";
+            DBGrid9_Nama.ReadOnly = true;
+            // 
+            // DBGrid9_Alamat
+            // 
+            DBGrid9_Alamat.DataPropertyName = "Alamat";
+            DBGrid9_Alamat.HeaderText = "Alamat";
+            DBGrid9_Alamat.Name = "DBGrid9_Alamat";
+            DBGrid9_Alamat.ReadOnly = true;
+            // 
+            // DBGrid9_Telp
+            // 
+            DBGrid9_Telp.DataPropertyName = "Telp";
+            DBGrid9_Telp.HeaderText = "Telp";
+            DBGrid9_Telp.Name = "DBGrid9_Telp";
+            DBGrid9_Telp.ReadOnly = true;
+            // 
+            // DBGrid9_Kodedesa
+            // 
+            DBGrid9_Kodedesa.DataPropertyName = "Kodedesa";
+            DBGrid9_Kodedesa.HeaderText = "Kodedesa";
+            DBGrid9_Kodedesa.Name = "DBGrid9_Kodedesa";
+            DBGrid9_Kodedesa.ReadOnly = true;
+            // 
+            // DBGrid9_Desa
+            // 
+            DBGrid9_Desa.DataPropertyName = "Desa";
+            DBGrid9_Desa.HeaderText = "Desa";
+            DBGrid9_Desa.Name = "DBGrid9_Desa";
+            DBGrid9_Desa.ReadOnly = true;
+            // 
+            // DBGrid9_Kecamatan
+            // 
+            DBGrid9_Kecamatan.DataPropertyName = "Kecamatan";
+            DBGrid9_Kecamatan.HeaderText = "Kecamatan";
+            DBGrid9_Kecamatan.Name = "DBGrid9_Kecamatan";
+            DBGrid9_Kecamatan.ReadOnly = true;
+            // 
+            // DBGrid9_Kabupaten
+            // 
+            DBGrid9_Kabupaten.DataPropertyName = "Kabupaten";
+            DBGrid9_Kabupaten.HeaderText = "Kabupaten";
+            DBGrid9_Kabupaten.Name = "DBGrid9_Kabupaten";
+            DBGrid9_Kabupaten.ReadOnly = true;
+            // 
+            // DBGrid9_Propinsi
+            // 
+            DBGrid9_Propinsi.DataPropertyName = "Propinsi";
+            DBGrid9_Propinsi.HeaderText = "Propinsi";
+            DBGrid9_Propinsi.Name = "DBGrid9_Propinsi";
+            DBGrid9_Propinsi.ReadOnly = true;
+            // 
+            // DBGrid9_Ketua
+            // 
+            DBGrid9_Ketua.DataPropertyName = "Ketua";
+            DBGrid9_Ketua.HeaderText = "Ketua";
+            DBGrid9_Ketua.Name = "DBGrid9_Ketua";
+            DBGrid9_Ketua.ReadOnly = true;
+            // 
+            // DBGrid9_AlamatKetua
+            // 
+            DBGrid9_AlamatKetua.DataPropertyName = "AlamatKetua";
+            DBGrid9_AlamatKetua.HeaderText = "AlamatKetua";
+            DBGrid9_AlamatKetua.Name = "DBGrid9_AlamatKetua";
+            DBGrid9_AlamatKetua.ReadOnly = true;
+            // 
+            // DBGrid9_Sekretaris
+            // 
+            DBGrid9_Sekretaris.DataPropertyName = "Sekretaris";
+            DBGrid9_Sekretaris.HeaderText = "Sekretaris";
+            DBGrid9_Sekretaris.Name = "DBGrid9_Sekretaris";
+            DBGrid9_Sekretaris.ReadOnly = true;
+            // 
+            // DBGrid9_Alamatsek
+            // 
+            DBGrid9_Alamatsek.DataPropertyName = "Alamatsek";
+            DBGrid9_Alamatsek.HeaderText = "Alamatsek";
+            DBGrid9_Alamatsek.Name = "DBGrid9_Alamatsek";
+            DBGrid9_Alamatsek.ReadOnly = true;
+            // 
+            // DBGrid9_Bendahara
+            // 
+            DBGrid9_Bendahara.DataPropertyName = "Bendahara";
+            DBGrid9_Bendahara.HeaderText = "Bendahara";
+            DBGrid9_Bendahara.Name = "DBGrid9_Bendahara";
+            DBGrid9_Bendahara.ReadOnly = true;
+            // 
+            // DBGrid9_AlamatBend
+            // 
+            DBGrid9_AlamatBend.DataPropertyName = "AlamatBend";
+            DBGrid9_AlamatBend.HeaderText = "AlamatBend";
+            DBGrid9_AlamatBend.Name = "DBGrid9_AlamatBend";
+            DBGrid9_AlamatBend.ReadOnly = true;
+            // 
+            // DBGrid9_Usaha
+            // 
+            DBGrid9_Usaha.DataPropertyName = "Usaha";
+            DBGrid9_Usaha.HeaderText = "Usaha";
+            DBGrid9_Usaha.Name = "DBGrid9_Usaha";
+            DBGrid9_Usaha.ReadOnly = true;
+            // 
+            // DBGrid9_Jenis
+            // 
+            DBGrid9_Jenis.DataPropertyName = "Jenis";
+            DBGrid9_Jenis.HeaderText = "Jenis";
+            DBGrid9_Jenis.Name = "DBGrid9_Jenis";
+            DBGrid9_Jenis.ReadOnly = true;
+            // 
+            // DBGrid9_Perkembangan
+            // 
+            DBGrid9_Perkembangan.DataPropertyName = "Perkembangan";
+            DBGrid9_Perkembangan.HeaderText = "Perkembangan";
+            DBGrid9_Perkembangan.Name = "DBGrid9_Perkembangan";
+            DBGrid9_Perkembangan.ReadOnly = true;
+            // 
+            // DBGrid9_Fungsi
+            // 
+            DBGrid9_Fungsi.DataPropertyName = "Fungsi";
+            DBGrid9_Fungsi.HeaderText = "Fungsi";
+            DBGrid9_Fungsi.Name = "DBGrid9_Fungsi";
+            DBGrid9_Fungsi.ReadOnly = true;
+            // 
+            // Button2
+            // 
+            Button2.Location = new Point(464, 224);
+            Button2.Name = "Button2";
+            Button2.Size = new Size(75, 25);
+            Button2.TabIndex = 3;
+            Button2.Text = "Button2";
+            Button2.UseVisualStyleBackColor = true;
+            Button2.Visible = false;
+            Button2.Click += Button2Click;
+            // 
+            // Edit3
+            // 
+            Edit3.Location = new Point(416, 256);
+            Edit3.Name = "Edit3";
+            Edit3.Size = new Size(121, 20);
+            Edit3.TabIndex = 2;
+            Edit3.Text = "desa";
+            Edit3.Visible = false;
+            // 
+            // DBGrid8
+            // 
+            DBGrid8.AllowUserToAddRows = false;
+            DBGrid8.AllowUserToDeleteRows = false;
+            DBGrid8.BackgroundColor = SystemColors.Window;
+            DBGrid8.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            DBGrid8.Columns.AddRange(new DataGridViewColumn[] { DBGrid8_desa, DBGrid8_jumlah });
+            DBGrid8.Location = new Point(16, 48);
+            DBGrid8.Name = "DBGrid8";
+            DBGrid8.ReadOnly = true;
+            DBGrid8.RowHeadersWidth = 24;
+            DBGrid8.RowTemplate.Height = 20;
+            DBGrid8.Size = new Size(329, 281);
+            DBGrid8.TabIndex = 1;
+            DBGrid8.Tag = "mdutama.dsqsebaran1";
+            DBGrid8.CellClick += DBGrid8CellClick;
+            // 
+            // DBGrid8_desa
+            // 
+            DBGrid8_desa.DataPropertyName = "desa";
+            DBGrid8_desa.HeaderText = "desa";
+            DBGrid8_desa.Name = "DBGrid8_desa";
+            DBGrid8_desa.ReadOnly = true;
+            DBGrid8_desa.Width = 202;
+            // 
+            // DBGrid8_jumlah
+            // 
+            DBGrid8_jumlah.DataPropertyName = "jumlah";
+            DBGrid8_jumlah.HeaderText = "Jumlah";
+            DBGrid8_jumlah.Name = "DBGrid8_jumlah";
+            DBGrid8_jumlah.ReadOnly = true;
+            // 
+            // cbsebaran1
+            // 
+            cbsebaran1.FormattingEnabled = true;
+            cbsebaran1.Items.AddRange(new object[] { "Desa", "Jenis Kelompok", "Usaha Kelompok", "Perkembangan", "Fungsi" });
+            cbsebaran1.Location = new Point(200, 16);
+            cbsebaran1.Name = "cbsebaran1";
+            cbsebaran1.Size = new Size(145, 21);
+            cbsebaran1.TabIndex = 0;
+            cbsebaran1.Text = "Desa";
+            cbsebaran1.TextChanged += cbsebaran1Change;
+            // 
+            // Label45
+            // 
+            Label45.AutoSize = true;
+            Label45.Location = new Point(16, 24);
+            Label45.Name = "Label45";
+            Label45.Size = new Size(186, 13);
+            Label45.TabIndex = 7;
+            Label45.Text = "Data Sebaran Kelompok Berdasarkan";
             // 
             // TabSheet3
             // 
@@ -2204,187 +2550,278 @@ namespace UPKPro.Forms
             TabSheet3.Controls.Add(cbsebaran);
             TabSheet3.Controls.Add(DBGrid5);
             TabSheet3.Controls.Add(Label48);
+            TabSheet3.Location = new Point(4, 24);
             TabSheet3.Name = "TabSheet3";
+            TabSheet3.Size = new Size(1296, 589);
+            TabSheet3.TabIndex = 3;
             TabSheet3.Text = "Sebaran Anggota Kelompok";
             TabSheet3.UseVisualStyleBackColor = true;
             // 
-            // Label48
+            // DBChart2
             // 
-            Label48.Name = "Label48";
-            Label48.Location = new System.Drawing.Point(16, 24);
-            Label48.Size = new System.Drawing.Size(172, 13);
-            Label48.Text = "Data Sebaran Anggota Berdasarkan";
-            Label48.AutoSize = true;
-            // 
-            // DBGrid5
-            // 
-            DBGrid5.Name = "DBGrid5";
-            DBGrid5.Location = new System.Drawing.Point(104, 400);
-            DBGrid5.Size = new System.Drawing.Size(320, 120);
-            DBGrid5.TabIndex = 6;
-            DBGrid5.AllowUserToAddRows = false;
-            DBGrid5.AllowUserToDeleteRows = false;
-            DBGrid5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            DBGrid5.RowTemplate.Height = 20;
-            DBGrid5.BackgroundColor = System.Drawing.SystemColors.Window;
-            DBGrid5.RowHeadersWidth = 24;
-            DBGrid5.Tag = "DataSource1";
-            cbsebaran.TextChanged += cbsebaranChange;
-            // 
-            // cbsebaran
-            // 
-            cbsebaran.Name = "cbsebaran";
-            cbsebaran.Location = new System.Drawing.Point(200, 16);
-            cbsebaran.Size = new System.Drawing.Size(145, 21);
-            cbsebaran.Text = "Jenis Kelamin";
-            cbsebaran.TabIndex = 0;
-            cbsebaran.FormattingEnabled = true;
-            cbsebaran.Items.AddRange(new object[] { "Jenis Kelamin", "Desa", "Kelompok", "Kategori Usaha", "Pekerjaan", "Produk", "Kategori Gakin", "Gol. Darah" });
-            Button1.Click += Button1Click;
-            // 
-            // Button1
-            // 
-            Button1.Name = "Button1";
-            Button1.Location = new System.Drawing.Point(464, 224);
-            Button1.Size = new System.Drawing.Size(75, 25);
-            Button1.Text = "Button1";
-            Button1.Visible = false;
-            Button1.TabIndex = 1;
-            Button1.UseVisualStyleBackColor = true;
-            DBGrid3_sex.Name = "DBGrid3_sex";
-            DBGrid3_sex.DataPropertyName = "sex";
-            DBGrid3_sex.HeaderText = "sex";
-            DBGrid3_sex.Width = 196;
-            DBGrid3_jumlah.Name = "DBGrid3_jumlah";
-            DBGrid3_jumlah.DataPropertyName = "jumlah";
-            DBGrid3_jumlah.HeaderText = "Jumlah";
-            DBGrid3.CellClick += DBGrid3CellClick;
-            // 
-            // DBGrid3
-            // 
-            DBGrid3.Name = "DBGrid3";
-            DBGrid3.Location = new System.Drawing.Point(16, 48);
-            DBGrid3.Size = new System.Drawing.Size(329, 281);
-            DBGrid3.TabIndex = 2;
-            DBGrid3.AllowUserToAddRows = false;
-            DBGrid3.AllowUserToDeleteRows = false;
-            DBGrid3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            DBGrid3.RowTemplate.Height = 20;
-            DBGrid3.BackgroundColor = System.Drawing.SystemColors.Window;
-            DBGrid3.ReadOnly = true;
-            DBGrid3.RowHeadersWidth = 24;
-            DBGrid3.Tag = "mdutama.dsqsebaran";
-            DBGrid3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] { DBGrid3_sex, DBGrid3_jumlah });
-            // 
-            // edit2
-            // 
-            edit2.Name = "edit2";
-            edit2.Location = new System.Drawing.Point(416, 256);
-            edit2.Size = new System.Drawing.Size(121, 21);
-            edit2.Text = "sex";
-            edit2.Visible = false;
-            edit2.TabIndex = 3;
-            DBGrid4_Nama.Name = "DBGrid4_Nama";
-            DBGrid4_Nama.DataPropertyName = "Nama";
-            DBGrid4_Nama.HeaderText = "Nama";
-            DBGrid4_NIK.Name = "DBGrid4_NIK";
-            DBGrid4_NIK.DataPropertyName = "NIK";
-            DBGrid4_NIK.HeaderText = "NIK";
-            DBGrid4_NoKK.Name = "DBGrid4_NoKK";
-            DBGrid4_NoKK.DataPropertyName = "NoKK";
-            DBGrid4_NoKK.HeaderText = "NoKK";
-            DBGrid4_TglMasuk.Name = "DBGrid4_TglMasuk";
-            DBGrid4_TglMasuk.DataPropertyName = "TglMasuk";
-            DBGrid4_TglMasuk.HeaderText = "TglMasuk";
-            DBGrid4_Sex.Name = "DBGrid4_Sex";
-            DBGrid4_Sex.DataPropertyName = "Sex";
-            DBGrid4_Sex.HeaderText = "Sex";
-            DBGrid4_Tempat_Lhr.Name = "DBGrid4_Tempat_Lhr";
-            DBGrid4_Tempat_Lhr.DataPropertyName = "Tempat_Lhr";
-            DBGrid4_Tempat_Lhr.HeaderText = "Tempat_Lhr";
-            DBGrid4_Tgl_Lhr.Name = "DBGrid4_Tgl_Lhr";
-            DBGrid4_Tgl_Lhr.DataPropertyName = "Tgl_Lhr";
-            DBGrid4_Tgl_Lhr.HeaderText = "Tgl_Lhr";
-            DBGrid4_Alamat.Name = "DBGrid4_Alamat";
-            DBGrid4_Alamat.DataPropertyName = "Alamat";
-            DBGrid4_Alamat.HeaderText = "Alamat";
-            DBGrid4_Telp.Name = "DBGrid4_Telp";
-            DBGrid4_Telp.DataPropertyName = "Telp";
-            DBGrid4_Telp.HeaderText = "Telp";
-            DBGrid4_Desa.Name = "DBGrid4_Desa";
-            DBGrid4_Desa.DataPropertyName = "Desa";
-            DBGrid4_Desa.HeaderText = "Desa";
-            DBGrid4_Kecamatan.Name = "DBGrid4_Kecamatan";
-            DBGrid4_Kecamatan.DataPropertyName = "Kecamatan";
-            DBGrid4_Kecamatan.HeaderText = "Kecamatan";
-            DBGrid4_Kabupaten.Name = "DBGrid4_Kabupaten";
-            DBGrid4_Kabupaten.DataPropertyName = "Kabupaten";
-            DBGrid4_Kabupaten.HeaderText = "Kabupaten";
-            DBGrid4_Propinsi.Name = "DBGrid4_Propinsi";
-            DBGrid4_Propinsi.DataPropertyName = "Propinsi";
-            DBGrid4_Propinsi.HeaderText = "Propinsi";
-            DBGrid4_Status.Name = "DBGrid4_Status";
-            DBGrid4_Status.DataPropertyName = "Status";
-            DBGrid4_Status.HeaderText = "Status";
-            DBGrid4_KodeKelompok.Name = "DBGrid4_KodeKelompok";
-            DBGrid4_KodeKelompok.DataPropertyName = "KodeKelompok";
-            DBGrid4_KodeKelompok.HeaderText = "KodeKelompok";
-            DBGrid4_NamaKelompok.Name = "DBGrid4_NamaKelompok";
-            DBGrid4_NamaKelompok.DataPropertyName = "NamaKelompok";
-            DBGrid4_NamaKelompok.HeaderText = "NamaKelompok";
-            DBGrid4_Kategori.Name = "DBGrid4_Kategori";
-            DBGrid4_Kategori.DataPropertyName = "Kategori";
-            DBGrid4_Kategori.HeaderText = "Kategori";
-            DBGrid4_Pekerjaan.Name = "DBGrid4_Pekerjaan";
-            DBGrid4_Pekerjaan.DataPropertyName = "Pekerjaan";
-            DBGrid4_Pekerjaan.HeaderText = "Pekerjaan";
-            DBGrid4_Produk.Name = "DBGrid4_Produk";
-            DBGrid4_Produk.DataPropertyName = "Produk";
-            DBGrid4_Produk.HeaderText = "Produk";
-            DBGrid4_foto.Name = "DBGrid4_foto";
-            DBGrid4_foto.DataPropertyName = "foto";
-            DBGrid4_foto.HeaderText = "foto";
-            // 
-            // DBGrid4
-            // 
-            DBGrid4.Name = "DBGrid4";
-            DBGrid4.Location = new System.Drawing.Point(16, 340);
-            DBGrid4.Size = new System.Drawing.Size(1260, 229);
-            DBGrid4.TabIndex = 4;
-            DBGrid4.AllowUserToAddRows = false;
-            DBGrid4.AllowUserToDeleteRows = false;
-            DBGrid4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            DBGrid4.RowTemplate.Height = 20;
-            DBGrid4.BackgroundColor = System.Drawing.SystemColors.Window;
-            DBGrid4.ReadOnly = true;
-            DBGrid4.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            DBGrid4.RowHeadersWidth = 24;
-            DBGrid4.Tag = "DataSource1";
-            DBGrid4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] { DBGrid4_Nama, DBGrid4_NIK, DBGrid4_NoKK, DBGrid4_TglMasuk, DBGrid4_Sex, DBGrid4_Tempat_Lhr, DBGrid4_Tgl_Lhr, DBGrid4_Alamat, DBGrid4_Telp, DBGrid4_Desa, DBGrid4_Kecamatan, DBGrid4_Kabupaten, DBGrid4_Propinsi, DBGrid4_Status, DBGrid4_KodeKelompok, DBGrid4_NamaKelompok, DBGrid4_Kategori, DBGrid4_Pekerjaan, DBGrid4_Produk, DBGrid4_foto });
-            BitBtn3.Click += BitBtn3Click;
+            DBChart2.BackColor = Color.White;
+            DBChart2.BevelOuter = UPKPro.Controls.PanelBevel.Lowered;
+            DBChart2.Location = new Point(352, 8);
+            DBChart2.Name = "DBChart2";
+            DBChart2.Size = new Size(617, 321);
+            DBChart2.TabIndex = 7;
+            DBChart2.Tag = "TODO: grafik (TDBChart) belum diporting";
+            DBChart2.Text = "[Grafik] ";
             // 
             // BitBtn3
             // 
+            BitBtn3.Image = (Image)resources.GetObject("BitBtn3.Image");
+            BitBtn3.Location = new Point(1171, 309);
             BitBtn3.Name = "BitBtn3";
-            BitBtn3.Location = new System.Drawing.Point(1171, 309);
-            BitBtn3.Size = new System.Drawing.Size(105, 25);
-            BitBtn3.Text = "Export to CSV";
+            BitBtn3.Size = new Size(105, 25);
             BitBtn3.TabIndex = 5;
-            BitBtn3.Image = (System.Drawing.Image)resources.GetObject("BitBtn3.Image");
-            BitBtn3.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            BitBtn3.Text = "Export to CSV";
+            BitBtn3.TextImageRelation = TextImageRelation.TextBeforeImage;
             BitBtn3.UseVisualStyleBackColor = true;
+            BitBtn3.Click += BitBtn3Click;
             // 
-            // DBChart2
+            // DBGrid4
             // 
-            DBChart2.Name = "DBChart2";
-            DBChart2.Location = new System.Drawing.Point(352, 8);
-            DBChart2.Size = new System.Drawing.Size(617, 321);
-            DBChart2.TabIndex = 7;
-            DBChart2.BackColor = System.Drawing.Color.White;
-            DBChart2.BevelOuter = UPKPro.Controls.PanelBevel.Lowered;
-            DBChart2.BackColor = System.Drawing.Color.White;
-            DBChart2.Text = "[Grafik] ";
-            DBChart2.Tag = "TODO: grafik (TDBChart) belum diporting";
+            DBGrid4.AllowUserToAddRows = false;
+            DBGrid4.AllowUserToDeleteRows = false;
+            DBGrid4.BackgroundColor = SystemColors.Window;
+            DBGrid4.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            DBGrid4.Columns.AddRange(new DataGridViewColumn[] { DBGrid4_Nama, DBGrid4_NIK, DBGrid4_NoKK, DBGrid4_TglMasuk, DBGrid4_Sex, DBGrid4_Tempat_Lhr, DBGrid4_Tgl_Lhr, DBGrid4_Alamat, DBGrid4_Telp, DBGrid4_Desa, DBGrid4_Kecamatan, DBGrid4_Kabupaten, DBGrid4_Propinsi, DBGrid4_Status, DBGrid4_KodeKelompok, DBGrid4_NamaKelompok, DBGrid4_Kategori, DBGrid4_Pekerjaan, DBGrid4_Produk, DBGrid4_foto });
+            DBGrid4.Location = new Point(16, 340);
+            DBGrid4.Name = "DBGrid4";
+            DBGrid4.ReadOnly = true;
+            DBGrid4.RowHeadersWidth = 24;
+            DBGrid4.RowTemplate.Height = 20;
+            DBGrid4.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            DBGrid4.Size = new Size(1260, 229);
+            DBGrid4.TabIndex = 4;
+            DBGrid4.Tag = "DataSource1";
+            // 
+            // DBGrid4_Nama
+            // 
+            DBGrid4_Nama.DataPropertyName = "Nama";
+            DBGrid4_Nama.HeaderText = "Nama";
+            DBGrid4_Nama.Name = "DBGrid4_Nama";
+            DBGrid4_Nama.ReadOnly = true;
+            // 
+            // DBGrid4_NIK
+            // 
+            DBGrid4_NIK.DataPropertyName = "NIK";
+            DBGrid4_NIK.HeaderText = "NIK";
+            DBGrid4_NIK.Name = "DBGrid4_NIK";
+            DBGrid4_NIK.ReadOnly = true;
+            // 
+            // DBGrid4_NoKK
+            // 
+            DBGrid4_NoKK.DataPropertyName = "NoKK";
+            DBGrid4_NoKK.HeaderText = "NoKK";
+            DBGrid4_NoKK.Name = "DBGrid4_NoKK";
+            DBGrid4_NoKK.ReadOnly = true;
+            // 
+            // DBGrid4_TglMasuk
+            // 
+            DBGrid4_TglMasuk.DataPropertyName = "TglMasuk";
+            DBGrid4_TglMasuk.HeaderText = "TglMasuk";
+            DBGrid4_TglMasuk.Name = "DBGrid4_TglMasuk";
+            DBGrid4_TglMasuk.ReadOnly = true;
+            // 
+            // DBGrid4_Sex
+            // 
+            DBGrid4_Sex.DataPropertyName = "Sex";
+            DBGrid4_Sex.HeaderText = "Sex";
+            DBGrid4_Sex.Name = "DBGrid4_Sex";
+            DBGrid4_Sex.ReadOnly = true;
+            // 
+            // DBGrid4_Tempat_Lhr
+            // 
+            DBGrid4_Tempat_Lhr.DataPropertyName = "Tempat_Lhr";
+            DBGrid4_Tempat_Lhr.HeaderText = "Tempat_Lhr";
+            DBGrid4_Tempat_Lhr.Name = "DBGrid4_Tempat_Lhr";
+            DBGrid4_Tempat_Lhr.ReadOnly = true;
+            // 
+            // DBGrid4_Tgl_Lhr
+            // 
+            DBGrid4_Tgl_Lhr.DataPropertyName = "Tgl_Lhr";
+            DBGrid4_Tgl_Lhr.HeaderText = "Tgl_Lhr";
+            DBGrid4_Tgl_Lhr.Name = "DBGrid4_Tgl_Lhr";
+            DBGrid4_Tgl_Lhr.ReadOnly = true;
+            // 
+            // DBGrid4_Alamat
+            // 
+            DBGrid4_Alamat.DataPropertyName = "Alamat";
+            DBGrid4_Alamat.HeaderText = "Alamat";
+            DBGrid4_Alamat.Name = "DBGrid4_Alamat";
+            DBGrid4_Alamat.ReadOnly = true;
+            // 
+            // DBGrid4_Telp
+            // 
+            DBGrid4_Telp.DataPropertyName = "Telp";
+            DBGrid4_Telp.HeaderText = "Telp";
+            DBGrid4_Telp.Name = "DBGrid4_Telp";
+            DBGrid4_Telp.ReadOnly = true;
+            // 
+            // DBGrid4_Desa
+            // 
+            DBGrid4_Desa.DataPropertyName = "Desa";
+            DBGrid4_Desa.HeaderText = "Desa";
+            DBGrid4_Desa.Name = "DBGrid4_Desa";
+            DBGrid4_Desa.ReadOnly = true;
+            // 
+            // DBGrid4_Kecamatan
+            // 
+            DBGrid4_Kecamatan.DataPropertyName = "Kecamatan";
+            DBGrid4_Kecamatan.HeaderText = "Kecamatan";
+            DBGrid4_Kecamatan.Name = "DBGrid4_Kecamatan";
+            DBGrid4_Kecamatan.ReadOnly = true;
+            // 
+            // DBGrid4_Kabupaten
+            // 
+            DBGrid4_Kabupaten.DataPropertyName = "Kabupaten";
+            DBGrid4_Kabupaten.HeaderText = "Kabupaten";
+            DBGrid4_Kabupaten.Name = "DBGrid4_Kabupaten";
+            DBGrid4_Kabupaten.ReadOnly = true;
+            // 
+            // DBGrid4_Propinsi
+            // 
+            DBGrid4_Propinsi.DataPropertyName = "Propinsi";
+            DBGrid4_Propinsi.HeaderText = "Propinsi";
+            DBGrid4_Propinsi.Name = "DBGrid4_Propinsi";
+            DBGrid4_Propinsi.ReadOnly = true;
+            // 
+            // DBGrid4_Status
+            // 
+            DBGrid4_Status.DataPropertyName = "Status";
+            DBGrid4_Status.HeaderText = "Status";
+            DBGrid4_Status.Name = "DBGrid4_Status";
+            DBGrid4_Status.ReadOnly = true;
+            // 
+            // DBGrid4_KodeKelompok
+            // 
+            DBGrid4_KodeKelompok.DataPropertyName = "KodeKelompok";
+            DBGrid4_KodeKelompok.HeaderText = "KodeKelompok";
+            DBGrid4_KodeKelompok.Name = "DBGrid4_KodeKelompok";
+            DBGrid4_KodeKelompok.ReadOnly = true;
+            // 
+            // DBGrid4_NamaKelompok
+            // 
+            DBGrid4_NamaKelompok.DataPropertyName = "NamaKelompok";
+            DBGrid4_NamaKelompok.HeaderText = "NamaKelompok";
+            DBGrid4_NamaKelompok.Name = "DBGrid4_NamaKelompok";
+            DBGrid4_NamaKelompok.ReadOnly = true;
+            // 
+            // DBGrid4_Kategori
+            // 
+            DBGrid4_Kategori.DataPropertyName = "Kategori";
+            DBGrid4_Kategori.HeaderText = "Kategori";
+            DBGrid4_Kategori.Name = "DBGrid4_Kategori";
+            DBGrid4_Kategori.ReadOnly = true;
+            // 
+            // DBGrid4_Pekerjaan
+            // 
+            DBGrid4_Pekerjaan.DataPropertyName = "Pekerjaan";
+            DBGrid4_Pekerjaan.HeaderText = "Pekerjaan";
+            DBGrid4_Pekerjaan.Name = "DBGrid4_Pekerjaan";
+            DBGrid4_Pekerjaan.ReadOnly = true;
+            // 
+            // DBGrid4_Produk
+            // 
+            DBGrid4_Produk.DataPropertyName = "Produk";
+            DBGrid4_Produk.HeaderText = "Produk";
+            DBGrid4_Produk.Name = "DBGrid4_Produk";
+            DBGrid4_Produk.ReadOnly = true;
+            // 
+            // DBGrid4_foto
+            // 
+            DBGrid4_foto.DataPropertyName = "foto";
+            DBGrid4_foto.HeaderText = "foto";
+            DBGrid4_foto.Name = "DBGrid4_foto";
+            DBGrid4_foto.ReadOnly = true;
+            // 
+            // edit2
+            // 
+            edit2.Location = new Point(416, 256);
+            edit2.Name = "edit2";
+            edit2.Size = new Size(121, 20);
+            edit2.TabIndex = 3;
+            edit2.Text = "sex";
+            edit2.Visible = false;
+            // 
+            // DBGrid3
+            // 
+            DBGrid3.AllowUserToAddRows = false;
+            DBGrid3.AllowUserToDeleteRows = false;
+            DBGrid3.BackgroundColor = SystemColors.Window;
+            DBGrid3.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            DBGrid3.Columns.AddRange(new DataGridViewColumn[] { DBGrid3_sex, DBGrid3_jumlah });
+            DBGrid3.Location = new Point(16, 48);
+            DBGrid3.Name = "DBGrid3";
+            DBGrid3.ReadOnly = true;
+            DBGrid3.RowHeadersWidth = 24;
+            DBGrid3.RowTemplate.Height = 20;
+            DBGrid3.Size = new Size(329, 281);
+            DBGrid3.TabIndex = 2;
+            DBGrid3.Tag = "mdutama.dsqsebaran";
+            DBGrid3.CellClick += DBGrid3CellClick;
+            // 
+            // DBGrid3_sex
+            // 
+            DBGrid3_sex.DataPropertyName = "sex";
+            DBGrid3_sex.HeaderText = "sex";
+            DBGrid3_sex.Name = "DBGrid3_sex";
+            DBGrid3_sex.ReadOnly = true;
+            DBGrid3_sex.Width = 196;
+            // 
+            // DBGrid3_jumlah
+            // 
+            DBGrid3_jumlah.DataPropertyName = "jumlah";
+            DBGrid3_jumlah.HeaderText = "Jumlah";
+            DBGrid3_jumlah.Name = "DBGrid3_jumlah";
+            DBGrid3_jumlah.ReadOnly = true;
+            // 
+            // Button1
+            // 
+            Button1.Location = new Point(464, 224);
+            Button1.Name = "Button1";
+            Button1.Size = new Size(75, 25);
+            Button1.TabIndex = 1;
+            Button1.Text = "Button1";
+            Button1.UseVisualStyleBackColor = true;
+            Button1.Visible = false;
+            Button1.Click += Button1Click;
+            // 
+            // cbsebaran
+            // 
+            cbsebaran.FormattingEnabled = true;
+            cbsebaran.Items.AddRange(new object[] { "Jenis Kelamin", "Desa", "Kelompok", "Kategori Usaha", "Pekerjaan", "Produk", "Kategori Gakin", "Gol. Darah" });
+            cbsebaran.Location = new Point(200, 16);
+            cbsebaran.Name = "cbsebaran";
+            cbsebaran.Size = new Size(145, 21);
+            cbsebaran.TabIndex = 0;
+            cbsebaran.Text = "Jenis Kelamin";
+            cbsebaran.TextChanged += cbsebaranChange;
+            // 
+            // DBGrid5
+            // 
+            DBGrid5.AllowUserToAddRows = false;
+            DBGrid5.AllowUserToDeleteRows = false;
+            DBGrid5.BackgroundColor = SystemColors.Window;
+            DBGrid5.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            DBGrid5.Location = new Point(104, 400);
+            DBGrid5.Name = "DBGrid5";
+            DBGrid5.RowHeadersWidth = 24;
+            DBGrid5.RowTemplate.Height = 20;
+            DBGrid5.Size = new Size(320, 120);
+            DBGrid5.TabIndex = 6;
+            DBGrid5.Tag = "DataSource1";
+            // 
+            // Label48
+            // 
+            Label48.AutoSize = true;
+            Label48.Location = new Point(16, 24);
+            Label48.Name = "Label48";
+            Label48.Size = new Size(179, 13);
+            Label48.TabIndex = 8;
+            Label48.Text = "Data Sebaran Anggota Berdasarkan";
             // 
             // open1
             // 
@@ -2392,59 +2829,67 @@ namespace UPKPro.Forms
             // 
             // OpenPictureDialog1
             // 
-            OpenPictureDialog1.Filter = "All (*.jpg;*.jpeg;*.bmp)|*.jpg;*.jpeg;*.bmp|GIF Image (*.gif)|*.gif|Portable Network Graphics (*.png)|*.png|JPEG Image File (*.jpg)|*.jpg|JPEG Image File (*.jpeg)|*.jpeg|Bitmaps (*.bmp)|*.bmp|TIFF Images (*.tif)|*.tif|TIFF Images (*.tiff)|*.tiff|Icons (*.ico)|*.ico|Enhanced Metafiles (*.emf)|*.emf|Metafiles (*.wmf)|*.wmf";
+            OpenPictureDialog1.Filter = resources.GetString("OpenPictureDialog1.Filter");
             // 
             // FAnggota
             // 
-            AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            ClientSize = new System.Drawing.Size(1304, 617);
-            this.Controls.Add(btnrcsaldo);
-            this.Controls.Add(btdetilsw);
-            this.Controls.Add(btsimp1);
-            this.Controls.Add(btubah1);
-            this.Controls.Add(estatus);
-            this.Controls.Add(btubah1kp);
-            this.Controls.Add(PageControl1);
-            this.Controls.Add(Label18);
-            BackColor = System.Drawing.SystemColors.Control;
-            Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular);
-            FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            AutoScaleDimensions = new SizeF(6F, 13F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.Control;
+            ClientSize = new Size(1304, 617);
+            Controls.Add(btnrcsaldo);
+            Controls.Add(btdetilsw);
+            Controls.Add(btsimp1);
+            Controls.Add(btubah1);
+            Controls.Add(estatus);
+            Controls.Add(btubah1kp);
+            Controls.Add(PageControl1);
+            Controls.Add(Label18);
+            Font = new Font("Microsoft Sans Serif", 8.25F);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             MinimizeBox = false;
-            StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             Name = "FAnggota";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Data Kelompok dan Anggota";
-            this.FormClosed += FormClose;
-            this.Shown += FormShow;
-            TabSheet3.ResumeLayout(false);
-            TabSheet3.PerformLayout();
-            TabSheet4.ResumeLayout(false);
-            TabSheet4.PerformLayout();
-            Shape7.ResumeLayout(false);
-            Shape7.PerformLayout();
-            Panel1.ResumeLayout(false);
-            Panel1.PerformLayout();
-            GroupBox1.ResumeLayout(false);
-            GroupBox1.PerformLayout();
-            gbanggota.ResumeLayout(false);
-            gbanggota.PerformLayout();
-            GroupBox2.ResumeLayout(false);
-            GroupBox2.PerformLayout();
-            TabSheet2.ResumeLayout(false);
-            TabSheet2.PerformLayout();
-            Shape37.ResumeLayout(false);
-            Shape37.PerformLayout();
-            Panel11.ResumeLayout(false);
-            Panel11.PerformLayout();
-            GroupBox3.ResumeLayout(false);
-            GroupBox3.PerformLayout();
-            gbkelompok.ResumeLayout(false);
-            gbkelompok.PerformLayout();
+            FormClosed += FormClose;
+            Shown += FormShow;
+            ((System.ComponentModel.ISupportInitialize)DBImage1).EndInit();
+            PageControl1.ResumeLayout(false);
             TabSheet1.ResumeLayout(false);
             TabSheet1.PerformLayout();
-            PageControl1.ResumeLayout(false);
-            PageControl1.PerformLayout();
+            Panel11.ResumeLayout(false);
+            Shape37.ResumeLayout(false);
+            Shape37.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)DBGrid1).EndInit();
+            gbkelompok.ResumeLayout(false);
+            gbkelompok.PerformLayout();
+            GroupBox3.ResumeLayout(false);
+            GroupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)DBGrid7).EndInit();
+            TabSheet2.ResumeLayout(false);
+            TabSheet2.PerformLayout();
+            Panel1.ResumeLayout(false);
+            Shape7.ResumeLayout(false);
+            Shape7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)DBGrid2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)DBGrid6).EndInit();
+            gbanggota.ResumeLayout(false);
+            gbanggota.PerformLayout();
+            GroupBox1.ResumeLayout(false);
+            GroupBox1.PerformLayout();
+            GroupBox2.ResumeLayout(false);
+            GroupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)Image1).EndInit();
+            TabSheet4.ResumeLayout(false);
+            TabSheet4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)DBGrid9).EndInit();
+            ((System.ComponentModel.ISupportInitialize)DBGrid8).EndInit();
+            TabSheet3.ResumeLayout(false);
+            TabSheet3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)DBGrid4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)DBGrid3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)DBGrid5).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }

@@ -15,6 +15,7 @@ public partial class FAnggota : Form
     private void FormShow(object? sender, EventArgs e)
     {
         // TODO: port dari Unit_Anggota.pas:627 (this.OnShow)
+        
     }
 
     private void PanelminClick(object? sender, EventArgs e)

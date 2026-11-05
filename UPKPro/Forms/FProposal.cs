@@ -586,4 +586,9 @@ public partial class FProposal : Form
     {
         // TODO: port dari Unit_proposal.pas:3275 (tbspinjaman.OnShow)
     }
+
+    private void gbkelompok_Enter(object sender, EventArgs e)
+    {
+
+    }
 }

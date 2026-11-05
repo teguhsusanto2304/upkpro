@@ -1,8 +1,110 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-    <ItemGroup>
-        <Compile Update="Form1.cs">
-            <SubType>Form</SubType>
-        </Compile>
-    </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Controls\Bevel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\CaptionPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\DbNavigator.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\RadioGroup.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\ShapeControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Forms\FAnggota.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FAnggota.Generated.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Fback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Fback.Generated.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Fblm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Fblm.Generated.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Ffaskab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Ffaskab.Generated.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FKeuangan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FKeuangan.Generated.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FLok.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FLok.Generated.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FPembiayaan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FPembiayaan.Generated.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FPengaturan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FPengaturan.Generated.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FProposal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FProposal.Generated.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FrmSp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FrmSp.Generated.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FUtama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FUtama.Generated.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FUtama1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FUtama1.Generated.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FVerifikasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FVerifikasi.Generated.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\F_Grup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\F_Grup.Generated.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\F_Rekening.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\F_Rekening.Generated.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
 </Project>

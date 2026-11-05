@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\project\\dotnet\\upkpro\\UPKPro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4068FFDA-F982-424B-A25D-12CC161008C7}|UPKPro\\UPKPro.csproj|d:\\project\\dotnet\\upkpro\\upkpro\\upkpro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4068FFDA-F982-424B-A25D-12CC161008C7}|UPKPro\\UPKPro.csproj|solutionrelative:upkpro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{EFBB9AFA-C9F6-02B2-3B76-250696A80AFC}|UPKPro\\UPKPro.csproj|d:\\project\\dotnet\\upkpro\\upkpro\\upkpro\\forms\\fverifikasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EFBB9AFA-C9F6-02B2-3B76-250696A80AFC}|UPKPro\\UPKPro.csproj|solutionrelative:upkpro\\forms\\fverifikasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFBB9AFA-C9F6-02B2-3B76-250696A80AFC}|UPKPro\\UPKPro.csproj|d:\\project\\dotnet\\upkpro\\upkpro\\upkpro\\forms\\fproposal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EFBB9AFA-C9F6-02B2-3B76-250696A80AFC}|UPKPro\\UPKPro.csproj|solutionrelative:upkpro\\forms\\fproposal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFBB9AFA-C9F6-02B2-3B76-250696A80AFC}|UPKPro\\UPKPro.csproj|d:\\project\\dotnet\\upkpro\\upkpro\\upkpro\\forms\\fproposal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFBB9AFA-C9F6-02B2-3B76-250696A80AFC}|UPKPro\\UPKPro.csproj|solutionrelative:upkpro\\forms\\fproposal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,18 +27,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\project\\dotnet\\upkpro\\UPKPro\\UPKPro\\Form1.cs",
-              "RelativeDocumentMoniker": "UPKPro\\Form1.cs",
-              "ToolTip": "D:\\project\\dotnet\\upkpro\\UPKPro\\UPKPro\\Form1.cs [Design]",
-              "RelativeToolTip": "UPKPro\\Form1.cs [Design]",
+              "Title": "FVerifikasi.cs [Design]",
+              "DocumentMoniker": "D:\\project\\dotnet\\upkpro\\UPKPro\\UPKPro\\Forms\\FVerifikasi.cs",
+              "RelativeDocumentMoniker": "UPKPro\\Forms\\FVerifikasi.cs",
+              "ToolTip": "D:\\project\\dotnet\\upkpro\\UPKPro\\UPKPro\\Forms\\FVerifikasi.cs [Design]",
+              "RelativeToolTip": "UPKPro\\Forms\\FVerifikasi.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-04T12:03:01.875Z",
+              "WhenOpened": "2026-11-04T15:19:12.545Z",
               "EditorCaption": " [Design]"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FProposal.cs",
+              "DocumentMoniker": "D:\\project\\dotnet\\upkpro\\UPKPro\\UPKPro\\Forms\\FProposal.cs",
+              "RelativeDocumentMoniker": "UPKPro\\Forms\\FProposal.cs",
+              "ToolTip": "D:\\project\\dotnet\\upkpro\\UPKPro\\UPKPro\\Forms\\FProposal.cs",
+              "RelativeToolTip": "UPKPro\\Forms\\FProposal.cs",
+              "ViewState": "AgIAAEYCAAAAAAAAAAAwwE8CAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T15:09:35.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FProposal.cs [Design]",
+              "DocumentMoniker": "D:\\project\\dotnet\\upkpro\\UPKPro\\UPKPro\\Forms\\FProposal.cs",
+              "RelativeDocumentMoniker": "UPKPro\\Forms\\FProposal.cs",
+              "ToolTip": "D:\\project\\dotnet\\upkpro\\UPKPro\\UPKPro\\Forms\\FProposal.cs [Design]",
+              "RelativeToolTip": "UPKPro\\Forms\\FProposal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T15:04:44.159Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
