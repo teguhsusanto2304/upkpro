@@ -1466,4 +1466,9 @@ public partial class FProposal : Form
     {
 
     }
+
+    private void emetode_SelectedIndexChanged(object sender, EventArgs e)
+    {
+
+    }
 }

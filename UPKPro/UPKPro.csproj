@@ -27,6 +27,12 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Update="Forms\Fback.Generated.resx">
+      <ManifestResourceName>UPKPro.Forms.Fback.Generated</ManifestResourceName>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Forms\FUtama.Generated.resx">
+      <ManifestResourceName>UPKPro.Forms.FUtama.Generated</ManifestResourceName>
+    </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>

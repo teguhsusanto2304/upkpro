@@ -10,7 +10,8 @@
         "runtime": {
           "lib/net10.0/Dapper.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.1.89.60231"
+            "fileVersion": "2.1.89.60231",
+            "localPath": "Dapper.dll"
           }
         }
       },
@@ -18,7 +19,8 @@
         "runtime": {
           "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
             "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.25.52411"
+            "fileVersion": "10.0.25.52411",
+            "localPath": "Microsoft.Extensions.DependencyInjection.Abstractions.dll"
           }
         }
       },
@@ -29,7 +31,8 @@
         "runtime": {
           "lib/net10.0/Microsoft.Extensions.Logging.Abstractions.dll": {
             "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.25.52411"
+            "fileVersion": "10.0.25.52411",
+            "localPath": "Microsoft.Extensions.Logging.Abstractions.dll"
           }
         }
       },
@@ -40,7 +43,8 @@
         "runtime": {
           "lib/net10.0/Npgsql.dll": {
             "assemblyVersion": "10.0.3.0",
-            "fileVersion": "10.0.3.0"
+            "fileVersion": "10.0.3.0",
+            "localPath": "Npgsql.dll"
           }
         }
       }

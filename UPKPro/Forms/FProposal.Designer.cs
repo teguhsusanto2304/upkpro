@@ -874,9 +874,9 @@ namespace UPKPro.Forms
             // 
             tbspinjaman.Controls.Add(BitBtn10);
             tbspinjaman.Controls.Add(DBGrid7);
-            tbspinjaman.Location = new Point(4, 22);
+            tbspinjaman.Location = new Point(4, 24);
             tbspinjaman.Name = "tbspinjaman";
-            tbspinjaman.Size = new Size(486, 355);
+            tbspinjaman.Size = new Size(486, 353);
             tbspinjaman.TabIndex = 1;
             tbspinjaman.Text = "Daftar Pinjaman BL";
             tbspinjaman.UseVisualStyleBackColor = true;
@@ -990,9 +990,9 @@ namespace UPKPro.Forms
             TabSheet6.Controls.Add(DBGrid3);
             TabSheet6.Controls.Add(rgcari1);
             TabSheet6.Controls.Add(datap);
-            TabSheet6.Location = new Point(4, 22);
+            TabSheet6.Location = new Point(4, 24);
             TabSheet6.Name = "TabSheet6";
-            TabSheet6.Size = new Size(486, 355);
+            TabSheet6.Size = new Size(486, 353);
             TabSheet6.TabIndex = 2;
             TabSheet6.Text = "Daftar Anggota";
             TabSheet6.UseVisualStyleBackColor = true;
@@ -1031,7 +1031,7 @@ namespace UPKPro.Forms
             DBGrid3.RowHeadersWidth = 24;
             DBGrid3.RowTemplate.Height = 20;
             DBGrid3.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            DBGrid3.Size = new Size(486, 269);
+            DBGrid3.Size = new Size(486, 267);
             DBGrid3.TabIndex = 0;
             DBGrid3.Tag = "mdproposal.dsqdafanggota";
             DBGrid3.DoubleClick += DBGrid3DblClick;
@@ -1209,6 +1209,7 @@ namespace UPKPro.Forms
             emetode.Size = new Size(145, 21);
             emetode.TabIndex = 32;
             emetode.Text = "1 Bulanan ";
+            emetode.SelectedIndexChanged += emetode_SelectedIndexChanged;
             emetode.KeyPress += emetodeKeyPress;
             // 
             // elama
@@ -1992,9 +1993,9 @@ namespace UPKPro.Forms
             tabdetil.Controls.Add(Label53);
             tabdetil.Controls.Add(Label13);
             tabdetil.Controls.Add(Label8);
-            tabdetil.Location = new Point(4, 22);
+            tabdetil.Location = new Point(4, 24);
             tabdetil.Name = "tabdetil";
-            tabdetil.Size = new Size(1296, 591);
+            tabdetil.Size = new Size(1296, 589);
             tabdetil.TabIndex = 1;
             tabdetil.Text = "Detil Pengajuan Pinjaman";
             tabdetil.UseVisualStyleBackColor = true;
@@ -3531,9 +3532,9 @@ namespace UPKPro.Forms
             tabkirim.Controls.Add(Label65);
             tabkirim.Controls.Add(Label64);
             tabkirim.Controls.Add(Label63);
-            tabkirim.Location = new Point(4, 22);
+            tabkirim.Location = new Point(4, 24);
             tabkirim.Name = "tabkirim";
-            tabkirim.Size = new Size(1296, 591);
+            tabkirim.Size = new Size(1296, 589);
             tabkirim.TabIndex = 2;
             tabkirim.Text = "Pengiriman Proposal Ke Bag.Verifikasi";
             tabkirim.UseVisualStyleBackColor = true;
